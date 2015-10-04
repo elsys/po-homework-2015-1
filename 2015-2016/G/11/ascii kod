@@ -1,0 +1,9 @@
+#include <stdio.h>
+{
+int i=o;
+for (;i<=255;i++)
+{
+printf("%d->%c\n,i,i);
+ }
+} 
+

@@ -11,7 +11,7 @@ int main()
 
 		printf("vuvedi chislo");
 		
-		scanf_s("%d", &array[i]);
+		scanf("%d", &array[i]);
 
 		if (array[i] == 42)break;
 
@@ -21,7 +21,7 @@ int main()
 	for (i = 0; i<=n; ++i)
 	{
 		 min = i;
-		for (j = i; j<5; ++j)
+		for (j = i; j<=n; ++j)
 
 			if (array[min]>array[j])
 

@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    char c;
+    while (strcmp(c, "stop") != 0){
+        scanf("%c", &c);
+        if(c>='a' && c<='z'){
+            c=c-('a'-'A');
+        }
+        printf("%c", c);
+    }
+}

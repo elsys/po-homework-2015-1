@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//програмата чете от стандартния вход докато не види числото '42'
 int main()
 {
     int a;

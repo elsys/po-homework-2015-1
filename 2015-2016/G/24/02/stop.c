@@ -1,30 +1,41 @@
 #include<stdio.h>
+#include<string.h>
 #include <stdbool.h>
 
 int main(){
 
 	char s[100];
 	int i,c;
-	bool k = false;
+	bool check = false;
 
 	do{
 
-		scanf("%s", s);
-		printf("%s \n", s);
+		scanf("%s", s);		
 
-		
-
-		for(i=sizeof(s);i>=3;i--){
+		for(i=strlen(s);i>=3;i--){
 
 			if(s[i]=='P' && s[i-1]=='O' && s[i-2]=='T' && s[i-3]=='S' ){
 
-				k = true;
+				check = true;
 			
 			}
 		
 		}
 
-		if(k){
+
+		for(i=0;i<=strlen(s);i++){
+		      
+			if(s[i]>='a' && s[i]<='z'){
+
+				s[i]=s[i]-32;
+
+			}
+		       
+		}
+
+		printf("%s \n", s);
+
+		if(check){
 
 			break;
 

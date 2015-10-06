@@ -1,25 +1,28 @@
 #include <stdio.h>
 
 int main(){
-	int a,i = 0,k = 0,p = 0,z = 0;
-	int num[10000];
-	scanf("%d",&a);
-	while(a > 1){
-		num[i] = a % 10;
-		i++;
-		a/=10;
-	}
-	while(p < 10){
-		z = 0;
-		k = 0;
-		while(k < i){
-			if(num[k] == p)
-				z++;
-			k++;
+	int numbers[1000];
+	int input = 0;
+	while (input < 1000){
+		printf("\nInput Number:");
+		scanf("%d", &numbers[input]);
+		if (numbers[input] == 42){
+			break;
 		}
-		if (z != 0)
-			printf("The figure %d is %d times in the number. \n",p,z);
-		p++;
+		input++;
 	}
+	int i,j;
+	for (i = 0; i < input; i++){
+		for(j = 0; j< input; j++){
+			if(numbers[i] > numbers[j]){
+				int swap = numbers[i];
+				numbers[i] = numbers[j];
+				numbers[j] = swap;
+			}		
+		}
+	}
+	for(i=0;i<input;i++)
+		printf("\n%d",numbers[i]);
 	return 0;
 }
+

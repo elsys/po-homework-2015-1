@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main(){
+int main(){
 
 	int i;
 
@@ -9,5 +9,7 @@ void main(){
 		printf("%d - %c \n", i, i);
 	
 	}
+
+	return 0;
 
 }

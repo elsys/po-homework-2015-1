@@ -5,5 +5,5 @@ for(;i<=255;i++)
 {
 printf("%d-->%c\n,i,i)
 }
-return=0
+return=0;
 }

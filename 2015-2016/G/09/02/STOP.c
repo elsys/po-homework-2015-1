@@ -1,26 +1,19 @@
-include<stdio.h>
-int main()
+#include <stdio.h>
 
-do {
- 
- scanf("%s", word);
--printf("%s\n", word);
+void main(void)
+{
+    char s[500];
+    scanf("%s",s);
 
-
-
-
-if (word[0] == 'S' && word[1] == 'T' && word[2] == 'O' && word[3] == 'P') {
-    break;
-} else {
-    
-    int e = 0;
-    for (; e < 100; e++) {
-        if (word[e] >= 'a' && word[e] <= 'z') {
-            word[e] -= 32;
+    while(!(s[0] == 'S' && s[1] == 'T' && s[2] == 'O' && s[3] == 'P' && s[4] == '\0')){
+        int i = 0;
+        while(s[i]!='\0'){
+            if (s[i] >= 'a' && s[i] <= 'z') {
+                s[i] -= 32;
+            }
+            i++;
         }
+        printf("%s\n", s);
+        scanf("%s",s);
     }
-
-    printf("%s\n", word);
 }
- 
- } while(1);

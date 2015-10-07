@@ -1,0 +1,18 @@
+#incude<stdio.h>
+int main(){
+char word[100];
+do{
+scanf("%s,word");
+if word[0]=='S' && word[1]=='T' && word[3]=='O' && word[5]=='P' {break}
+else{
+int c
+for(c=0;c<100;c++){
+if(word[c]>='a' && word[c]<='z') {
+word[c]=word[c]-32;
+}
+}
+printf(""%s\n",word)
+}
+} while(1)
+return 0;
+}

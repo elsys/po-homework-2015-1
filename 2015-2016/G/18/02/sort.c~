@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+int c[1000];
+int a,b,n,i;
+for(i=0;c[i-1]!=42;i++)
+{
+scanf("%d",&c[i]);
+}
+n=i-1;
+for(i=0;i<n;i++)
+for(b=n-1;b>i;b--)
+{
+if(c[b-1]>c[b])
+{
+a=c[b-1];
+c[b-1]=c[b];
+c[b]=a;	
+}
+}	
+for(i=0;i<n;i++)
+printf(" - %d \n", c[i]);
+return 0;
+}

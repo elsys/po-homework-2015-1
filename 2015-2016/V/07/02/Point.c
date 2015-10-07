@@ -3,26 +3,23 @@
 typedef struct point
 {
 	int x,y,z;
-};
+}A;
 
-void nagore(struct point * m);
+void nagore();
 
 void main()
 {
-	struct point A;
-	struct point* t;
 	printf("\nVavedi koordinati na tochkata:");
-	scanf("%d",A.x);
-	scanf("%d",A.y);
-	scanf("%d",A.z);
-	t=&A;
-	nagore(t);
+	scanf("%d",&A.x);
+	scanf("%d",&A.y);
+	scanf("%d",&A.z);
+	nagore();
 	printf("\nNovite koordinati sa: %d, %d, %d",A.x,A.y,A.z);
 }
 
-void nagore(struct point * m)
+void nagore()
 {
-	(*m).x++;
-	(*m).y++;
-	(*m).z++;
+	A.x++;
+	A.y++;
+	A.z++;
 }

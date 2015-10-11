@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+//програмата чете от стандартния вход докато не види числото '42'
+int main()
+{
+    int a;
+
+    printf("Enter number:\n");
+    for (;;) {
+        scanf ("%d", &a);
+        if (a == 42) {
+            break;
+
+        }
+    }
+    printf("\n");
+
+    return 0;
+}

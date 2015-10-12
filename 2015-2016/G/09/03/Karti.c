@@ -1,54 +1,68 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
+char deck[14];
+int i,j,a,f;
 
-int karti(char card);
-
-int main()
+void main ()
 {
-    int l,min,j,i;
-    printf("Karta:");
-    char k, cards[13];
+	for (i = 0; i < 13; i++)
+	{
+		scanf("%c\n", &deck[i]);
+	}
+	for (i = 0; i < 13; i ++)
+	{
+	int m = (int)(deck[i]);
 
-    gets(cards);
-    l=strlen(cards)-1;
+		if ((m > 49) && (m < 58))
+		{
+			for (j = i + 1; j < 13; j++)
+      		{
+				int e = (int)(deck[j]);
+				if ((e > 49) && (e < 58))
+				{
+				    if (m > e)
+				    {
+				        a =  deck[i];
+				        deck[i] = deck[j];
+				        deck[j] = a;
+				    }
+				}
+        	}
+		}
+		else
+		{	
+			char new = deck[i];
 
+			if (deck[i]=='T') 
+			{
+				new = deck[8];
+			}
+			else if (deck[i]=='J')
+			{
+				new = deck[9];
+			}
+			else if (deck[i]=='Q')
+			{
+				new = deck[10];
+			}
+			else if (deck[i]=='K')
+			{
+				new = deck[11];
+			}
+			else if (deck[i]=='A')
+			{
+				new = deck[12];
+			}
 
-
-    for (i = 0; i<=l; ++i)
-    {
-        min = i;
-        for (j = i; j<=l; ++j)
-
-            if (karti(cards[min])>karti(cards[j]))
-
-                min = j;
-
-        k=cards[min];
-        cards[min] = cards[i];
-        cards[i]=k;
-    }
-    puts(cards);
-    return 0;
+		}
+	}
+	for (f = 0; f < 13; f++)
+	{
+		printf("%c ", deck[f]);
+	}
 }
 
-int karti(char card)
-{
 
-    if (card=='2')return  1;
-    if (card=='3')return  2;
-    if (card=='4')return  3;
-    if (card=='5')return  4;
-    if (card=='6')return  5;
-    if (card=='7')return  6;
-    if (card=='8')return  7;
-    if (card=='9')return  8;
-    if (card=='T')return  9;
-    if (card=='J')return  10;
-    if (card=='Q')return  11;
-    if (card=='K')return  12;
-    if (card=='A')return  13;
-
-return 0;
-}
+//0 1 2 3 4 5 6 7 8 9 10 11 12 
+//2 3 4 5 6 7 8 9 T J Q  K   A

@@ -1,13 +1,22 @@
-#include <stdio.h>
-int main()
-{
-	int n;
+#include<stdio.h>
+	int main(){
+	int n;//visochina
+	int a;//osnova
+		scanf("%d", &n);
+		printf("%d\n",n);
+		a=2*n-1;
+		printf("%d\n",a);
+		int i=1;
+		int d=0;
 
-	printf("Please enter n (n is the height of the triangle)");
-	scnaf("%d", &n);
+		for(i=-1;i<a;i++){
+			printf("\n");
+		i++;
+			for( d=0;d<=i;d++){
+				printf("*");
+			}
 
-	printf("Osnovata e: %d" , ((-2)*n - 1))
-	pirntf("Visochinata e: "%d", n);
-	return 0;
-
+		}
+		printf("\n");
+return 0;
 }

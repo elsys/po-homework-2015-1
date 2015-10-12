@@ -1,0 +1,23 @@
+#incude<stdio.h>
+int main(){
+int i=0,min,j,k,n;
+int massive[999];
+for(;i<=999;i++);
+printf("input n:");
+scanf("%d",&massive[i]);
+if (massive[i]==42) break;
+{
+for(i=0;i<count;i++)
+for(j=count-1;j>a;j--)
+{
+if (massive[j-1]>massive[j])
+{
+k=massive[j-1];
+massive[j-1]=massive[j];
+massive[j]=k
+}
+for(i=0;i==n;i++)
+printf("%d\n",massive[i])
+return 0;
+}
+}

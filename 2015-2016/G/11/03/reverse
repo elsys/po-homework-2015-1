@@ -20,5 +20,5 @@
    }
 
    printf("\nReverse string is :%s", str);
-   return (o);
+   return (0);
 }

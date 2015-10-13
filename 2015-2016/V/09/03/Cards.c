@@ -11,7 +11,7 @@ int main()
 	}
 	for(i = 0 ; i < 13 ; i++){
 		switch(cards[i]){                   // Converting from letters to numeral values for sorting
-		    	case 'T': cards[i]=100; break;   // Because "10" screws up the sorting
+		    	case 'T': cards[i]=100; break;   // Because "10" screws up the program
 			case 'J': cards[i]=101; break;
 			case 'Q': cards[i]=102; break;
 			case 'K': cards[i]=103; break;

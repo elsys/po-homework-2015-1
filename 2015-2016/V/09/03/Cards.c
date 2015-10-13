@@ -2,11 +2,14 @@
 int main()
 {
 	char cards[100];
-	int i,j, temp, sort;
+	int i=0,j, temp, sort;
 	printf("Enter 13 cards in a random order, from 2 to A:(10=T) \n");
-	for(i = 0 ; i < 13 ; i++){
+	while(i<13){
 		scanf("%c",&cards[i]);
 		scanf("%c",&temp);
+		i++;
+	}
+	for(i = 0 ; i < 13 ; i++){
 		switch(cards[i]){                   // Converting from letters to numeral values for sorting
 		    case 'T': cards[i]=100; break;   // Because "10" screws up the sorting
 			case 'J': cards[i]=101; break;

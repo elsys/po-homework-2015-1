@@ -8,7 +8,7 @@ int main()
 		scanf("%c",&cards[i]);
 		scanf("%c",&temp);
         if(cards[i] >= '2' && cards[i] <= '9') i++;
-        if(cards[i] == 'A' || cards[i] == 'J' || cards[i] == 'Q' || cards[i] == 'K' || cards[i] == 'A') i++;
+        if(cards[i] == 'T' || cards[i] == 'J' || cards[i] == 'Q' || cards[i] == 'K' || cards[i] == 'A') i++;
 }
 	for(i = 0 ; i < 13 ; i++){
 		switch(cards[i]){                   // Converting from letters to numeral values for sorting

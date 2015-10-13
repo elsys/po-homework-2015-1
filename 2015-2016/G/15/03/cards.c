@@ -7,16 +7,16 @@ int main(){
 char cards[100];
 int i,j,a;
 
-scanf("%s", &cards);
+scanf("%[^\n]s", cards);
 
 for(i=0;i<strlen(cards)-1;i++){
 
-	if(!Isitcard(cards[i])){
-	printf("Not valid card\n");break;
+	//if(!Isitcard(cards[i])){
+	//printf("Not valid card\n");break;
 
 		
 
-	}
+	//}
 
 		for(j=i+1;j=strlen(cards)-1;j++){
 

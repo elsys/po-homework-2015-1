@@ -10,7 +10,7 @@ int i,l,r;
 scanf("%s", word);
 l=strlen(word) -1;
 
-for(i=l;i>=0;i--,r++){
+for(i=l,r=0;i>=0;i--,r++){
 	
 	
 
@@ -19,7 +19,7 @@ for(i=l;i>=0;i--,r++){
 	
 
 }
-reverse[r+1]='\0';
+reverse[r]='\0';
 
 printf("%s \n",reverse);
 

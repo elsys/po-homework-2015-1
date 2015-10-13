@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	char cards[100];
+	char cards[13];
 	int i=0,j, temp, sort;
 	printf("Enter 13 cards in a random order, from 2 to A:(10=T) \n");
 	while(i<13){

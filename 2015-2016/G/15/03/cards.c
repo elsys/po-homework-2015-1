@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
-int Cardvalue(char valuecard);
-int Isitcard(char card);
+int Cardvalue(char);
+int Isitcard(char);
 int main(){
 char cards[100];
 int i,j,a;
 
-scanf("%s", &cards);
+scanf("%[^\n]s", cards);
 
-for(i=0;i<strlen(cards)-1;i++){
+for(i=0;i<strlen(cards);i++){
 
 	if(!Isitcard(cards[i])){
 	printf("Not valid card\n");break;
@@ -18,7 +18,7 @@ for(i=0;i<strlen(cards)-1;i++){
 
 	}
 
-		for(j=i+1;j=strlen(cards)-1;j++){
+		for(j=i+1;j<strlen(cards);j++){
 
 		if(Cardvalue(cards[i])>Cardvalue(cards[j])){
 		a=cards[i];
@@ -37,7 +37,7 @@ for(i=0;i<strlen(cards)-1;i++){
 
 }
 
-printf("%s\n",cards);
+printf("%s \n",cards);
 
 }
 
@@ -71,12 +71,11 @@ case '3':return 1;
 break;
 case '2':return 1;
 break;
-
+default: return 0;
+break;
 
 
 }
-
-return 0;
 
 }
 int Cardvalue(char valuecard){

@@ -4,8 +4,9 @@
 int Cardvalue(char);
 int Isitcard(char);
 int main(){
+char a;
 char cards[100];
-int i,j,a;
+int i,j;
 
 scanf("%[^\n]s", cards);
 

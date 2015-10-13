@@ -2,11 +2,10 @@
 int main()
 {
 	char cards[13];
-	int i=0,j, temp, sort;
+	int i=0, j, temp;
 	printf("Enter 13 cards in a random order, from 2 to A:(10=T) \n");
 	while(i<13){
 		scanf("%c",&cards[i]);
-		scanf("%c",&temp);
         if(cards[i] >= '2' && cards[i] <= '9') i++;
         if(cards[i] == 'T' || cards[i] == 'J' || cards[i] == 'Q' || cards[i] == 'K' || cards[i] == 'A') i++;
 	}
@@ -22,9 +21,9 @@ int main()
 		for(i = 0 ; i < 13 ; i++){              // Sorting
 			for(j = 0; j < 13 ; j++){
 				if(cards[i]<cards[j]){
-                		sort = cards[j];
+                		temp = cards[j];
 				cards[j] = cards[i];
-				cards[i] = sort;
+				cards[i] = temp;
 				}
 			}
 		}

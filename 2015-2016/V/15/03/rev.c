@@ -13,7 +13,7 @@ int main() {
 	scanf("%m[^\n]s", &input);
 
 	reverse(input);
-
+	printf("%s", input);
 	free(input);			
 	
 	printf("\n");
@@ -27,6 +27,8 @@ void reverse(char * string)
 		return;
 	unsigned int size = strlen(string) - 1, mid = size/2, beg = 0;
 
+	if(mid%2 == 1 || size == 1) mid++;
+	
 	while((mid--) != 0) {
 
 		string[beg] ^= string[size];
@@ -34,8 +36,7 @@ void reverse(char * string)
 		string[beg++] ^= string[size--];		
 	
 	}
-		
-	printf("%s", string);
+
 }
 
 /*

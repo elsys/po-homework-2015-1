@@ -3,27 +3,36 @@
 
 int main() {
    int size = 3;
-   int matrix[3][3]; // = {{4,9,2},{3,5,7},{8,1,6}};
+   int matrix[3][3]; // = {{1,1,1},{1,1,1},{1,1,1}};
    int row, column = 0;
    int sum, sum1, sum2;
    int flag = 0;
-            printf("\n Vuvedi Chisla: ");
+
+   printf("\nVuvedi chisla: ");
    for (row = 0; row < size; row++) {
       for (column = 0; column < size; column++)
-         scanf("%d", &matrix[row][column]);}
-   printf("Kvadrata e: \n");
+         scanf("%d", &matrix[row][column]);
+   }
+
+   printf("Entered matrix is : \n");
    for (row = 0; row < size; row++) {
       printf("\n");
       for (column = 0; column < size; column++) {
-         printf("\t%d", matrix[row][column]);}
+         printf("\t%d", matrix[row][column]);
+      }
    }
+
+   //For diagonal elements
    sum = 0;
    for (row = 0; row < size; row++) {
       for (column = 0; column < size; column++) {
          if (row == column)
-            sum = sum + matrix[row][column];}
+            sum = sum + matrix[row][column];
       }
-     for (row = 0; row < size; row++) {
+   }
+
+   //For Rows
+   for (row = 0; row < size; row++) {
       sum1 = 0;
       for (column = 0; column < size; column++) {
          sum1 = sum1 + matrix[row][column];
@@ -32,9 +41,12 @@ int main() {
          flag = 1;
       else {
          flag = 0;
-         break;}
-    }
-      for (row = 0; row < size; row++) {
+         break;
+      }
+   }
+
+   //For Columns
+   for (row = 0; row < size; row++) {
       sum2 = 0;
       for (column = 0; column < size; column++) {
          sum2 = sum2 + matrix[column][row];
@@ -43,12 +55,14 @@ int main() {
          flag = 1;
       else {
          flag = 0;
-         break;}
+         break;
+      }
    }
-     if (flag == 1)
-      printf("\nMagichen Kvadrat e");
+
+   if (flag == 1)
+      printf("\nMagicheski kvadrat e");
    else
-      printf("\nNe e Magichen kvadrat");
+      printf("\nNe e magicheski kvadrat");
 
    return 0;
 }

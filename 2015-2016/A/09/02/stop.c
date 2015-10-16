@@ -9,7 +9,7 @@ int main()
 
     while (1)
     {
-        gets(sentence);
+        scanf("%s", sentence);
         if (sentence[0] == 'S' && sentence[1] == 'T' && sentence[2] == 'O' && sentence[3] == 'P')
         {
             return 0;

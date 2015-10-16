@@ -3,7 +3,7 @@
 int main(){
 	int c[999];
 	int k=0,i,d;
-	printf("\n\n Add number different of 42 to sort, adn 42 to stop adding \n");
+	printf("\n\n Add number different of 42 to sort, add 42 to stop adding \n");
 	while (k<999)
         {
 		printf("\n Your number is: ");

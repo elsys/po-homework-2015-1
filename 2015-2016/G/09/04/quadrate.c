@@ -1,6 +1,6 @@
 #include<stdio.h>
- 
- int main() {
+   
+   int main() {
    int size = 3;
    int matrix[3][3]; // = {{1,1,1},{1,1,1},{1,1,1}};
    int row, column = 0;

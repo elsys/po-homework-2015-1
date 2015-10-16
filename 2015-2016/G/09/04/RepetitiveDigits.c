@@ -1,34 +1,28 @@
-#include <stdio.h>
+#include<stdio.h>
 
-#define TRUE 1
-#define FALSE 0
 
-typedef int Bool;
+int main() {
+	int num;
+	int i;
+	int a[10];
+    printf("Molq vavedete chislo\n");
+    scanf("%d", &num);
+	int c;
+	for(i=0;i<=9;i++){
+		a[i]=0;
+	}
+	for(i=0;i<=9;i++){
+		while(num !=0){
+			c=num % 10;
+			a[c]=a[c]+1;
+			num=num/10;
+		}
+}
+	for(i=0;i<=9;i++){
+		printf("Chisloto %d se sreshta %d\n",i,a[i]);
 
-main ()
-{
-    Bool digit_seen[10] = {0};
-    int digit = 0;
-    int display_digit = 0;
-    long int n = 0;
+}
 
-    printf("Vuvedi chislo:");
-    scanf("%ld", &n);
 
-    while (n > 0)
-    {   digit = n % 10;
-        if (digit_seen[digit])
-        {
-            display_digit = digit;
-            break;
-        }
-        digit_seen[digit] = TRUE;
-        n /= 10;    }
-        if (n > 0)
-        printf ("Povtarqshtoto se chislo e: %ld\n\n", display_digit);
-    else
-        printf("Ne povtarqshto se chislo:\n\n");
-
-    return 0;
 
 }

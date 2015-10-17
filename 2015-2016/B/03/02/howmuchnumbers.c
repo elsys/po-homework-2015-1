@@ -28,7 +28,7 @@ int main()
         }
     }
     for(i=0; i<10; i++) {
-        printf("Number %d : %d times\n", i, c[i]);
+        printf("Number %d : %d times\n", i, c[i] );
     }
     return 0;
 }

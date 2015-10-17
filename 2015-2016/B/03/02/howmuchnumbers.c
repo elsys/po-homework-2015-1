@@ -13,7 +13,7 @@ int main()
         a=a/10;
         p=i;
     }
-    for(i=0; i<p; i++) {
+    for(i=0; i<=p; i++) {
         switch(b[i]) {
             case 0 : c[0]++; break;
             case 1 : c[1]++; break;

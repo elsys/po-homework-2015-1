@@ -1,5 +1,5 @@
 #include <stdio.h>
-typedef struct point
+struct point
 {
 	int x,y,z;
 };

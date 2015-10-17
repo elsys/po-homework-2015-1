@@ -3,7 +3,7 @@ typedef struct point
 {
 	int x,y,z;
 };
-void up();
+void up(struct point *);
 void main()
 {
     struct point I;

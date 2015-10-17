@@ -38,16 +38,30 @@ b=0;
 			}
 		if(a!=b){
 		return 0;
-		}
+		}else{b=0;}
 		}	
-		b=0;	for(i=0;i<n;i++){
+			for(i=0;i<n;i++){
 				for(j=i;j<n*n;j=j+n){
 				b=b+square[j];
 				}
 			if(a!=b){
 			return 0;
+			}else{b=0;}
 			}
-			}
+
+			for(j=n+1;j<n;j=j+n){
+				b=b+square[j];
+				}
+			if(a!=b){
+			return 0;
+			}else{b=0;}
+
+			for(j=n-1;j<n;j=j+2){
+				b=b+square[j];
+				}
+			if(a!=b){
+			return 0;
+			}else{b=0;}
 				
 return 1;
 }

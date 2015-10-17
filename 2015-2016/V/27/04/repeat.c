@@ -2,7 +2,7 @@
 
 int main()
 {
-	int a[50],b[50],n,m=0,p,i,t,u,v;
+	int a[50],b[50],n,m=0,p,i,t,u;
 	printf("Enter Number: ");
 	scanf("%d", &n);
 	p=n;

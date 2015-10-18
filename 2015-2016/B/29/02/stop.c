@@ -35,7 +35,12 @@ int main()
 	
 				}			
 			
-		if(m==0)puts(s);
+		if(m==0)
+		for(e=0;e<i;e++)
+		{
+			if(s[e]>='a'  && s[e]<='z')s[e]=s[e]-32;
+			printf("%c", s[e]);
+		}
 		
 	
 		return 0;

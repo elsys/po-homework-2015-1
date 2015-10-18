@@ -2,10 +2,9 @@
 
 void main()
 {
-	int i;
-	for(i=0;i<=255;i++)
+	int i=1;
+	for(;i<256;i++)
 	{
 		printf("\n %d %c ",i,i);
 	}
 }
-	

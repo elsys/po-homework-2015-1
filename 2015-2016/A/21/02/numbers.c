@@ -13,14 +13,12 @@ void main()
         }
         else
         {
-
         num[n%10]++;
-        n=n/10;
+       	n=n/10;
         }
     }
     for(i=0;i<=9;i++)
     {
         printf("\n The number %d is showed %d time/s.",i,num[i]);
     }
-
 }

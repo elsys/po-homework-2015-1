@@ -10,7 +10,7 @@ int main()
 
     for(i=0;c[i]<499;i++)
     {
-        c[i]=getche();
+        c[i]=getchar();
         if (c[i]=='P')
             {
                 if(c[i-1]=='O')

@@ -4,7 +4,7 @@
 int main()
 {
     char s[1000];
-    scanf("%s",s);
+    gets(s);
     int i,k, nostop=0;
     for(i=0; i<strlen(s); i++) {
         if(s[i]=='s'&&s[i+1]=='t'&&s[i+2]=='o'&&s[i+3]=='p') {

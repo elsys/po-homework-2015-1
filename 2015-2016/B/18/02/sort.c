@@ -5,28 +5,28 @@ int main(){
     int firstCounter = 0;
     int secondCounter = 0;
     int number = 0;
-    int br;
+    int br = 0;
     int array[1000];
 
-    scanf("%d", &array[number]);
-    while(array[number] != 42)
-    {	
+    for(firstCounter = 0; firstCounter < 1000; firstCounter++)
+    {
+        scanf("%d", &array[firstCounter]);
+        if(array[firstCounter] == 42)
+            break;
         number++;
-	scanf("%d", &array[number]);
-
     }
 
     for(firstCounter = 0; firstCounter < number; firstCounter++)
     {
-	for(secondCounter = 0; secondCounter < number; secondCounter++)
-	{
-	    if(array[secondCounter - 1] < array[secondCounter])
-	    {
-		br = array[firstCounter];
-		array[firstCounter] = array[firstCounter - 1];
-		array[firstCounter - 1] = br;
-	    }
-	}
+        for(secondCounter = 0; secondCounter < number; secondCounter++)
+        {
+            if(array[firstCounter] > array[secondCounter])
+            {
+            br = array[firstCounter];
+            array[firstCounter] = array[secondCounter];
+            array[secondCounter] = br;
+            }
+        }
     }
 
     printf(" \nAfter sorting.\n");

@@ -25,9 +25,8 @@ int main()
 
         else
         {
-            printf("Enter word ending with STOP!\n");
+            printf("Enter word ending with STOP!");
             break;
         }
     }
 }
-

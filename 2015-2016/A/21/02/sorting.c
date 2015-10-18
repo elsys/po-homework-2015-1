@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int num[1000],n=0,i,d,s;
     for(i=0;i<1000;i++)
@@ -25,5 +25,8 @@ void main()
         }
     }
     for(i=0;i<n;i++)
-    printf(" %d ",num[i]);
+	{
+    		printf(" %d ",num[i]);
+	}
+return 0;
 }

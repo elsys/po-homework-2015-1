@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int i,n,num[10]={0};
     scanf("%d",&n);
@@ -21,4 +21,5 @@ void main()
     {
         printf("\n The number %d is showed %d time/s.",i,num[i]);
     }
+return 0;
 }

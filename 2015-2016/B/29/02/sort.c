@@ -1,38 +1,29 @@
 #include <stdio.h>
-	int main()
-{
-        int i[100];
-        int a, b, t,d=0;
-        int c;
-        do
-	{
-        	printf("kolko chisla?");
-       		scanf("%d", &c);
-		d=c;
-	}while(c>1000 || c<=0);
 
-
-        for(a=0; a<c; a++) 
+ int main()
 	{
-		scanf("%d", &i[a]);
-		if(i[a]==42)
-		{
-			d=a+1;
-			break;
-		}
-	}
+		int a[1000],b,c,i,t,z;
 		
 
-        for(a=0; a<d; ++a)
-        for(b=d-1; b>a; --b){
-  
-                if(i[b-1] > i[b]){
-                        t = i[b-1];
-                        i[b-1] = i[b];
-                        i[b] = t;
-                }
-        }
 
-        for(t=0; t<d; t++) printf("chislo %d e %d\n",t+1,i[t]);         
-        return 0;
-}
+		for(i=0;b!=42;i++)
+		{
+			scanf("%d",&a[i]);//i=3;
+			b=a[i];
+		}
+		z=i;
+		for(c=0; c<z; ++c)
+       			 for(b=z-1; b>c; --b){
+  
+              			  if(a[b-1] > a[b])
+					{
+                     				t = a[b-1];
+                        			a[b-1] = a[b];
+                       				a[b] = t;
+             				}
+		}
+		for(t=0; t<z; t++) printf("chislo %d e %d\n",t+1,a[t]);
+		
+		return 0;
+		
+	}

@@ -4,7 +4,7 @@
 int main()
 {
     char s[1000];
-    gets(s);
+    fgets( s, 1000, stdin );
     int i,k, nostop=0;
     for(i=0; i<strlen(s); i++) {
         if(s[i]=='s'&&s[i+1]=='t'&&s[i+2]=='o'&&s[i+3]=='p') {
@@ -14,7 +14,7 @@ int main()
                 }
                 printf("%c", s[k]);
             }
-        nostop=1;
+            nostop=1;
         }
     }
     if(nostop==0)

@@ -5,8 +5,8 @@
 int main () {
 
 	char sen[400];
-	int br,l,j;
-	printf("Vavedi izrechenie: ");gets(sen);
+	gets(sen);	
+	int br,l,j,k;
 	
 	l = strlen(sen);
 		
@@ -17,12 +17,12 @@ int main () {
 					if(sen[br + 2] == 'O')
 						if(sen[br + 3] == 'P') {
 					for(j = br - 1;j > 0;j--) {
-						if(sen[j] >= 97 && sen[j] <= 122)
-							sen[j] = sen[j] - 32;
-					}								
+						if(sen[j] >= 97 && sen[j] <= 122) {
+							sen[j] = sen[j] - 32;	
+								}									
+						}											
 				}
 		}
-	puts(sen);	
-
+	printf("%s",sen);
 	return 0;
 }

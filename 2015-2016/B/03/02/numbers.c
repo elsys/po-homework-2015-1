@@ -4,12 +4,16 @@
 int main()
 {
     int a[1000],i,swap,p,cont,change=0,k=1;
-    for(i=0; a[i-1]!=42; i++) {
-        scanf("%d", &a[i]);
-        p=i+1;
+    for(i=0; i<1000; i++) {
+        a[i]=0;
     }
-    a[i+1]=42;
-    for(cont=1; cont>0; change=0) {
+    i=-1;
+    do {
+        i++;
+        scanf("%d", &a[i]);
+    } while(a[i]!=42);
+    p=i;
+    for(cont=1; cont>0; change=0,k++) {
         for(i=0; i<p; i++) {
             if(a[i]>a[i+1]) {
                 swap=a[i];
@@ -25,7 +29,7 @@ int main()
         }
     }
     printf("Podredeni chisla: \n");
-    for(i=0; i<p;i++) {
+    for(i=0; i<=p;i++) {
         printf("%d\n", a[i]);
     }
     return 0;

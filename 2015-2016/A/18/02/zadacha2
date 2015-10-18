@@ -10,7 +10,7 @@
 void main(void)
 {
     printf("Please note that you must end the sentence with a '.', otherwise the");
-    printf("\nprogram will break. Only lowercase letters and numbers are allowed.");
+    printf("\nprogram will break. Only lowercase letters and numbers are allowed. ");
     printf("\nTo stop the program, enter 'STOP', note that it is case-sensitive.");
     printf("\n");
     printf("\n---\n");

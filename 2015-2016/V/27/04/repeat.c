@@ -2,9 +2,11 @@
 
 int main()
 {
-	int a[50],b[50],n,m=0,p,i,t,u;
-	printf("Enter Number: ");
-	scanf("%d", &n);
+	int a[50],b[50],c[50],d[50],m=0,i,t,u,v=0,o;
+	long long int n,p;
+	printf("\n");
+	printf("  Enter Number: ");
+	scanf("%lli", &n);
 	p=n;
 	for(i=0; p>0; i++){
 		a[i]=p%10;
@@ -17,8 +19,26 @@ int main()
 		}
 		b[t]=m;
 		m=0;
-		if(b[t]>1)
-		printf("%d is Met %d Times in the Number %d \n", a[t],b[t],n);
+		if(b[t]>1){
+			o=t;
+			while(o>=0){
+				if(a[t]==c[v]) break;
+				else {
+					v++;
+					c[v]=a[t];
+					d[v]=b[t];
+				}
+			o--;
+			}
+		}
 	}
+	if(v>0){
+		for(; v>0; v--){
+			printf("  %d is Met %d Times in the Number %lli \n", c[v],d[v],n);
+		}
+	}
+	else
+		printf("  Everything in the Number %lli is Met Only Once \n", n);
+	printf("\n");
 	return 0;
 }

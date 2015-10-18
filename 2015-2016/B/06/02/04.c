@@ -1,21 +1,39 @@
 #include <stdio.h>
 
+
 int main()
 {
-    int i,b,a,m[99];
-    for(a=0;a<99;a++)
-    m[a]=0;
-    scanf("%d", &a);
-    while(a>0)
+    char a[999];
+    int i;
+    for(i=0;a[i]<998;i++)
     {
-    b=a%10;
-    for(i=0;i<10;i++)
+    a[i]=getche();
+    if (a[i]=='P')
     {
-    if(b==i) m[i]++;
+    if(a[i-1]=='O')
+    {
+    if(a[i-2]=='T')
+    {
+    if(a[i-3]=='S')
+    {
+    a[i]=' ';
+    a[i-1]=' ';
+    a[i-2]=' ';
+    a[i-3]=' ';
+    break;
     }
-    a=a/10;
     }
-    for(b=0;b<10;b++)
-    printf("\n\n %d - %d", b, m[b]);
+    }
+    }
+    }
+    for(i=0;i<998;i++)
+    {
+    if(a[i]<='z')
+    {
+    if(a[i]>='a')
+    a[i]=a[i]-32;
+    }
+    }
+    printf("\n %s \n", a);
     return 0;
 }

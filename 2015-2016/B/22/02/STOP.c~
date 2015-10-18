@@ -17,7 +17,7 @@ int main()
 {
    
    if(c[m-3]=='s' && c[m-2]=='t' && c[m-1]=='o' && c[m]=='p')
- {
+ 	{
 
       		for(l=0;l<m-3;l++) {
      			if(c[l]<='z' && c[l]>='a')
@@ -28,16 +28,12 @@ int main()
                        printf("%c\n",c[l]);
     
               	}
-
-     
-  }
+  	 }
    
    
   m++;
    
  }
-           
-
-                                                                                                                                                                                                                                                                                                return 0; 
+                                                                                                                                                                                                                                                                                            return 0; 
 }
 

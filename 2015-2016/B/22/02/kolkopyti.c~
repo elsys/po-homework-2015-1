@@ -44,7 +44,7 @@ j--;
 i=0;
 while(i<=9)
 {
-   printf("\nbroq na %d=",i+1); printf("%d",L[i]);
+   printf("\nbroq na %d------>",i+1); printf("%d",L[i]);
    i++;
 
 }

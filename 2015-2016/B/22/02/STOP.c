@@ -25,7 +25,7 @@ int main()
     		  		c[l]=c[l]-32;
 	       		 }
 
-                       printf("%c\n",c[l]);
+                       printf("%c",c[l]);
     
               	}
   	 }

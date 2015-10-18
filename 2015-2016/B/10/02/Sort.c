@@ -31,7 +31,7 @@ int main () {
 
 	}
 	
-	for(br = 0;br < n;br++) printf("%2d",num[br]);	
+	for(br = 0;br < n;br++) printf("%3d",num[br]);	
 	
 	return 0;
 }

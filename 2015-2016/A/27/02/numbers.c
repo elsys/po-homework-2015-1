@@ -2,7 +2,7 @@
 void enterNumbers(void);
 void sortArray(void);
 void showNumbers(void);
-int number,numbers[1000];
+int number=1000,numbers[1000];
 int main()
 {
     enterNumbers();
@@ -13,11 +13,8 @@ int main()
 void enterNumbers(void)
 {
     int counter;
-    do{
-        printf("How many numbers? ");
-        scanf("%d",&number);
-    }while(number<0||number>1000);
-    for(counter=0;counter<number;counter++)
+    printf("Numbers:\n");
+    for(counter=0;counter<1000;counter++)
     {
         printf("No %d: ",counter+1);
         scanf("%d",&numbers[counter]);

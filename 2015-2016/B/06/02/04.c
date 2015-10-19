@@ -1,39 +1,22 @@
 #include <stdio.h>
 
-
 int main()
 {
-    char a[999];
-    int i;
-    for(i=0;a[i]<998;i++)
+    int i,a,b,c[10];
+    for(a=0;a<10;a++)
+    c[a]=0;
+    printf("\n\n Add your number: \n");
+    scanf("%d", &a);
+    while(a>0)
     {
-    a[i]=getche();
-    if (a[i]=='P')
+    b=a%10;
+    for(i=0;i<10;i++)
     {
-    if(a[i-1]=='O')
-    {
-    if(a[i-2]=='T')
-    {
-    if(a[i-3]=='S')
-    {
-    a[i]=' ';
-    a[i-1]=' ';
-    a[i-2]=' ';
-    a[i-3]=' ';
-    break;
+    if(b==i) c[i]++;
     }
+    a=a/10;
     }
-    }
-    }
-    }
-    for(i=0;i<998;i++)
-    {
-    if(a[i]<='z')
-    {
-    if(a[i]>='a')
-    a[i]=a[i]-32;
-    }
-    }
-    printf("\n %s \n", a);
+    for(b=0;b<10;b++)
+    printf("\n%d - %d\n", b, c[b]);
     return 0;
 }

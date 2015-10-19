@@ -5,7 +5,7 @@
 int main () {
 
 	char sen[400];
-	scanf("%s",sen);	
+	scanf("%[^\n]s",sen);		
 	int br,l,j,k;
 	
 	l = strlen(sen);
@@ -23,6 +23,6 @@ int main () {
 						}											
 				}
 		}
-	printf("%s",sen);
+	printf("%s\n", sen);
 	return 0;
 }

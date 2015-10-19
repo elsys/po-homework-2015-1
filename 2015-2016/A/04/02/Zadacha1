@@ -8,5 +8,6 @@ void main(void)
    for (i = 0; i < 256; i++)
    {
       printf("%c ", y);
+      y++ ;
     }
 }

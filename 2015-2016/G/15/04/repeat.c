@@ -27,39 +27,59 @@ scanf("%d",&n);
 	n=n/10;
 	
 	}
+
 	n = i;
+
+	for(i=0;i<n;i++){
+	
+		printf("%d  ",repeat[i]);
+	
+	}
 
 	for(b=0;b<n;b++){
 
-			for(a=n-1;a>b;a--){
+		for(a=b+1;a<n;a++){
 
-			if(repeat[b-1]>repeat[b]){
-				c = repeat[b-1];
-				repeat[b-1] = repeat[b];
-				repeat[b] = c;
-
-			}
-			
-			
-
-			}
+		if(repeat[b]>repeat[a]){
 		
+		c = repeat[b];
+		repeat[b] = repeat[a];
+		repeat[a] = c;
 
-
+		}
+			
+			
 
 		}
 
-	for(b=0;b<n;b++){
+	}
+
+	printf("\n");
+
+	for(i=0;i<n;i++){
+	
+		printf("%d  ",repeat[i]);
+	
+	}
+
+	for(b=0,c=0;b<n;b++){
 
 			for(a=b+1;a<n;a++){
 
-			if(repeat[b]==repeat[a]){printf("%d \n ",repeat[b]);break;}
+			if(repeat[b]==repeat[a]){c=1;}else{break;}
 			
 			
 
 			}
 		
+			if(c){
+
+			printf("\n %d \n ",repeat[b]);
+
+			}
+
 			b = a - 1;
+			c = 0;
 
 
 		}

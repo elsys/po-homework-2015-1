@@ -1,17 +1,18 @@
 #include<stdio.h>
 
-int func(int n,int square[]);
+int func(int n,int square[n][n]);
 int main(){
-int square[50];
-int n,i;
+int n,i,h;
 scanf("%d", &n);
-
+int square[n][n];
 
 	
-	for(i=0;i<n*n;i++){
-	scanf("%d",&square[i]);
+	for(i=0;i<n;i++){
 	
-
+		for(h=0;h<n;h++){
+		scanf("%d",&square[i][h]);
+		}
+		
 
 	}
 
@@ -24,44 +25,25 @@ return 0;
 
 }
 
-int func(int n,int square[]){
-int i,a,b,j;
+int func(int n,int square[n][n]){
+int i,a,b,h;
 a=0;
 b=0;
-	for(i=0;i<n;i++){
-	a=a+square[i];
-	}
+	
+	
+		for(h=0;h<n;h++){
+		a=a+square[0][h];
+		}
+		
 
-		for(i=0;i<n*n;i=i+n){
-			for(j=i;j<n;j++){
-			b=b+square[j];
-			}
-		if(a!=b){
-		return 0;
-		}else{b=0;}
-		}	
-			for(i=0;i<n;i++){
-				for(j=i;j<n*n;j=j+n){
-				b=b+square[j];
-				}
-			if(a!=b){
-			return 0;
-			}else{b=0;}
-			}
-
-			for(j=n+1;j<n;j=j+n){
-				b=b+square[j];
-				}
-			if(a!=b){
-			return 0;
-			}else{b=0;}
-
-			for(j=n-1;j<n;j=j+2){
-				b=b+square[j];
-				}
-			if(a!=b){
-			return 0;
-			}else{b=0;}
-				
+	
+		for(i=0;i<n;i++){
+			for(h=0;h<n;h++){
+			b=b+square[i][h];
+			}if(a!=b){return 0;}else{b=0;
+						}
+		}	for(i=0;i<n;i++){for(h=0;h<n;h++){b=b+square[h][i];}if(a!=b){return 0;}else{b=0;}}
+			for(i=0;i<n;i++){b=b+square[i][i];}if(a!=b){return 0;}else{b=0;}	
+	for(i=0;i<n;i++){b=b+square[i][n-(i+1)];}if(a!=b){return 0;}else{b=0;}			
 return 1;
 }

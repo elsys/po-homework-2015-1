@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+    struct kordinati {
+        int a,b;
+    } hi;
+
+    int fun(){
+        hi.a++;
+        hi.b++;
+        return 0;
+    }
+
+    int main() {
+
+        scanf("%d",&hi.a);
+        scanf("%d",&hi.b);
+        fun();
+        printf("%d,%d",hi.a,hi.b);
+        return 0;
+    }

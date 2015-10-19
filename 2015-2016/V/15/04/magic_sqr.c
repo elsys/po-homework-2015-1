@@ -1,8 +1,10 @@
 #include <stdio.h>
 
+int isMagic(int*[], int);
+
 int main() {
 
-	int n, i = 0, j = 0, x = 0, y = 0;	
+	int n, i = 0, j;
 	do
 		scanf("%d",({printf("Enter how much rows by colons do you want(1 number rows = colons):"); &n;}));
 	while(n <= 2 || n >= 10);
@@ -14,39 +16,49 @@ int main() {
 		}
 		printf("\n");
 	}
-	
-	
+
 	printf("Your \"magic square\" should look like this:\n");
 	for(i=0 ;i < n; i++) {
 		for(j = 0; j < n; j++)
-			printf("%d ", square[i][j]);
+			printf("\t%d ", square[i][j]);
 		printf("\n");
 	}
 
+	if(!isMagic((int**)square, n))
+        printf("Your square indeed is magic!\n");
+    else
+        printf("Sorry but your square isn't magic!\n");
+
+    return 0;
+}
+
+int isMagic(int *square[], int n) {
+
+    int i, j, x = 0, y = 0;
+
 	for(i = 0; i < n; i++)
-		x+=square[i][i];
+		x+=*((int* )square + i*n + i);
 	for(i = 0, j = n - 1; i < n; i++, j--)
-		y+=square[j][i];
+		y+=*((int *)square + j*n + i);
 	if(x == y) {
 		for(j = 0, y = x; j < n; j++) {
 			for(i = 0, x = 0; i < n; i++)
-				x+=square[j][i];
+				x+=*((int* )square + j*n + i);
 			if(x==y);
-			else goto NOT_MAGIC;	
+			else goto NOT_MAGIC;
 			for(i = 0, x = 0; i < n; i++)
-				x+=square[i][j];
-			if(x != y) goto NOT_MAGIC;
+				x+=*((int* )square + i*n + j);
+            if(x != y) goto NOT_MAGIC;
 		}
 		goto MAGIC;
 	}
 	else goto NOT_MAGIC;
-	
+
 	MAGIC:
-		printf("Your square indeed is magic!\n");
 		return 0;
 	NOT_MAGIC:
-		printf("Sorry but your square isn't magic!\n");
 		return 1;
+
 }
 
 /*

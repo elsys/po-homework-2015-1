@@ -1,38 +1,89 @@
 #include <stdio.h>
 
+
+int input();
+int check(int x);
+
 int main(){
-	int kvadrat[3][3],k,i,sum;
-	for(i=0 ; i < 3; i++){
-		for(k = 0; k < 3; k++){
-			scanf("%d",&kvadrat[i][k]);
+	int x = input();
+	int result = check(x);
+	if(result){
+		printf("No it isnt.\n");
+	}
+	else{
+		printf("Yes it is.\n");
+	}
+}
+
+int input(){
+	int x;
+	printf("Tell the size of your square.\n");
+	scanf("%d",&x);
+	return x;
+}
+
+
+int check(int x){
+	int sq[x][x];
+	int sum = 0;
+	int c_sum = 0;
+	int k,i;
+	//intput
+	for (i = 0; i < x; i++)
+	{
+		for (k = 0; k < x; k++){
+			printf("Enter sq[%d][%d]\n",i+1,k+1 );
+			scanf("%d",&sq[i][k]);
+		} 
+	}
+
+
+	//gleda nachalnata sum
+	for(i = 0;i < x; i++){
+		sum = sum + sq[0][i];
+	}
+
+	//Proverqva redovete
+	for(i = 0; i < x; i++){//gleda reda
+		c_sum = 0;
+		for(k = 0; k < x ; k++){//gleda kolonkata
+			c_sum = c_sum + sq[i][k];
+		}
+		if(c_sum != sum){
+			return 1;
 		}
 	}
-	for(i=0 ; i < 3; i++){
-		for(k = 0; k < 3; k++){
-			printf("%d",kvadrat[i][k]);
+
+	//Proverqva kolonkite
+	for(i = 0; i < x; i++){//gleda reda
+		c_sum = 0;
+		for(k = 0; k < x ; k++){//gleda kolonkata
+			c_sum = c_sum + sq[k][i];
 		}
-		printf("\n");
-	}
-	sum = kvadrat[0][0] + kvadrat[0][1] + kvadrat[0][2];
-	for(i = 0 ; i < 3 ; i++){//proverqva sumata na reda
-		if(sum != kvadrat[i][0] + kvadrat[i][1] + kvadrat[i][2]){
-			printf("No \n");
-			return 0;
+		if(c_sum != sum){
+			return 1;
 		}
 	}
-	for(i = 0 ; i < 3 ; i++){//proverqva sumata na reda
-		if(sum != kvadrat[0][i] + kvadrat[1][i] + kvadrat[2][i]){//vertikalni
-			printf("No\n");
-			return 0;
-		}
+
+	c_sum = 0;
+	//proverqva diagonqlite
+	for(i = 0;i < x; i++){
+		c_sum = c_sum + sq[i][i];
 	}
-	if(sum != kvadrat[0][0] + kvadrat[1][1] + kvadrat[2][2]){//diagonal
-		printf("No\n");
-		return 0;
+	if (c_sum != sum)
+	{
+		return 1;
 	}
-	if(sum != kvadrat[0][2] + kvadrat[1][1] + kvadrat[2][0]){//diagonal
-		printf("No\n");
-		return 0;
+
+	c_sum = 0;
+
+	for (i = x - 1; i >= 0; i--)
+	{
+		c_sum = c_sum + sq[i][i];
 	}
-	printf("Yes.\n");
+	if(c_sum != sum){
+		return 1;
+	}
+
+	return 0;
 }

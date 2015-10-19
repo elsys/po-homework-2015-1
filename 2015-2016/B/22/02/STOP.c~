@@ -9,7 +9,7 @@ int main()
     char c[10000];
     int a,m=0,l=0;
 
-   fgets(c,10000,stdin);
+   fgets(c,100);
    a=sizeof(c);
 
   while(m<=a)

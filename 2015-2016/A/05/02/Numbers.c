@@ -21,7 +21,7 @@ void main()
 
 	for(i=0;i<(n-1);i++)
 	{
-		for(l=0;l<n-(i-1);l++)
+		for(l=0;l<n-i-1;l++)
 		{
 			if(numbers[l]>numbers[l+1])
 			{

@@ -4,29 +4,27 @@
 int main()
 {
     char word[50];
-    int counter, lenght;
+    int counter = 0;
+    int lenght = 0;
+    int check = 0;
 
-    scanf("%s", word);
-    lenght = strlen(word);
+    do{
+        scanf("%s", word);
+        lenght = strlen(word);
 
-    for(counter = 0; counter < lenght; counter++)
-    {
-        if(word[counter] == 'S' && word[counter + 1] == 'T' && word[counter + 2] == 'O' && word[counter + 3] == 'P')
+        for(counter = 0; counter < lenght; counter++)
         {
-            for(counter = 0; counter < (lenght - 4); counter++)
+            if(word[counter] == 'S' && word[counter + 1] == 'T' && word[counter + 2] == 'O' && word[counter + 3] == 'P')
             {
-                printf("%c", word[counter] - 32);
+                check = 1;
+                break;
             }
-
-            printf("\n");
-
-            break;
         }
 
-        else
-        {
-            printf("Enter word ending with STOP!");
-            break;
-        }
+    }while(!check);
+
+    for(counter = 0; counter < (lenght - 4); counter++)
+    {
+        printf("%c", word[counter] - 32);
     }
 }

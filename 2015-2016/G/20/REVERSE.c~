@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+    char string[100];
+    char rev[100];
+    int i=-1,j=0;
+
+    printf("Въведи низ: ");
+    scanf("%s",string);
+   
+    while(string[++i]!='\0');
+
+    while(i>=0)
+     rev[j++] = string[--i];
+
+    rev[j]='\0';
+  
+    printf("Обърнатия низ е: %s",rev);
+  
+    return 0;
+}

@@ -28,8 +28,8 @@ int main(){
     		   wrong=1;  
 		 }
         }//for-i;
-  	if(wrong=1)
+  	if(wrong==1)
 	        printf("Square is magical");
-        if(wrong=0)
+        if(wrong==0)
 	        printf("Square is not magical");	
 }//main;

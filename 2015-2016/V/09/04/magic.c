@@ -5,12 +5,11 @@ int main(){
    int i, j = 0;
    int s, a, n;
    int temp = 0;
-
    printf("Enter numbers 3x3:\n");
-
    for (i = 0; i < square; i++) {
-      for (j = 0; j < square; j++)
+      for (j = 0; j < square; j++){
          scanf("%d", &magic[i][j]);
+      }
    }
    for (i = 0; i < square; i++) {
         printf("\n");

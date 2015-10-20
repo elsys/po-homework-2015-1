@@ -2,8 +2,10 @@
 #include <stdlib.h>
 int main() {
 
-int strana=3,chisla[3][3],red,kolona=0,sum,sum1,sum2;
+int strana,chisla[1000][1000],red,kolona=0,sum,sum1,sum2;
 int f=0;
+printf("vavedi strana:");
+scanf("%d",&strana);
 printf("\nVavedi chisla:");
 for(red=0;red<strana;red++) {
     for(kolona=0;kolona<strana;kolona++)

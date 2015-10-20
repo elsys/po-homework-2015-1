@@ -1,5 +1,7 @@
+#include <stlib.h>
+
 #include<stdio.h>
-#include<stlib.h>
+
 void main(void){
 int n,c,r,i;
 printf("n=");scanf("%d",&n);

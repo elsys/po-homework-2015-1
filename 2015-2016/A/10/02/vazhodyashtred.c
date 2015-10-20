@@ -1,5 +1,7 @@
-#include<stdio.h>
 #include<stlib.h>
+
+#include<stdio.h>
+
 void main(void){
 int i;
 char n[1000];

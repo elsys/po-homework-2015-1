@@ -1,33 +1,39 @@
 #include <stdio.h>
 
+int arr[1000];
+unsigned int arr_size = 0;
+
+void inputData() {
+	for(arr_size=0; arr_size < 999; arr_size++)
+	{
+		scanf("%d",&arr[arr_size]);
+		if (arr[arr_size] == 42) break;
+	}
+}
+
+
+void bubble_sort() {
+	int c = 0;
+
+	int index, iter;
+
+	for (index = 1; index < arr_size; index ++) {
+		for (iter = index - 1; iter >= 0; iter --) {
+			printf("index=%d, iter=%d\n", index, iter);
+			dump_result();
+			if (arr[iter] > arr[iter + 1]) {
+				c = arr[iter];
+				arr[iter] = arr[iter + 1];
+				arr[iter + 1] = c;
+			}
+		}
+	}
+}
+
 int main()
 {
-  int arr[1000], n, i, a, b;
+	inputData();
+	bubble_sort();
 
-  printf("n=\n");
-  scanf("%d", &n);
-
-  printf("%d \n", n);
-
-  for (i = 0; i < n; i++)
-    scanf("%d", &arr[i]);
-
-  for (i = 0 ; i < ( n - 1 ); i++)
-  {
-    for (a = 0 ; a < n - i - 1; a++)
-    {
-      if (arr[a] > arr[a+1])
-      {
-        b= arr[a];
-        arr[a]   = arr[a+1];
-        arr[a+1] = b;
-      }
-    }
-  }
-
-
-  for ( i = 0 ; i < n ; i++ )
-     printf("%d\n", arr[i]);
-
-  return 0;
+	return 0;
 }

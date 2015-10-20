@@ -5,7 +5,7 @@ int main(){
 int repeat[10];
 int n,i,a,b,c;
 scanf("%d",&n);
-	c = n;
+c = n;
 	for(i=0;c!=0;i++){
 	c=c/10;
 	
@@ -28,13 +28,9 @@ scanf("%d",&n);
 	
 	}
 
-	n = i;
+n = i;
 
-	for(i=0;i<n;i++){
 	
-		printf("%d  ",repeat[i]);
-	
-	}
 
 	for(b=0;b<n;b++){
 
@@ -42,9 +38,9 @@ scanf("%d",&n);
 
 		if(repeat[b]>repeat[a]){
 		
-		c = repeat[b];
-		repeat[b] = repeat[a];
-		repeat[a] = c;
+c = repeat[b];
+repeat[b] = repeat[a];
+repeat[a] = c;
 
 		}
 			
@@ -52,14 +48,6 @@ scanf("%d",&n);
 
 		}
 
-	}
-
-	printf("\n");
-
-	for(i=0;i<n;i++){
-	
-		printf("%d  ",repeat[i]);
-	
 	}
 
 	for(b=0,c=0;b<n;b++){
@@ -77,9 +65,8 @@ scanf("%d",&n);
 			printf("\n %d \n ",repeat[b]);
 
 			}
-
-			b = a - 1;
-			c = 0;
+b = a - 1;
+c = 0;
 
 
 		}
@@ -90,5 +77,3 @@ scanf("%d",&n);
 return 0;
 
 }
-
-

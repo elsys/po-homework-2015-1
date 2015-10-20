@@ -13,7 +13,7 @@ void main(void)
             c=c/10;
     }while(c>=1);
     if(i>1){
-        printf("%d puti chisloto %d \n",i,k);
+        printf("chisloto %d \n",k);
     }
     k++;
   }while(k<10);

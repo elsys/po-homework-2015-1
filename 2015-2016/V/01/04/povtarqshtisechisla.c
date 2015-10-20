@@ -2,24 +2,18 @@
 
 int main()
 {
-    int pommasiv[10];
-    int i,chislo,a;
-    printf("Vyvedete chislo:");scanf("%d",&chislo);
-    for(i=0;i<=9;i++)
+    int i,chislo[10]={0},a[20];
+    printf("Vyvedete chislo:");scanf("%d",&n);
+    while(n!=0)
     {
-        pommasiv[i] = 0;
+     chislo[n%10]=chislo[n%10]+1;
+     n=n/10
     }
     for(i=0;i<=9;i++)
     {
-        while(chislo!=0)
+        if(chislo[i]>1)
         {
-            a=chislo%10;
-            pommasiv[a]=pommasiv[a]+1;
-            chislo=chislo/10;
+            printf("%d \n",i);
         }
     }
-    for(i=0;i<=9;i++){
-        printf("%d %d\n",i,pommasiv[i]);
-    }
-return 0;
 }

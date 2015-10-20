@@ -1,89 +1,78 @@
 #include <stdio.h>
 
-
-int input();
-int check(int x);
+int check(int *b, int x);
 
 int main(){
-	int x = input();
-	int result = check(x);
+	int x,k;
+	printf("Enter the size of the square:\n");
+	scanf("%d",&x);
+	int i, sq[x][x];
+	for(i = 0;i < x; i++){
+		for(k = 0; k < x; k++){
+			printf("Enter the num for coordinates x[%d][%d]\n", i+1, k+1);
+			scanf("%d",&sq[i][k]);
+		}
+	}
+	int *pt = &sq[0][0];
+	int result = check(pt,x);
 	if(result){
 		printf("No it isnt.\n");
-	}
-	else{
+	}else{
 		printf("Yes it is.\n");
 	}
+	return 0;
 }
 
-int input(){
-	int x;
-	printf("Tell the size of your square.\n");
-	scanf("%d",&x);
-	return x;
-}
-
-
-int check(int x){
-	int sq[x][x];
-	int sum = 0;
-	int c_sum = 0;
-	int k,i;
-	//intput
-	for (i = 0; i < x; i++)
-	{
-		for (k = 0; k < x; k++){
-			printf("Enter sq[%d][%d]\n",i+1,k+1 );
-			scanf("%d",&sq[i][k]);
-		} 
+int check(int *b , int x){
+	int sum = 0,c_sum,k,i;
+	int *pointer =  b;
+	//proverqva sum-ata koqto da se sravnqva
+	for(i = 0; i < x ; i++){
+		sum = sum + *(pointer + i);
 	}
-
-
-	//gleda nachalnata sum
-	for(i = 0;i < x; i++){
-		sum = sum + sq[0][i];
-	}
-
-	//Proverqva redovete
-	for(i = 0; i < x; i++){//gleda reda
-		c_sum = 0;
-		for(k = 0; k < x ; k++){//gleda kolonkata
-			c_sum = c_sum + sq[i][k];
-		}
-		if(c_sum != sum){
-			return 1;
-		}
-	}
-
-	//Proverqva kolonkite
-	for(i = 0; i < x; i++){//gleda reda
-		c_sum = 0;
-		for(k = 0; k < x ; k++){//gleda kolonkata
-			c_sum = c_sum + sq[k][i];
-		}
-		if(c_sum != sum){
-			return 1;
-		}
-	}
-
+	//proverqva sum po redove
 	c_sum = 0;
-	//proverqva diagonqlite
-	for(i = 0;i < x; i++){
-		c_sum = c_sum + sq[i][i];
+	for(i = 0; i < x; i++){
+		for(k = 0; k < x; k++){
+			c_sum = c_sum + *(pointer + k + (i * x));
+		}
+		if(c_sum != sum){
+			return 1;
+		}
+		c_sum = 0;
 	}
-	if (c_sum != sum)
-	{
+
+	//proverqva po koloni
+	c_sum = 0;
+	for(i = 0; i < x; i++){
+		for(k = 0; k < x; k++){
+			c_sum = c_sum + *(pointer + i + (k * x));
+		}
+		if(c_sum != sum){
+			return 1;
+		}
+		c_sum = 0;
+	}
+
+	//diagonal 1 >
+	c_sum = 0;
+	for(i = 0;i < x;i++){
+		c_sum = c_sum + *(pointer + (i*(x + 1)));
+	}
+	if(c_sum != sum){
 		return 1;
 	}
 
-	c_sum = 0;
 
-	for (i = x - 1; i >= 0; i--)
-	{
-		c_sum = c_sum + sq[i][i];
+	//diagonal 2 <
+	c_sum = 0;
+	for(i = 0; i < x;i++){
+		c_sum = c_sum + *(pointer + 2+(i *(x - 1)));
 	}
 	if(c_sum != sum){
 		return 1;
 	}
 
 	return 0;
+
 }

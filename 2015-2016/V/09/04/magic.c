@@ -1,5 +1,4 @@
 #include<stdio.h>
-int main()#include<stdio.h>
 int main(){
    int square = 3;
    int magic[3][3];

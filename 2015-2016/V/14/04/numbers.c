@@ -8,7 +8,6 @@ int main()
 
     printf ("Enter number:\n");
     scanf("%d", &number);
-    printf ("Number - Times\n");
 
     for(h=0; number>=1; h++)
     {
@@ -28,8 +27,8 @@ int main()
         w--;
     }
 
-    if(p != 0)
-        printf("%d - x%d\n", d, p);
+    if(p != 0 && p > 1)
+        printf("%d\n", d);
 
     }
  }

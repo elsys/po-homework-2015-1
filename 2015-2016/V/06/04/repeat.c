@@ -16,7 +16,7 @@ int main(){
         int r=0;
 	for(i=0;i<10;i++){
 		if(a[i]>1){
-			printf("Digit %d repeats %d times \n",i,a[i]);//Всяко а[i] е променлива и принтираме стойността й;
+			printf("Digit %d repeats\n",i);//Всяко а[i] е променлива и принтираме стойността й;
 			r=1;
 		}
 	}

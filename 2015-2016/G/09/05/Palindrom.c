@@ -12,9 +12,9 @@ int main()
    strrev(b);
 
    if (strcmp(a,b) == 0)
-      printf("1\n");
-   else
       printf("0\n");
+   else
+      printf("1\n");
 
    return 0;
 }

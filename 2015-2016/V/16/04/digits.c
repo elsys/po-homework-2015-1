@@ -15,7 +15,7 @@ int main(){
 				t++;
 			temp /= 10;
 		}
-		if (t != 0)
+		if (t > 1)
 			printf("The number %d is met %d times\n", d, t);
 		d++;
 	}

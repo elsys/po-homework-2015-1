@@ -1,27 +1,27 @@
 #include <stdio.h>
  int main(){
- 	int kvadrat[3][3],k,i,sum;
- 	for(i=0 ; i < 3; i++){
- 		for(k = 0; k < 3; k++){
- 			scanf("%d",&kvadrat[i][k]);
+ 	int kvadrat[3][3],b,a,sum;
+ 	for(a=0 ; a < 3; a++){
+ 		for(b = 0; b < 3; b++){
+ 			scanf("%d",&kvadrat[a][b]);
  		}
  	}
- 	for(i=0 ; i < 3; i++){
- 		for(k = 0; k < 3; k++){
- 			printf("%d",kvadrat[i][k]);
+ 	for(a=0 ; a < 3; a++){
+ 		for(b = 0; b < 3; b++){
+ 			printf("%d",kvadrat[a][b]);
  		}
  		printf("\n");
  	}
  	sum = kvadrat[0][0] + kvadrat[0][1] + kvadrat[0][2];
- 	for(i = 0 ; i < 3 ; i++){//proverqva sumata na reda
- 		if(sum != kvadrat[i][0] + kvadrat[i][1] + kvadrat[i][2]){
+ 	for(a = 0 ; a < 3 ; a++){//proverqva sumata na reda
+ 		if(sum != kvadrat[a][0] + kvadrat[a][1] + kvadrat[a][2]){
 			printf("No.1 \n");
 			printf("No \n");
  			return 0;
  		}
  	}
- 	for(i = 0 ; i < 3 ; i++){//proverqva sumata na reda
- 		if(sum != kvadrat[0][i] + kvadrat[1][i] + kvadrat[2][i]){//vertikalni
+ 	for(a = 0 ; a < 3 ; a++){//proverqva sumata na reda
+ 		if(sum != kvadrat[0][a] + kvadrat[1][a] + kvadrat[2][a]){//vertikalni
 			printf("No.2\n");
 			printf("No\n");
  			return 0;

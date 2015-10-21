@@ -21,7 +21,7 @@ char c;
 
     for(i=0;i<12;i++)
         for(j=i+1;j<13;j++)
-            if(s[i]<s[j])
+            if(s[i]>s[j])
             {c=s[i];
              s[i]=s[j];
              s[j]=c;

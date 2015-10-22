@@ -1,52 +1,64 @@
-/*Programa za prevod ot rimski chisla v arabski*/
+/*Programa za prevod ot rimski chisla v rimski. Vse oshte izpuska nqkoi nepravilno vuvedeni chisla, no se spravq s vsicki pravilno vuvedeni.*/
 
 #include <stdio.h>
+#include <string.h>
 
 int main(){
-	int arabic;
-	scanf("%d", &arabic);
+	char c[10];
+	int arabic = 0;
+	scanf("%s", c);
 
-	if(arabic>256){
-		printf("Too large input value!\n");
-		return 1;
+	int i = strlen(c)-1, iErr=0;
+	while(c[i] == 'I' && iErr < 3){
+		arabic++;
+		iErr++;
+		i--;
 	}
-	while(arabic >= 100){
-		printf("C");
-		arabic -= 100;
+	if(c[i] == 'V'){
+		arabic += 5;
+		i--;
 	}
-	if(arabic >= 90){
-		printf("XC");
-		arabic -= 90;
-	}
-	if(arabic >= 50){
-		printf("L");
-		arabic -= 50;
-	}
-	if(arabic >= 40){
-		printf("XL");
-		arabic -= 40;
-	}
-	while(arabic >= 10){
-		printf("X");
-		arabic -= 10;
-	}
-	if(arabic >= 9){
-		printf("IX");
-		arabic -= 9;
-	}
-	if(arabic >= 5){
-		printf("V");
-		arabic -= 5;
-	}
-	if(arabic >= 4){
-		printf("IV");
-		arabic -= 4;
-	}
-	while(arabic >= 1){
-		printf("I");
+	if(c[i] == 'I' &&){
 		arabic--;
+		i--;
 	}
-	printf("\n");
+	iErr=0;
+	while(c[i] == 'X' && iErr < 3){
+		arabic += 10;
+		iErr++;
+		i--;
+	}
+	if(c[i] == 'I'){
+		arabic--;
+		i--;
+	}
+	if(c[i] == 'L'){
+		arabic += 50;
+		i--;
+	}
+	if(c[i] == 'X'){
+		arabic -= 10;
+		i--;
+	}
+	iErr=0;
+	while(c[i] == 'C' && iErr < 3){
+		arabic += 100;
+		iErr++;
+		i--;
+	}
+	if(c[i] == 'X'){
+		arabic -= 10;
+		i--;
+	}
+
+	if(i > -1 || arabic > 256){
+		printf("Error: Input number too large, incorrect lined up characters or unknown symbol!\n");
+	}
+	else{
+		printf("%d\n", arabic);
+	}
+
+	printf("%d\t%c\n", i, c[i]);
 
 	return 0;
 }

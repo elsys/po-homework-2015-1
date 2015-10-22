@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+    char s[3025];
+    int n;
+    int j;
+    char x;
+
+void main(void)
+{
+    printf("Please note that you must end the sentence with a '.', otherwise the");
+    printf("\nprogram will break. Only lowercase letters and numbers are allowed. ");
+    printf("\nTo stop the program, enter 'STOP', note that it is case-sensitive.");
+    printf("\n");
+    printf("\n---\n");
+    caps();
+}
+
+void caps(void)
+{
+    scanf("%s", &s);
+    n = 0;
+    j = 0;
+    x = s[n];
+    if(strcmp(s, "STOP")==0)
+    {
+        return;
+    }
+    while(x != '.')
+    {
+        if(x >=48 && x <=57)
+        {
+            printf("%c", x);
+            j = 1;
+        }
+        if(x == ' ')
+        {
+            printf(" ");
+        }
+        if(j != 1)
+        {
+            x -= 32;
+            printf("%c", x);
+        }
+        j = 0;
+        n++;
+        x = s[n];
+    }
+    printf(".");
+    printf("\n");
+    strcpy(s, " ");
+    caps();
+}

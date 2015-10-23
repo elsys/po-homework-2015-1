@@ -17,14 +17,18 @@
             a++;
         }
         a = 0;
-        while((a)<strlen(rim)){ 
-            if(ara[a]>=ara[a+1]) end=end+ara[a];
+        while((a)<strlen(rim)){
+            if(ara[a]>=ara[a+1]) {
+                end=end+ara[a];
+                a++;
+            }
             else {
                 ara[a+1] = ara[a+1] - ara[a];
                 end = end+ara[a+1];
+            a = a+2;
             }
-            a++;
         }
-        printf("%d",end);
+        printf("%d\n",end);
+
         return 0;
     }

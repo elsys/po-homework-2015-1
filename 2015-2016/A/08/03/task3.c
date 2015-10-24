@@ -5,15 +5,15 @@
 int Integerize(char);
 
 int main(){
-	char deck[14];
-	scanf("%s", deck);
-	
+	char deck[14], temp;
 	int i, j;
+	scanf("%s", deck);
+
 	for(i=1; i<13; i++){
 		for(j=0; j<13-i; j++){
 
 			if(Integerize(deck[j]) > Integerize(deck[j+1])){
-				char temp = deck[j];
+				temp = deck[j];
 				deck[j] = deck[j+1];
 				deck[j+1] = temp;
 			}
@@ -40,6 +40,6 @@ int Integerize(char c){
 		case 'Q': return 12;
 		case 'K': return 13;
 		case 'A': return 14;
-		default: return 1;	// v momenta nenujno, no moje da se naloji funkciqta da dava greshka
+		default: return 1;
 	}
 }

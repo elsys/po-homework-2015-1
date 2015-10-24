@@ -5,10 +5,10 @@
 
 int main(){
 	char c[10];
-	int arabic = 0;
+	int arabic = 0, iErr=0, i;
 	scanf("%s", c);
 
-	int i = strlen(c)-1, iErr=0;
+	i = strlen(c)-1;
 	while(c[i] == 'I' && iErr < 3){
 		arabic++;
 		iErr++;
@@ -18,7 +18,7 @@ int main(){
 		arabic += 5;
 		i--;
 	}
-	if(c[i] == 'I' &&){
+	if(c[i] == 'I'){
 		arabic--;
 		i--;
 	}
@@ -27,10 +27,11 @@ int main(){
 		arabic += 10;
 		iErr++;
 		i--;
-	}
-	if(c[i] == 'I'){
-		arabic--;
-		i--;
+	
+		if(c[i] == 'I'){
+			arabic--;
+			i--;
+		}
 	}
 	if(c[i] == 'L'){
 		arabic += 50;
@@ -45,10 +46,11 @@ int main(){
 		arabic += 100;
 		iErr++;
 		i--;
-	}
-	if(c[i] == 'X'){
-		arabic -= 10;
-		i--;
+	
+		if(c[i] == 'X'){
+			arabic -= 10;
+			i--;
+		}
 	}
 
 	if(i > -1 || arabic > 256){
@@ -57,8 +59,6 @@ int main(){
 	else{
 		printf("%d\n", arabic);
 	}
-
-	printf("%d\t%c\n", i, c[i]);
 
 	return 0;
 }

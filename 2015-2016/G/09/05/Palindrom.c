@@ -18,13 +18,13 @@ int main()
    {
       if (text[begin] != text[end])
       {
-         printf("1\n");
+         printf("0\n");
          break;
       }
       end--;
    }
    if (begin == middle)
-      printf("0\n");
+      printf("1\n");
 
    return 0;
 }

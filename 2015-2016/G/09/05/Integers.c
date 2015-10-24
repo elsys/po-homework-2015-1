@@ -4,23 +4,21 @@ int main()
 {
    int m, n, c, d, matrix[10][10], transpose[10][10];
 
-   printf("Vuvedete chisla:\n");
-   scanf("%d%d", &m, &n);
-
    printf("Vuvejdane v matricata:\n");
 
-   for (c = 0; c < m; c++)
-      for(d = 0; d < n; d++)
+
+   for (c = 0; c < 4; c++)
+      for(d = 0; d < 4; d++)
          scanf("%d",&matrix[c][d]);
 
-   for (c = 0; c < m; c++)
-      for( d = 0 ; d < n ; d++ )
+   for (c = 0; c < 4; c++)
+      for( d = 0 ; d < 4 ; d++ )
          transpose[d][c] = matrix[c][d];
 
    printf("Transportirane na matricata:-\n");
 
-   for (c = 0; c < n; c++) {
-      for (d = 0; d < m; d++)
+   for (c = 0; c < 4; c++) {
+      for (d = 0; d < 4; d++)
          printf("%d\t",transpose[c][d]);
       printf("\n");
    }

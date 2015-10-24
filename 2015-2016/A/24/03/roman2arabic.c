@@ -21,15 +21,17 @@ int main()
              if(conv(rom[i]) < conv(rom[i+2])){
                  printf("ERROR invalid input number");
                  return 0;
+            }
              }
 
          if(conv(rom[i]) >= conv(rom[i+1]))
-         }
+
              arb = arb + conv(rom[i]);
-         else{
+         else
+        {
              arb = arb + (conv(rom[i+1]) - conv(rom[i]));
              i++;
-         }
+        }
     }
     if(arb>256)
         printf("ERROR input number too large");
@@ -38,9 +40,8 @@ int main()
 
     return 0;
 
+
 }
-
-
 
 int conv(char s)
 {

@@ -4,7 +4,7 @@
     int main() {
         char a[13],b;
         int i,p;
-        fgets(a, 13, stdin);
+        fgets(a, 14, stdin);
         for(i=0;i<13;i++){
             if(a[i] == 'T') a[i] = ':';
             if(a[i] == 'J') a[i] = ';';

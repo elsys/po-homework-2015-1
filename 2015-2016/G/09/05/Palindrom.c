@@ -3,18 +3,28 @@
 
 int main()
 {
-   char a[100], b[100];
+   char text[100];
+   int begin, middle, end, length = 0;
+   printf("Vuvedi teskt:\n");
+   scanf("%s", text);
 
-   printf("Vuvedete tekst:\n");
-   gets(a);
+   while (text[length] != '\0')
+      length++;
 
-   strcpy(b,a);
-   strrev(b);
+   end = length - 1;
+   middle = length/2;
 
-   if (strcmp(a,b) == 0)
+   for (begin = 0; begin < middle; begin++)
+   {
+      if (text[begin] != text[end])
+      {
+         printf("1\n");
+         break;
+      }
+      end--;
+   }
+   if (begin == middle)
       printf("0\n");
-   else
-      printf("1\n");
 
    return 0;
 }

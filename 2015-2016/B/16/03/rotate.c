@@ -1,19 +1,15 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 int main()
 {
-char n[100],pom;
-int i,p,l;
-scanf("%s",n);
+char n[1000];
+int i=0,p,l;
+scanf("%[^\n]s",n);
 l=strlen(n);
-p=l-1;
-for(i=0; i<=p;p--, i++)
-	{
-	pom=n[p];
-	n[p]=n[i];
-	n[i]=pom;
-	}
-	printf("%s",n);
+p=l;
+for(i = 0; i < p; p--, i++)
+	printf("%c",n[p]);
 return 0;
 }
 

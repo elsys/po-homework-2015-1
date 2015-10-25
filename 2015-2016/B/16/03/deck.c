@@ -1,24 +1,24 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 int main()
 {
 char c[14];
-int i,f=0,pom,p;
+int i,l,f=0,pom,p;
 scanf("%s",c);
+l=strlen(c);
 for(i=0;i<14;i++)
 	{
-	if(c[i]=='1' && c[i+1]!='0'){f=1; break;}
-	if(c[i]=='0' && c[i-1]!='1'){f=1; break;}
+	if(c[i]=='1' && c[i+1]!='0'){f=1;break;}
+	if(c[i]=='0' && c[i-1]!='1'){f=1;break;}
 	
-		for(p=0;p<14;i++)
-		{	
-			if(p==i) p++;
+		for(p=0; p<14; i++)
+		{	if(p==i) p++;
 			if(c[p]==c[i]){f=1; break;}
 		}
 	}
-if(!f)
-{
-for(p=1;p<=14;p++)
+if(f!=1)
+{for(p=1;p<14;p++)
 	for(i=0;i<14;i++)
 	{
 		if(c[i]=='2')
@@ -119,9 +119,8 @@ for(p=1;p<=14;p++)
 		c[i]=pom;
 		}
 	}
-printf("%s \n",c);
-
+	printf("%s \n",c);
 }
-else {printf("\n Warning!");}
+else printf("\n Warning!");
 return 0;
 }

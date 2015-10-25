@@ -1,0 +1,12 @@
+﻿Add homework 03
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   2015-2016/A/23/03/Cards.c
+#	new file:   2015-2016/A/23/03/reverse words.c
+#	new file:   2015-2016/A/23/03/roman to decimal numbers.c
+#	new file:   2015-2016/A/23/03/triangle.c
+

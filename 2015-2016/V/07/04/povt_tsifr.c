@@ -13,8 +13,9 @@ void main()
 		a[n%10]++;
 		n/=10;
 	}
+	printf("\nTsifrite, koito se povtariat sa: ");
 	for(i=0;i<10;i++)
 		if(a[i]>1)
-			printf("\nTsifrata %d se povtaria %d pati.",i,a[i]);
-	printf("\nOstanalite tsifri ne se povtariat ili izobshto ne se sreshtat.\n");
+			printf("%d, ",i);
+	printf("\b\b.");
 }

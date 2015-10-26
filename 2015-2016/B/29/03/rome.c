@@ -17,7 +17,6 @@
 			if(s[z]=='C')k[z]=100;
 		}
 		for(z=0;z<l;z++)
-		//zadachata ne proverqva za vernostta na zapisa na rimskoto chislo!!
 		{
 			if(z>0)
 				if(k[z-1]<k[z])

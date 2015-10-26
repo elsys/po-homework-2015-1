@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-int n(char){
+int n(char c){
 int s=0;
 	switch(c){
 	case 'I':
@@ -19,7 +19,7 @@ int s=0;
 	case 'C':
 	s=100;
 	break;
-	case "\0":
+	case '\0':
 	s=0;
 	break;
 	}
@@ -29,14 +29,15 @@ int main(){
 char r[1000];
 int i=0;
 int number=0;
+
 printf("Enter Roman number=");scanf("%s",r);
 while(r[i]){
 	if(n(r[i])<0){
-	printf("Invalid number.",r[i]);
+	printf("Invalid number %s.",&r[i]);
 	return 0;
 	}
 		if(n(r[i])>256){
-		printf("Invalid number.",r[i]);
+		printf("Invalid number %s.",&r[i]);
 		}
 		if((strlen(r)-i)>2){
 			if(n(r[i])<n(r[i+2])){

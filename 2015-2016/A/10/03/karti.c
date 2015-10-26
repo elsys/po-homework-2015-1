@@ -51,7 +51,7 @@ return v;
 int main(){
 int n,x,y,z,i,t;
 char a[13],b[13]="23456789TJQKA",temp;
-printf("Enter cards:");scanf("%s",&a);
+printf("Enter cards:");scanf("%s",a);
 for(i=0;i<strlen(b)-1;i++){
 t=0;
 	for(z=0;z<strlen(b)-1;z++){
@@ -67,14 +67,14 @@ t=0;
 for(x=0;x<strlen(a);x++){
 	for(y=0;y<strlen(a)-1;y++){
 		if(Findvalue(a[y])>Findvalue(a[y+1])){
-		int temp a[y+1];
+		int temp=a[y+1];
 		a[y+1]=a[y];
 		a[y]=temp;
 		}
 	}
 }
 printf("\n%s",a);
-return 0:
+return 0;
 }
 
 

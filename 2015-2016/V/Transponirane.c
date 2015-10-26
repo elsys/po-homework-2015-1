@@ -2,10 +2,9 @@
 
 int main()
 {
-   int m,n,c,d,matrica[100][100],trans[100][100];
+   int m=4,n=4,c,d,matrica[10][10],trans[10][10];
 
-   printf("Vavedi broq na redovete i kolonite\n");
-   scanf("%d%d",&m,&n);
+   printf("Matricata trqbva da bude 4x4\n");
    printf("Vavedi chislata ot matricata\n");
    for(c=0;c<m;c++)
       for(d=0;d<n;d++)

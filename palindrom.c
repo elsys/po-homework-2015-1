@@ -7,7 +7,7 @@ int main()
     char s[20];
     int i,j,p=0;
     printf("Vavedi simvoli:");
-    scanf("%s",&s);
+    scanf("%s",s);
     j=strlen(s);
     for(i=0;i<j;i++)
     {

@@ -4,7 +4,7 @@
 
 	int main()
 	{
-		int a=0,i,l,k[15],z;
+		int a=0,l,k[15],z;
 		char s[15];
 		printf("Vuvedi Rimsko chislo::");scanf("%s",s);
 		l=strlen(s);

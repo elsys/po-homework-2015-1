@@ -1,33 +1,31 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-
-	int main()
-	{
-		int a=0,l,k[15],z;
-		char s[15];
-		printf("Vuvedi Rimsko chislo::");scanf("%s",s);
-		l=strlen(s);
-		for(z=0;z<l;z++)
-		{
-			if(s[z]=='I')k[z]=1;
-			if(s[z]=='V')k[z]=5;
-			if(s[z]=='X')k[z]=10;
-			if(s[z]=='L')k[z]=50;
-			if(s[z]=='C')k[z]=100;
-		}
-		for(z=0;z<l;z++)
-		{
-			if(z>0)
-				if(k[z-1]<k[z])
-				{
-					k[z]=k[z]-k[z-1];
-					k[z-1]=k[z-1]-k[z-1];
-				}
-			a=a+k[z];
-		}
-			printf("\n\n");
-			printf("%d",a);
-			printf("\n\n");
-		return 0;
-	}
+int main()
+{
+    char s[100];
+    int n[100],i,out=0;
+    for(i=0; i<100; i++) {
+        n[i]=0;
+    }
+    fgets(s, 100, stdin);
+    for(i=0; i<strlen(s); i++) {
+        switch(s[i]) {
+            case 'X' : n[i]=10; break;
+            case 'V' : n[i]=5; break;
+            case 'L' : n[i]=50; break;
+            case 'C' : n[i]=100; break;
+            case 'I' : n[i]=1; break;
+        }
+        if(i>0&&n[i]>n[i-1]) {
+                n[i-1]=n[i]-n[i-1];
+                n[i]=0;
+        }
+    }
+    for(i=0; i<strlen(s); i++) {
+        out=out+n[i];
+    }
+    printf("%d", out);
+    return 0;
+}

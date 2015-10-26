@@ -8,7 +8,7 @@ int main()
 char string[500];
 int i,l;
 printf("Vuvedi string  ");
-scanf("%s",&string);
+scanf("%s",string);
 printf("\n");
 l=strlen(string);
 for(i=l-1;i>=0;i--)

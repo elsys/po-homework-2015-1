@@ -57,7 +57,7 @@ int main()
 int i,z,t,v,x,n,y;
 char a[13],b[13]="23456789TJQKA",temp;
 printf("Enter cards : ");
-scanf("%s",&a);
+scanf("%s",a);
 for(i=0;i<strlen(a)-1;i++){
 t=0;
 for(z=0;z<strlen(b)-1;z++){

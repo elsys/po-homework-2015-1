@@ -39,21 +39,21 @@ char s[100];
 int i=0;
 int number=0;
 printf("Enter Roman number:");
-scanf("%s",&s);
+scanf("%s",s);
 
-while(n(s[i])!=0)
+while(Values(s[i])!=0)
     {
-        if(n(s[i])<0)
+        if(Values(s[i])<0)
             {
-                printf("Invalid number.",s[i]);
+                printf("Invalid number.");
                 return 0;
             }
-        number=number+n(s[i]);
+        number=number+Values(s[i]);
         i++;
     }
 if(number>256)
     {
-        printf("Invalid number.",s[i]);
+        printf("Invalid number.");
         return 0;
     }
 printf("%d",number);

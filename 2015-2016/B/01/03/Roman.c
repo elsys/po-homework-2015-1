@@ -24,6 +24,8 @@ int main()
         else k=k+ca[i]+ca[i+1];
             i++;
         }
+        if (m==1) k=k+ca[0];
+
         printf("\n%d",k);
 
     return 0;

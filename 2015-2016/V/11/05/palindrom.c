@@ -3,7 +3,8 @@
 int palindrom(int l,char s[]);
 int main()
 {
-    int i=0,l;
+
+  int i=0,l;
     char s[50];
     scanf("%s",&s);
     l=strlen(s)-1;

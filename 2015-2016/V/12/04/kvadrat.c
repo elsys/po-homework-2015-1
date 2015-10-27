@@ -1,0 +1,78 @@
+#include <stdio.h>
+
+int check(int *b, int x);
+
+int main(){
+	int x,k;
+	printf("Enter the size of the square:\n");
+	scanf("%d",&x);
+	int i, sq[x][x];
+	for(i = 0;i < x; i++){
+		for(k = 0; k < x; k++){
+			printf("Enter the num for coordinates x[%d][%d]\n", i+1, k+1);
+			scanf("%d",&sq[i][k]);
+		}
+	}
+	int *pt = &sq[0][0];
+	int result = check(pt,x);
+	if(result){
+		printf("No it isnt.\n");
+	}else{
+		printf("Yes it is.\n");
+	}
+	return 0;
+}
+
+int check(int *b , int x){
+	int sum = 0,c_sum,k,i;
+	int *pointer =  b;
+	//proverqva sum-ata koqto da se sravnqva
+	for(i = 0; i < x ; i++){
+		sum = sum + *(pointer + i);
+	}
+	//proverqva sum po redove
+	c_sum = 0;
+	for(i = 0; i < x; i++){
+		for(k = 0; k < x; k++){
+			c_sum = c_sum + *(pointer + k + (i * x));
+		}
+		if(c_sum != sum){
+			return 1;
+		}
+		c_sum = 0;
+	}
+
+	//proverqva po koloni
+	c_sum = 0;
+	for(i = 0; i < x; i++){
+		for(k = 0; k < x; k++){
+			c_sum = c_sum + *(pointer + i + (k * x));
+		}
+		if(c_sum != sum){
+			return 1;
+		}
+		c_sum = 0;
+	}
+
+	//diagonal 1 >
+	c_sum = 0;
+	for(i = 0;i < x;i++){
+		c_sum = c_sum + *(pointer + (i*(x + 1)));
+	}
+	if(c_sum != sum){
+		return 1;
+	}
+
+
+	//diagonal 2 <
+	c_sum = 0;
+	for(i = 0; i < x;i++){
+		c_sum = c_sum + *(pointer + 2+(i *(x - 1)));
+	}
+	if(c_sum != sum){
+		return 1;
+	}
+
+	return 0;
+
+}

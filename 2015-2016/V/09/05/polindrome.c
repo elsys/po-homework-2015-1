@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 
-int polindrome(char a, char b);
-int main(void)
+int polindrome();
+int main()
+{
+    polindrome();
+    return 0;
+}
+
+int polindrome()
 {
     char a[100];
     char b[100];
-
-    polindrome(a, b);
-}
-
-int polindrome(char a, char b)
-{
     printf("Enter word: \n");
     scanf("%s", a);
     strcpy(b, a);

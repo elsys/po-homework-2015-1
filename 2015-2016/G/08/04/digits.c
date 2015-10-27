@@ -4,7 +4,7 @@
 int main()
 {
     int i,n,k;
-    int cifri[9] = {0};
+    int cifri[10] = {0};
     printf("vuvedi chislo");
     scanf("%d",&n);
 
@@ -18,10 +18,11 @@ int main()
 
     }
 
- for(i=1;i<=9;i++)
+ for(i=0;i<=10;i++)
     if(cifri[i]>1)
-    printf("cifrata %d se sreshta %d puti \n",i , cifri[i]);
+    printf("cifrata %d se povtarq\n",i);
 
  return 0;
 }
+
 

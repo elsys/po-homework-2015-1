@@ -11,6 +11,6 @@ int main(){
 			printf("String is not palindrome"); return 0;		
 		}	
 	}
-	printf("String is palindrome");
+	printf("String is palindrome \n");
 	return 0;
 }

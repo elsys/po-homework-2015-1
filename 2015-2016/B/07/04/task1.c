@@ -17,5 +17,6 @@ int is_prime(int num1){
   for(i=2;i<num1;i++){
     if(num1%i == 0) end = 1;
   }
+  if(num1<2) end = -1;
   return end;
 }

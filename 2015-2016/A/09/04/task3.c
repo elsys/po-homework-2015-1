@@ -10,8 +10,6 @@ int main() {
 	return 0;
 }
 
-
-
 void create_letter_distribution_diagram() {
 
 	int i, j, letter, sorted = 0;

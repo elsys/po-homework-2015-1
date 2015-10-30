@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void find_frequency(char string[], int count[]);
+void create_letter__distribution_diagram(char string[], int count[]);
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     printf("Input a string\n");
     gets(string);
 
-    find_frequency(string, count);
+    create_letter__distribution_diagram(string, count);
 
     printf("Character Count\n");
 
@@ -21,7 +21,7 @@ int main()
     return 0;
 }
 
-void find_frequency(char string[], int count[])
+void create_letter__distribution_diagram(char string[], int count[])
 {
     int i,j,swap1,swap2;
 

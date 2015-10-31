@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define NUM 26
 
-int create_letter_distribution_program( );
+
+int create_letter_distribution_diagram( );
 int count_letters(char);
-int counter[ NUM ];
-char lTTe[ NUM ];
+int counter[26];
+char lTTe[26];
 
 int main () {
 
 FILE *fp;
 char ch;
 int i;
-for( i = 0 ; i < NUM ; i++ ) {
+for( i = 0 ; i <26; i++ ) {
 counter[ i ]=0;
 lTTe [ i ] = 'a' + i;
 }
@@ -25,7 +25,7 @@ if( (ch>='a' && ch <= 'z') || (ch>='A' && ch<='Z') || ch==' ')
 fputc(ch, fp);
 }
 fclose(fp); 
-create_letter_distribution_program();
+create_letter_distribution_diagram();
     return 0;
 }
 
@@ -43,7 +43,7 @@ int count_letters( char letter ) {
     return 0;
 }
 
-int create_letter_distribution_program( ) {
+int create_letter_distribution_diagram( ) {
  int i, swap, m, k;
   char c,swap_c;
    FILE *fp;
@@ -55,9 +55,9 @@ int create_letter_distribution_program( ) {
  count_letters(c);
     }
      fclose(fp);
-        for( k = 0 ; k < NUM ; k++ ) {
+        for( k = 0 ; k < 26 ; k++ ) {
             m=k;
-            for ( i = k+1; i < NUM; i++ ) {
+            for ( i = k+1; i < 26; i++ ) {
                 if( counter [ m ] < counter [ i ] ) {
                     m = i;
                 }
@@ -69,9 +69,9 @@ int create_letter_distribution_program( ) {
             lTTe [ m ] = lTTe [ k ];
             lTTe [ k ] = swap_c;
         }
-        for(i=0; i<NUM; i++) {
-        for( k = 0 ; k < NUM ; k++ ) {
-        if( counter[k] == counter[k+1] && k < NUM-1 ) {
+        for(i=0; i<26; i++) {
+        for( k = 0 ; k < 26; k++ ) {
+        if( counter[k] == counter[k+1] && k < 26-1 ) {
          if( lTTe[ k ] > lTTe[ k + 1 ] ) {
                   swap = counter [ k+1 ];
                   counter [ k+1 ] = counter [ k ];
@@ -83,7 +83,7 @@ int create_letter_distribution_program( ) {
                 }
             }
         }
-        for ( i = 0; i < NUM ; i++ ) {
+        for ( i = 0; i < 26 ; i++ ) {
             printf("%c : %d \n", lTTe[i], counter[i]);
         }
         return 0;

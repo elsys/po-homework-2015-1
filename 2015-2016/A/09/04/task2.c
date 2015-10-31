@@ -20,7 +20,7 @@ int exact_square(int number) {
 		return 1;
 	}
 
-	for (i = 1; i < number; i++) {
+	for (i = 2; i < number; i++) {
 
 		if (i * i == number) {
 			return 1;

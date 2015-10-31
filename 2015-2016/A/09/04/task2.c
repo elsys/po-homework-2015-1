@@ -16,9 +16,16 @@ int exact_square(int number) {
 
 	int i;
 
-	for (i = 1; i < number; i++) {
+	if (number == 0 || number == 1) {
+		return 1;
+	}
+
+	for (i = 2; i < number; i++) {
+
 		if (i * i == number) {
 			return 1;
+		} else if (i * i > number) {
+			break;
 		}
 	}
 

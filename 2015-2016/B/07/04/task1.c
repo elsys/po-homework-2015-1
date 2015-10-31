@@ -2,8 +2,7 @@
 
 int is_prime( int num1);
 
-int main()
-{
+int main(){
   int num1,end;
   scanf("%d", &num1 );
   end =  is_prime(num1);
@@ -13,9 +12,9 @@ int main()
 }
 
 int is_prime(int num1){
-  int i,end=0;
+  int i,end=1;
   for(i=2;i<num1;i++){
-    if(num1%i == 0) end = 1;
+    if(num1%i == 0) end = 0;
   }
   if(num1<2) end = -1;
   return end;

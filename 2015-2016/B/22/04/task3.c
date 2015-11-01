@@ -32,6 +32,13 @@ int create_letter_distribution_diagram(){
 			
 	
 		   }   
+			if ( text[helper1] >= 'A' && text[helper1] <= 'Z'){
+				helper2 = text[helper1];
+				helper2 = helper2 - 'A'	;
+				alphabet_letters[helper2] ++;
+			
+	
+		   }   
 		helper1++;               	
 		}
 		
@@ -71,9 +78,9 @@ int create_letter_distribution_diagram(){
 
 
 }
-	helper3=0;
+	helper3=0;  
 	while (helper3 < 26) {
-		printf("%c-:-%d\n" ,alphabet[helper3], alphabet_letters[helper3]);
+		printf("%c:::%d\n" ,alphabet[helper3], alphabet_letters[helper3]);
 		helper3++;
 	}
 return 0;

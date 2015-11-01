@@ -1,23 +1,21 @@
 #include <stdio.h>
-#include <string.h>
 
-void create_letter_distribution_diagram();
+typedef struct letter_t {
+	char symbol;
+	int count;
+} letter;
 
 int main() {
 
-	create_letter_distribution_diagram();
-
-	return 0;
-}
-
-void create_letter_distribution_diagram() {
-
-	int i, j, letter, sorted = 0;
-	char symbol, string[100], letters[26][2], temp[2];
+	int i, j, letter_index, sorted = 0;
+	char symbol;
+	
+	letter letters[26];
+	letter temp;
 
 	for (i = 0, j = 'a'; i < 26; i++, j++) {
-		letters[i][0] = j;
-		letters[i][1] = '0';
+		letters[i].symbol = j;
+		letters[i].count = 0;
 	}
 
 	i = 0;
@@ -27,17 +25,12 @@ void create_letter_distribution_diagram() {
 		if (symbol == EOF) {
 			break;
 		} else {
-			string[i] = symbol;
-			i++;
+			if (symbol >= 'A' && symbol <= 'Z') {
+				symbol -= 'A' - 'a';
+			}
+			letter_index = 25 + symbol - 'z';
+			letters[letter_index].count++;
 		}
-	}
-	
-	for (i = 0, j = 'a'; i < strlen(string); i++, j++) {
-		if (string[i] >= 'A' && string[i] <= 'Z') {
-			string[i] -= 'A' - 'a';
-		}
-		letter = 25 + string[i] - 'z';
-		letters[letter][1] = (letters[letter][1] - '0' + 1) + '0';
 	}
 
 	j = 0;
@@ -45,23 +38,24 @@ void create_letter_distribution_diagram() {
 		j++;
 		sorted = 1;
 		for (i = 0; i < 26 - j; i++) {
-			if (letters[i][1] < letters[i + 1][1]) {
+			if (letters[i].count < letters[i + 1].count) {
 
-				temp[0] = letters[i][0];
-				temp[1] = letters[i][1];
+				temp = letters[i];
 
-				letters[i][0] = letters[i + 1][0];
-				letters[i][1] = letters[i + 1][1];
+				letters[i].symbol = letters[i + 1].symbol;
+				letters[i].count = letters[i + 1].count;
 
-				letters[i + 1][0] = temp[0];
-				letters[i + 1][1] = temp[1];
+				letters[i + 1].symbol = temp.symbol;
+				letters[i + 1].count = temp.count;
 
 				sorted = 0;
 			}
 		}
 	}
-	
+
 	for (i = 0; i < 26; i++) {
-		printf("%c: %d\n", letters[i][0], letters[i][1] - '0');
+		printf("%c: %d\n", letters[i].symbol, letters[i].count);
 	}
+
+	return 0;
 }

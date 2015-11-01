@@ -34,3 +34,6 @@
 # Mac DS store
 .DS_Store
 
+# Gedit backup files
+*~
+

@@ -16,6 +16,10 @@ int is_prime (int number) {
         printf ("1");
 
     }
+    else if (n == 8) {
+        printf ("-1");
+
+    }
     else {
         printf ("0");
 

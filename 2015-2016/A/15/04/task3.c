@@ -19,14 +19,16 @@ int main(){
 void create_letter_distribution_diagram(){
 	int i, l, temp;
 	char ch, str[200], tempchar; 
+	
 	for(i = 0; i < 26; i++){
 		diagram[i].character = 'a' + i;
 		diagram[i].occurences = 0;
 	}
+	
 	for(i=0; 1; i++){
 		ch=getchar();
 		
-		if(ch == '\n'){
+		if(ch == EOF){
 			break;
 		}
 		else{
@@ -46,19 +48,19 @@ void create_letter_distribution_diagram(){
 	for (i = 0; i < (26 - 1); i++){
 		for (l = 0; l < 26 - i - 1; l++) {
 			if(diagram[l].occurences < diagram[l+1].occurences){
-				temp=diagram[l].occurences;
-				tempchar=diagram[l].character;
+				temp = diagram[l].occurences;
+				tempchar = diagram[l].character;
 				diagram[l].occurences = diagram[l+1].occurences;
 				diagram[l+1].occurences = temp;
-				diagram[l].character   = diagram[l+1].character;
+				diagram[l].character = diagram[l+1].character;
 				diagram[l+1].character = tempchar;
 			}
-			else if(diagram[l].character < diagram[l+1].character && diagram[l].occurences == diagram[l+1].occurences){
-				temp=diagram[l].occurences;
-				tempchar=diagram[l].character;
+			else if(diagram[l].character < diagram[l+1].character && diagram[l].occurences == diagram[l+1].occurences){ /*Sorts the rest alphabetically if they have equal occurences*/
+				temp = diagram[l].occurences;
+				tempchar = diagram[l].character;
 				diagram[l].occurences = diagram[l+1].occurences;
 				diagram[l+1].occurences = temp;
-				diagram[l].character   = diagram[l+1].character;
+				diagram[l].character = diagram[l+1].character;
 				diagram[l+1].character = tempchar;
 			}
 		}

@@ -71,4 +71,5 @@ int create_letter_distribution_diagram(){
     for ( i = 0; i < 26 ; i++ ) {
             printf("%c : %d \n", varr[i], count[i]);
         }return 0;
+
 }

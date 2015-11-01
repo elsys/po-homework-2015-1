@@ -2,9 +2,9 @@
 
 int is_prime(int);
 
-main()
+int main()
 {
-   int n, result;
+   int n;
 
    printf("Enter an integer.\n");
    scanf("%d",&n);
@@ -30,4 +30,6 @@ int is_prime(int n)
    }
    if ( c == n )
         return 1;
+
+        return 0;
 }

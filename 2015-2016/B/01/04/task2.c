@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int exact_square(int sq){
 

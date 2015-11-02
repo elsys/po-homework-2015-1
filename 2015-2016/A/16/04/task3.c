@@ -20,7 +20,6 @@ void create_letter_distribution_diagram(void)
     while(n!=27)
     {
         occurences_chars[n] = 96 + n;
-        printf("%c", occurences_chars[n]);
         n++;
     }
     char selector;

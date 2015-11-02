@@ -23,7 +23,7 @@ int exact_square(int number)
 
 	for(count = 0; count <= number / 2; count++)
 	{
-	    if(sqrt(number) == count)
+	    if(count ** count == number)
 	    {
 		    value = 1;
 	    }

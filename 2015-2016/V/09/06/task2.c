@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int exact_square(int);
 int main() {
     int n;
@@ -12,6 +13,8 @@ int main() {
     else {
         printf("0");
     }
+
+    return 0;
 }
 
 int exact_square(int n) {
@@ -23,4 +26,5 @@ int exact_square(int n) {
             break;
         }
     }
+    return 0;
 }

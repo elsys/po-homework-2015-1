@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 int is_prime(int n);
-
 int main(){
     int n, prime;
 
@@ -12,15 +10,14 @@ int main(){
     if (prime == 1) {
       printf("1", n);
     }
-   else{
+   else {
       printf("0", n);
    }
 
     return 0;
 }
 
-int is_prime(int n)
-{
+int is_prime(int n) {
     int i;
 
     for(i = 2; i <= n - 1; i++) {

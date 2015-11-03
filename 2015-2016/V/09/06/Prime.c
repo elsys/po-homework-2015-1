@@ -1,5 +1,5 @@
 #include <stdio.h>
-int is_prime(int n);
+int is_prime(int);
 int main(){
     int n, prime;
 

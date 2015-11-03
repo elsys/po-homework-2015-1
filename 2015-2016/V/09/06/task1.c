@@ -1,6 +1,6 @@
 #include <stdio.h>
 int is_prime(int);
-int main(){
+int main() {
     int n, prime;
 
     printf("Enter number: \n");

@@ -59,4 +59,4 @@ int power_10(int power){
 		count = count - 1;
 	}
 	return result;
-}
+}//by Ivan Milev

@@ -17,4 +17,4 @@ int exact_square(int number){
 		}
 	}
 	return 0;
-}
+}//by Ivan Milev

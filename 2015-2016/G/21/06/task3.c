@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_INPUT_LENGHT 100
+#define MAX_INPUT_LENGHT 1000
 #define ENGLISH_ALPHABET_LENGHT 26
 
 void sort_by_freeqence();

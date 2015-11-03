@@ -28,9 +28,6 @@ int is_prime(char number[],int len){
 	if(int_number == 1){
 		return -1;
 	}
-	if(int_number < 0){
-		return 0;
-	}
 	for(count = 2; count < int_number; count++){
 		if(int_number % count == 0){
 			return 0;

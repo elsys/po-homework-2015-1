@@ -23,7 +23,6 @@ int exact_square(int n) {
     for(i = 0; i <= n; i++) {
         if (n == i * i) {
             return 1;
-            break;
         }
     }
     return 0;

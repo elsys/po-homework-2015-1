@@ -25,6 +25,9 @@ int is_prime(char number[],int len){
 
 	}
 	int int_number = char_to_int(number,len);
+	if(int_number == 1){
+		return -1;
+	}
 	if(int_number < 0){
 		return 0;
 	}
@@ -59,4 +62,4 @@ int power_10(int power){
 		count = count - 1;
 	}
 	return result;
-}//by Ivan Milev
+}

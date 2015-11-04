@@ -12,7 +12,7 @@ int main(){
 
 	}else{
 
-		printf("%d \n", is_prime(number));
+		printf("%d \n", is_prime(n));
 
 	}
 

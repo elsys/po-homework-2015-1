@@ -5,9 +5,14 @@ void print_generation(int*, int);
 int is_alive(int*, int);
 
 int main() {
-
 	int current[20], next[20], n, length;
 	scanf("%d", &n);
+
+	if (n <= 0) {
+		return 0;
+	} else if (n > 20) {
+		n = 20;
+	}
 
 	length = n;
 
@@ -28,7 +33,7 @@ int main() {
 
 void next_generation(int *current, int *next, int length) {
 	int i;
-
+	
 	next[0] = 0;
 	next[length - 1] = 0;
 

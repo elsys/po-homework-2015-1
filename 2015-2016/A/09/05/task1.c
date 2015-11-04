@@ -19,6 +19,7 @@ int main() {
 }
 
 void rotr(int *a, int *b, int *c) {
+
 	int temp = *a + *b;
 	*a = *c;
 	*b = temp - *b;

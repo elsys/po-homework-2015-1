@@ -5,6 +5,7 @@ void print_generation(int*, int);
 int is_alive(int*, int);
 
 int main() {
+
 	int current[20], next[20], n, length;
 	scanf("%d", &n);
 
@@ -32,8 +33,9 @@ int main() {
 }
 
 void next_generation(int *current, int *next, int length) {
+
 	int i;
-	
+
 	next[0] = 0;
 	next[length - 1] = 0;
 
@@ -51,6 +53,7 @@ void next_generation(int *current, int *next, int length) {
 }
 
 void print_generation(int *generation, int length) {
+
 	int i = 0;
 	for (; i < length; i++) {
 		printf("%c", generation[i] == 0 ? '.' : '*');
@@ -60,11 +63,13 @@ void print_generation(int *generation, int length) {
 }
 
 int is_alive(int *generation, int length) {
+
 	int i = 0;
 	for (; i < length; i++) {
 		if (generation[i] == 1) {
 			return 1;
 		}
 	}
+	
 	return 0;
 }

@@ -9,7 +9,7 @@ struct letter{
 
 struct letter alphabet[26];
 
-int check_for_letters(char sentence[],int sentence_lenght);
+int create_letter_distribution_diagram(char sentence[],int sentence_lenght);
 int sort_structure();
 
 int main(){
@@ -17,7 +17,7 @@ int main(){
 	char sentence[stringlen];
 	scanf("%[^\n]s",sentence);
 	int sentence_lenght = strlen(sentence);
-	if(check_for_letters(sentence,sentence_lenght)){
+	if(create_letter_distribution_diagram(sentence,sentence_lenght)){
 		sort_structure();
 	}
 
@@ -27,7 +27,7 @@ int main(){
 	return 0;
 }
 
-int check_for_letters(char sentence[],int sentence_lenght){
+int create_letter_distribution_diagram(char sentence[],int sentence_lenght){
 	int count_letter;
 	int count_sentence = 0;
 	for(count_letter = 0; count_letter <= 25; count_letter++){
@@ -67,6 +67,6 @@ int sort_structure(){
 				}
 			}
 		}
-	}//by Ivan Milev
+	}
 	return 1;
 }

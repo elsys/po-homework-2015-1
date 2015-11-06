@@ -8,18 +8,18 @@ void next_generation( int* ,int*, int);
 int main() {
     int current[21];
     int next[21];
-    int num_cells , num_cells_helper , cell_current, i;
+    int lenght , lenght_helper , cell_current, i;
     for ( i = 0 ; i < 20 ; i++ ) {
         *( current + i ) = 0;
         *( next + i ) = 0;
     }
     do {
-        scanf( "%d" , &num_cells );
-    } while( num_cells > 20 || num_cells < 0 );
-    for ( num_cells_helper = num_cells , cell_current = 1 ; num_cells_helper > 0 ; num_cells_helper -- , cell_current ++ ) {
+        scanf( "%d" , &lenght );
+    } while( lenght > 20 || lenght < 0 );
+    for ( lenght_helper = lenght , cell_current = 1 ; lenght_helper > 0 ; lenght_helper -- , cell_current ++ ) {
         scanf ( "%d" , &current[ cell_current ] );
     }
-    next_generation( &current , &next , num_cells );
+    next_generation( &current , &next , lenght );
     return 0;
 }
 

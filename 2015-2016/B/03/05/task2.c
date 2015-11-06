@@ -3,13 +3,13 @@
 
 int repeated = 0;
 
-void next_generation( int* ,int*, int);
+void next_generation( int * , int * , int );
 
 int main() {
-    int current[21];
-    int next[21];
-    int lenght , lenght_helper , cell_current, i;
-    for ( i = 0 ; i < 20 ; i++ ) {
+    int current[ 22 ];
+    int next[ 22 ];
+    int lenght , lenght_helper , cell_current , i;
+    for ( i = 0 ; i < 22 ; i++ ) {
         *( current + i ) = 0;
         *( next + i ) = 0;
     }
@@ -27,12 +27,12 @@ void next_generation( int *current , int *next , int lenght ) {
     int i , alive = 0 ;
     for ( i = 0 ; i <= lenght ; i++ ) {
         if( *( current + i ) == 1 ) {
-                alive++;
+                alive ++ ;
         }
     }
     for ( i = 1 ; i <= lenght ; i++ ) {
-        if( *( current + i ) == 0 ) printf(" .");
-        else printf(" *");
+        if( *( current + i ) == 0 ) printf( " ." );
+        else printf( " *" );
     }
     if( alive > 0 && repeated < 1000 ) {
         for ( i = 1 ; i <= lenght ; i++ ) {
@@ -42,7 +42,7 @@ void next_generation( int *current , int *next , int lenght ) {
                 *( next + i ) = 1;
             }
         }
-        printf("\n");
+        printf( "\n" );
         repeated ++;
         next_generation( next , current , lenght );
     }

@@ -10,8 +10,8 @@ int main() {
     int next[21];
     int num_cells , num_cells_helper , cell_current, i;
     for ( i = 0 ; i < 20 ; i++ ) {
-        *(current + i) = 0;
-        *(next + i) = 0;
+        *( current + i ) = 0;
+        *( next + i ) = 0;
     }
     do {
         scanf( "%d" , &num_cells );
@@ -34,7 +34,7 @@ void next_generation( int *current , int *next , int lenght ) {
         if( *( current + i ) == 0 ) printf(" .");
         else printf(" *");
     }
-    if( alive > 0 && repeated < 10) {
+    if( alive > 0 && repeated < 1000 ) {
         for ( i = 1 ; i <= lenght ; i++ ) {
             if ( *( current + i + 1 ) == *( current + i - 1 ) ) {
                 *( next + i ) = 0;

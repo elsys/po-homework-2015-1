@@ -6,7 +6,6 @@ int main()
 {
 	int num;
 
-	printf( "Enter Number: " );
 	scanf( "%d" , &num );
 
 	printf( "%d" , exact_square(num) );

@@ -19,7 +19,7 @@ int main() {
     for ( lenght_helper = lenght , cell_current = 1 ; lenght_helper > 0 ; lenght_helper -- , cell_current ++ ) {
         scanf ( "%d" , &current[ cell_current ] );
     }
-    next_generation( &current , &next , lenght );
+    next_generation( current , next , lenght );
     return 0;
 }
 

@@ -8,8 +8,7 @@ void next_generation( int* ,int*, int);
 int main() {
     int current[21];
     int next[21];
-    int num_cells , num_cells_helper , cell_current, num_get, i, times_ran;
-    char get;
+    int num_cells , num_cells_helper , cell_current, i;
     for ( i = 0 ; i < 20 ; i++ ) {
         *(current + i) = 0;
         *(next + i) = 0;
@@ -25,7 +24,7 @@ int main() {
 }
 
 void next_generation( int *current , int *next , int lenght ) {
-    int i , alive = 0 , start;
+    int i , alive = 0 ;
     for ( i = 0 ; i <= lenght ; i++ ) {
         if( *( current + i ) == 1 ) {
                 alive++;

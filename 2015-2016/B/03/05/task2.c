@@ -24,7 +24,7 @@ int main() {
 }
 
 void next_generation( int *current , int *next , int lenght ) {
-    int i , alive = 0 ;
+    int i , alive = 0 , start, end;
     for ( i = 0 ; i <= lenght ; i++ ) {
         if( *( current + i ) == 1 ) {
                 alive ++ ;
@@ -34,8 +34,12 @@ void next_generation( int *current , int *next , int lenght ) {
         if( *( current + i ) == 0 ) printf( " ." );
         else printf( " *" );
     }
+    if ( *(current + 1) == 0 ) start = 2;
+    else start = 1;
+    if ( *(current + lenght ) == 0 ) end = lenght - 1;
+    else end = lenght;
     if( alive > 0 && repeated < 1000 ) {
-        for ( i = 1 ; i <= lenght ; i++ ) {
+        for ( i = start ; i <= end ; i++ ) {
             if ( *( current + i + 1 ) == *( current + i - 1 ) ) {
                 *( next + i ) = 0;
             } else {

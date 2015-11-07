@@ -5,7 +5,6 @@ void next_generation(int *current,int *next,int length);
 int main(){
     int length,n,current[20],next[20],countforZeros,i,j;
 
-    printf("Enter length: ");
     scanf("%d",&length);
     if(length>20){
         printf("Length should be max 20!");
@@ -55,7 +54,7 @@ return 0;
 void next_generation(int *current,int *next,int length){
     int i;
     next[0]=0;
-	next[length-1]=0;
+    next[length-1]=0;
 
 	for(i=1;i<length-1;i++){
 		if((current[i]==0) && ((current[i-1]==1 || current[i+1]==1) && !(current[i-1]==1 && current[i+1]==1))){

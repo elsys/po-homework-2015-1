@@ -29,7 +29,7 @@ int main() {
 			n++;
 			next_generation(current, next, length);
 			print_generation(next, length);
-		} while (n < 9 && is_alive(next, length));
+		} while (n < 999 && is_alive(next, length));
 	}
 	
 	return 0;

@@ -23,12 +23,15 @@ int main() {
 	}
 
 	print_generation(current, length);
-	do {
-		n++;
-		next_generation(current, next, length);
-		print_generation(next, length);
-	} while (n <= 1000 && is_alive(next, length));
 
+	if (is_alive(current, length)) {
+		do {
+			n++;
+			next_generation(current, next, length);
+			print_generation(next, length);
+		} while (n < 999 && is_alive(next, length));
+	}
+	
 	return 0;
 }
 

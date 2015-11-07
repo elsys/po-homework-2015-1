@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 
 int create_letter_distribution_diagram (char txt[100]){
 

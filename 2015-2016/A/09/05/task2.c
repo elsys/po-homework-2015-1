@@ -29,7 +29,7 @@ int main() {
 			n++;
 			next_generation(current, next, length);
 			print_generation(next, length);
-		} while (n < 999 && is_alive(next, length));
+		} while (n < 9 && is_alive(next, length));
 	}
 	
 	return 0;
@@ -43,11 +43,13 @@ void next_generation(int *current, int *next, int length) {
 	next[length - 1] = 0;
 
 	for (i = 1; i < length - 1; i++) {
-		if (current[i] == 0 && (current[i - 1] || current[i + 1]) && !(current[i - 1] && current[i + 1])) {
-			next[i] = 1;
-		} else {
-			next[i] = 0;
+		if (current[i - 1] == 1 || current[i + 1] == 1) {
+			if (!(current[i - 1] == 1 && current[i + 1] == 1)) {
+				next[i] = 1;
+				continue;
+			}
 		}
+		next[i] = 0;
 	}
 
 	for (i = 0; i < length; i++) {

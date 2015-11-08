@@ -38,8 +38,8 @@ void next_generation( int *current , int *next , int lenght ) {
         }
     }
     for ( i = 0 ; i < lenght ; i++ ) {
-        if( *( current + i ) == 0 ) printf( " ." );
-        else printf( " *" );
+        if( *( current + i ) == 0 ) printf( "." );
+        else printf( "*" );
     }
     if( alive > 0 && repeated < 1000 ) {
         for ( i = 1 ; i < lenght - 1 ; i++ ) {

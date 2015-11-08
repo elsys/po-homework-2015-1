@@ -45,6 +45,7 @@ void next_generation(int *current, int *next, int length){
 int main(){
 	int n, curGen[20], nextGen[20], i;
 	do{
+		printf("input amount: ");
 		scanf("%d", &n);
 	}while(n < 0 && n > 20);
 	
@@ -52,8 +53,9 @@ int main(){
 	
 	i=0;
 	while(i<n){
+		printf("input cell %d: ", i);
 		scanf("%d", &curGen[i]);
-		if((curGen[i] != 0 && curGen[i] != 1) || (curGen[i] == 1 && (i == 0 || i == n-1))){
+		if(curGen[i] != 0 && curGen[i] != 1){
 			continue;
 		}
 		i++;

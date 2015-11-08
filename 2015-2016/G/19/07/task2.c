@@ -1,19 +1,21 @@
 #include <stdio.h>
 void next_generation(int*, int*, int);
-
+ 
 int main()
 {
     int n, i;
     int hasLife = 1;
+    int current[20];
+    int next[20];
+ 
     scanf("%d", &n);
-    int current[n];
-    int next[n];
-
+ 
+ 
     for(i = 0; i < n; i++)
     {
         scanf("%d", &current[i]);
     }
-
+ 
     do{
         hasLife = 0;
         for(i = 0; i < n; i++)
@@ -24,7 +26,7 @@ int main()
                 break;
             }
         }
-
+ 
         for(i = 0; i < n; i++)
             {
                 if(current[i] == 1)
@@ -36,20 +38,20 @@ int main()
                     printf(".");
                 }
             }
-
+ 
         printf("\n");
-        next_generation(&current, &next, n);
-
+        next_generation(current, next, n);
+ 
         for(i = 0; i < n; i++)
         {
             current[i] = next[i];
         }
-
+ 
     }while(hasLife == 1);
-
+ 
     return 0;
 }
-
+ 
 void next_generation(int *current, int *next, int length)
 {
     int i;
@@ -67,4 +69,5 @@ void next_generation(int *current, int *next, int length)
              next[i] = 1;
         }
     }
+ 
 }

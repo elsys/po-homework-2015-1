@@ -55,11 +55,11 @@ void next_generation(int *current, int *next, int length)
         {
             if(*(current + count) == 1)
             {
-               printf(" *");
+               printf("*");
             }
             else
             {
-               printf(" .");
+               printf(".");
             }
         }   
 
@@ -72,7 +72,7 @@ void next_generation(int *current, int *next, int length)
 			count = 0;
             for(; count < length; count++)
             {
-                printf(" .");  
+                printf(".");  
             }  
             return;
         }

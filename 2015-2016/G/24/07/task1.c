@@ -4,7 +4,7 @@ void rotr(int *a, int *b, int *c);
 
 int main(){
 
-	int a, b, c, n, i;
+	int a, b, c, n;
 
 	do{
 

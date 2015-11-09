@@ -13,10 +13,10 @@ int main(void)
     while(counter != limiter)
     {
         scanf("%d", &old_cells[counter]);
-        /*if(old_cells[counter]!=1 || old_cells[counter]!=0)
+        if(old_cells[counter]!=1 || old_cells[counter]!=0)
         {
             return -1;
-        }*/
+        }
         new_cells[counter] = old_cells[counter];
         counter++;
     }

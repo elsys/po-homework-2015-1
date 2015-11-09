@@ -55,7 +55,7 @@ void create_letter_distribution_diagram(){
 				diagram[l].character = diagram[l+1].character;
 				diagram[l+1].character = tempchar;
 			}
-			else if(diagram[l].character < diagram[l+1].character && diagram[l].occurences == diagram[l+1].occurences){ /*Sorts the rest alphabetically if they have equal occurences*/
+			else if(diagram[l].character > diagram[l+1].character && diagram[l].occurences == diagram[l+1].occurences){ /*Sorts the rest alphabetically if they have equal occurences*/
 				temp = diagram[l].occurences;
 				tempchar = diagram[l].character;
 				diagram[l].occurences = diagram[l+1].occurences;

@@ -34,7 +34,7 @@ void next_generation(int *current, int *next, int length)
 
 int main()
 {
-	int length, i, current[20], next[20];
+	int length, i, current[20], next[20], dead;
 	scanf("%d", &length);
 	/* checks */
 	if(length<0 || length>20)
@@ -72,8 +72,19 @@ int main()
 	next[length-1]=0;
 	for(i=0; i<1000; i++)
 	{
-		next_generation(current, next, length);
-		break;
+		dead=1;
+        next_generation(current, next, length);
+        for(i=0; i<length; i++)
+        {
+            if(current[i]!=0)
+            {
+                dead=0;
+            }
+        }
+        if(dead==1)
+        {
+            break;
+        }
 	}
 	printf("\n");
 	return 0;

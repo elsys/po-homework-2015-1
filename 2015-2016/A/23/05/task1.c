@@ -11,10 +11,7 @@ void rotr(int *a,int *b,int *c)
 int main()
 {
     int a,b,c,n,i=0;
-    printf("a=");scanf("%d",&a);
-    printf("b=");scanf("%d",&b);
-    printf("c=");scanf("%d",&c);
-    printf("n=");scanf("%d",&n);
+    printf("");scanf("%d %d %d %d",&a,&b,&c,&n);
     int *var1;
     int *var2;
     int *var3;

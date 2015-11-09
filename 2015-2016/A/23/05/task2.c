@@ -6,7 +6,7 @@ int i=0;
 int liveNear;
 for(i=0;i<length;i++)
     {
-        liveNear = 0;
+        liveNear=0;
         if(i-1>=0)
         {
             if(current[i-1] == 1)
@@ -21,7 +21,7 @@ for(i=0;i<length;i++)
             liveNear++;
         }
     }
-    if( liveNear == 1 && current[i] == 0 && i != 0 && i+1 < length)
+    if( liveNear == 1 && current[i] == 0 && i != 0 && i+1<length)
     {
         next[i] = 1;
     }
@@ -37,7 +37,6 @@ char ch;
 int entered[20],generated[20],n,i=0,Deadcells=0,loop=0;
 do
     {
-    printf("n=");
     scanf("%d", &n);
     }
 while(n<=0 || n>=20);
@@ -51,7 +50,7 @@ while(1)
         }
     if(ch == '0')
         {
-        entered[i] = 0;
+        entered[i] =0;
         i++;
         }
     if(i>=n)
@@ -60,7 +59,7 @@ while(1)
         }
     }
 printf("\n");
-for(i = 0;i<n; i++)
+for(i=0;i<n;i++)
     {
         if(entered[i]==0)
         {
@@ -75,8 +74,8 @@ printf("\n");
 do
 {
 next_generation(entered,generated,n);
-Deadcells = 0;
-for(i = 0;i<n; i++)
+Deadcells=0;
+for(i=0;i<n;i++)
     {
     if(generated[i]==0)
         {
@@ -87,7 +86,7 @@ for(i = 0;i<n; i++)
         {
         printf("*");
         }
-    entered[i] = generated[i];
+    entered[i]=generated[i];
     }
 printf("\n");
 loop++;

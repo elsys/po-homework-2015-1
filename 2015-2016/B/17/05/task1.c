@@ -12,8 +12,8 @@ int main()
 
     rotr ( num, &a, &b, &c ) ;
 
-    printf ( "%d", a ) ;
-    printf ( "%d", b ) ;
+    printf ( "%d ", a ) ;
+    printf ( "%d ", b ) ;
     printf ( "%d", c ) ;
 
     return 0;

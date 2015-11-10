@@ -24,7 +24,7 @@ int main(){
 				printf(".");
 	}
 	printf("\n");
-	for(count = 0; count < 4 && check_generation(current,next,array_lenght); count++){
+	for(count = 0; count < 1000 && check_generation(current,next,array_lenght); count++){
 			next_generation(current,next,array_lenght);
 			for(count_print = 0 ;count_print < array_lenght; count_print++){
 				if(next[count_print]){

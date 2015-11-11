@@ -3,7 +3,7 @@
 * Домашните се компилират така:
 
 ```
-gcc -Wall -std=c11 taskn.c
+gcc -Wall -pedantic -std=c11 taskn.c
 ```
 * Празен pull request или такъв с некомпилиращи се програми не се приема
 * По един pull request на домашно с минимум по една задача

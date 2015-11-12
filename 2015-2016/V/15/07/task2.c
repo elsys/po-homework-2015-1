@@ -62,8 +62,7 @@ void next_generation(int* current, int* next, int length) {
 				*(next+i) = 1;
 				continue;
 			}
-			else i[next] = 0; /// ...
-			//getch();
+			else i[next] = 0; /* ... */
 	}
 	
 }

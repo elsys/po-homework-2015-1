@@ -11,7 +11,6 @@ int main()
 
 int is_prime(unsigned int in)
 {
-    int i;
     if(in < 2) return -1;
     if(in == 2 || in == 3) return 1;
     if(in % 2 == 0 || in % 3 == 0) return 0;

@@ -1,0 +1,33 @@
+Evaluating homework 04 on student 16 from A class
+
+
+Evalutaing task3.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/16/04/task3.c:8:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/16/04/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/16/04/task1.c:13:9: warning: ‘return’ with no value, in function returning non-void
+         return;
+         ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/16/04/task1.c:19:9: warning: ‘return’ with no value, in function returning non-void
+         return;
+         ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/16/04/task2.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^
+
+
+Summary
+
+	task3 - 0/2 - warning
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning

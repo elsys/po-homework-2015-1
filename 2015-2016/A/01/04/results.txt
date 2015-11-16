@@ -1,0 +1,23 @@
+Evaluating homework 04 on student 01 from A class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/01/04/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/01/04/task1.c:26:2: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  printf ("%d \n", is_prime(n,i) );
+  ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/01/04/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/01/04/task2.c:29:2: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  printf ("%d \n", is_prime(n,i) );
+  ^
+
+
+Summary
+
+	task2 - 0/2 - warning
+	task1 - 0/2 - warning

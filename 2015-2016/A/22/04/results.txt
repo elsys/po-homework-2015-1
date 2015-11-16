@@ -1,0 +1,25 @@
+Evaluating homework 04 on student 22 from A class
+
+
+Evalutaing task3.c
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/22/04/task1.c: In function ‘is_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/22/04/task1.c:14:5: warning: type of ‘num’ defaults to ‘int’ [-Wimplicit-int]
+ int is_prime(num)
+     ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/22/04/task2.c: In function ‘exact_square’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/22/04/task2.c:14:5: warning: type of ‘num’ defaults to ‘int’ [-Wimplicit-int]
+ int exact_square(num)
+     ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning

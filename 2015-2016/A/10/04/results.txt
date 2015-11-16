@@ -1,0 +1,38 @@
+Evaluating homework 04 on student 10 from A class
+
+
+Evalutaing task3.c
+	Test 1 failed:
+		Expected:
+			e: 6 s: 4 a: 3 i: 2 l: 2 n: 2 t: 2 c: 1 h: 1 m: 1 o: 1 r: 1 w: 1 y: 1 b: 0 d: 0 f: 0 g: 0 j: 0 k: 0 p: 0 q: 0 u: 0 v: 0 x: 0 z: 0
+		Got: 
+ 			
+
+	Test 2 failed:
+		Expected:
+			e: 1 n: 1 o: 1 a: 0 b: 0 c: 0 d: 0 f: 0 g: 0 h: 0 i: 0 j: 0 k: 0 l: 0 m: 0 p: 0 q: 0 r: 0 s: 0 t: 0 u: 0 v: 0 w: 0 x: 0 y: 0 z: 0
+		Got: 
+ 			
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/10/04/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/10/04/task1.c:7:8: warning: implicit declaration of function ‘is_prime’ [-Wimplicit-function-declaration]
+  digit=is_prime(number);
+        ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/10/04/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/10/04/task2.c:7:8: warning: implicit declaration of function ‘exact_square’ [-Wimplicit-function-declaration]
+  digit=exact_square(number);
+        ^
+
+
+Summary
+
+	task3 - 0/2
+	task2 - 0/2 - warning
+	task1 - 0/2 - warning

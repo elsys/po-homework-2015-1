@@ -1,0 +1,15 @@
+Evaluating homework 04 on student 07 from A class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task2 - 2/2
+	task1 - 2/2

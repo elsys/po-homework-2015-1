@@ -1,0 +1,33 @@
+Evaluating homework 04 on student 13 from A class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task1.c:11:9: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+     j = strlen(c);
+         ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task1.c:11:9: warning: incompatible implicit declaration of built-in function ‘strlen’
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task1.c:11:9: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task1.c: In function ‘is_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task1.c:32:12: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+     root = sqrt(num);
+            ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task1.c:32:12: warning: incompatible implicit declaration of built-in function ‘sqrt’
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task1.c:32:12: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task2.c: In function ‘exact_square’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task2.c:19:15: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+     rootInt = sqrt(n);
+               ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task2.c:19:15: warning: incompatible implicit declaration of built-in function ‘sqrt’
+/home/sasho/programs/elsys/po-homework/2015-2016/A/13/04/task2.c:19:15: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning

@@ -30,6 +30,6 @@ Evalutaing task2.c
 
 Summary
 
-	task3 - 0/2 - warning
-	task2 - 2/2
 	task1 - 0/2 - warning
+	task2 - 2/2
+	task3 - 0/2 - warning

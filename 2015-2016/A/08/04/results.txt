@@ -15,6 +15,6 @@ Evalutaing task2.c
 
 Summary
 
+	task1 - 2/2
 	task2 - 2/2
 	task3 - 2/2
-	task1 - 2/2

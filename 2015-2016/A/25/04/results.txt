@@ -45,6 +45,6 @@ Evalutaing task2.c
 
 Summary
 
-	task3 - 0/2
-	task2 - 0/2
 	task1 - 0/2
+	task2 - 0/2
+	task3 - 0/2

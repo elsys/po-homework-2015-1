@@ -1,0 +1,22 @@
+Evaluating homework 05 on student 03 from B class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/03/05/task2.c: In function ‘next_generation’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/03/05/task2.c:34:32: warning: unused variable ‘end’ [-Wunused-variable]
+     int i , alive = 0 , start, end;
+                                ^
+/home/sasho/programs/elsys/po-homework/2015-2016/B/03/05/task2.c:34:25: warning: unused variable ‘start’ [-Wunused-variable]
+     int i , alive = 0 , start, end;
+                         ^
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/1 - warning

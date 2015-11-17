@@ -14,13 +14,10 @@ int main()
 	for(i=0;i<n;i++)
 	{
 		c=getchar();
-		if(c!='1' && c!='0') return 1;
-		else current[i]=c-'0';
+		current[i]=c-'0';
 		next[i]=current[i];
 		c=getchar();
-		if((i+1!=n && c!=' ') || (i+1==n && c!='\n')) return 1;
 	}
-	if(current[0]!=0 || current[n-1]!=0) return 1;
 	for(j=0;j<1000;j++)
 	{		
 		alive=0;

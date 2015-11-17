@@ -1,0 +1,20 @@
+Evaluating homework 05 on student 01 from A class
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			3 1 2
+		Got: 
+ 			insert numbers to rotate a,b,c insert how many times to rotate 3 1 2
+
+	Test 2 failed:
+		Expected:
+			9 1 5
+		Got: 
+ 			insert numbers to rotate a,b,c insert how many times to rotate 9 1 5
+
+
+Summary
+
+	task1 - 0/2

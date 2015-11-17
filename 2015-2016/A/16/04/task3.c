@@ -5,7 +5,7 @@
 
 void create_letter_distribution_diagram(void);
 
-void main(void)
+int main(void)
 {
     create_letter_distribution_diagram();
 }

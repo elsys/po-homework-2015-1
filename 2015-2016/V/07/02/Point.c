@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-typedef struct point
+struct point
 {
-	int x,y,z;
+	int x;
+	int y;
+	int z;
 }A;
 
 void nagore();
 
-void main()
+int main()
 {
 	printf("\nVavedi koordinati na tochkata:");
 	scanf("%d",&A.x);
@@ -15,6 +17,7 @@ void main()
 	scanf("%d",&A.z);
 	nagore();
 	printf("\nNovite koordinati sa: %d, %d, %d",A.x,A.y,A.z);
+	return 0;
 }
 
 void nagore()

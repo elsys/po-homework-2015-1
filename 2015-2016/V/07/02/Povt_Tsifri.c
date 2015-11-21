@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int a[10];
 	long long int x;
@@ -15,4 +15,5 @@ void main()
 	}
 	for(x=0;x<10;x++)
 		printf("\nTsifrata %lli se povtaria %d pat(i).",x,a[x]);
+	return 0;
 }

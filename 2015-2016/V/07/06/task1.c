@@ -2,12 +2,13 @@
 
 int is_prime(int);
 
-void main()
+int main()
 {
 	int a,rez;
 	scanf("%d",&a);
 	rez=is_prime(a);
 	printf("%d",rez);
+	return rez;
 }
 
 int is_prime(int a)

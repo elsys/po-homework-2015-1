@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int i,a[1000],sor=0,x,t,y;
 	for(i=0;i<1000;i++)
@@ -31,4 +31,5 @@ void main()
 	for(y=0;y<i;y++)
 		printf("%d, ",a[y]);
 	printf("%d ",a[i]);
+	return 0;
 }

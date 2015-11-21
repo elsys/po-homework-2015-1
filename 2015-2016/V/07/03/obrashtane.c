@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void main()
+int main()
 {
 	char a[10000],b;
 	printf("\nVavedi tekst:");
@@ -15,4 +15,5 @@ void main()
 		a[l]=b;
 	}
 	printf("%s\n",a);
+	return 0;
 }

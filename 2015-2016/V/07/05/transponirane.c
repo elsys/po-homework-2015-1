@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int x[4][4],a,b,y;
 	for(a=0;a<4;a++)
@@ -23,4 +23,5 @@ void main()
 			printf("%2d ",x[a][b]);
 	}
 	printf("\n");
+	return 0;
 }

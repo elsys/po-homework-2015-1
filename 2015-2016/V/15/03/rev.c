@@ -9,12 +9,12 @@ int main() {
 
 //	reverse();
 	
-	char* input = NULL;
-	scanf("%m[^\n]s", &input);
-
+	char input[1000] = { 0 };
+	
+	scanf("%s", input);
+	
 	reverse(input);
-	printf("%s", input);
-	free(input);			
+	printf("%s", input);	
 	
 	printf("\n");
 	return 0;
@@ -25,18 +25,13 @@ void reverse(char * string)
 {
 	if((string == NULL) || (*string==0) || !(string))
 		return;
-	unsigned int size = strlen(string) - 1, mid = size/2, beg = 0;
-
-	if(mid%2 == 1 || size == 1) mid++;
+	int i = 0;
 	
-	while((mid--) != 0) {
-
-		string[beg] ^= string[size];
-		string[size] ^= string[beg];
-		string[beg++] ^= string[size--];		
-	
+	for(; i < (strlen(string))/2 ; i++) {
+		string[i] ^= string[strlen(string) - i - 1];
+		string[strlen(string) - i - 1] ^= string[i];
+		string[i] ^= string[strlen(string) - i - 1];
 	}
-
 }
 
 /*

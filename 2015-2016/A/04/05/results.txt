@@ -1,0 +1,19 @@
+Evaluating homework 05 on student 04 from A class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/04/05/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/04/05/task2.c:43:1: warning: ISO C forbids nested functions [-Wpedantic]
+ void next_generation(int *current,int *next,int length)
+ ^
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/1 - warning

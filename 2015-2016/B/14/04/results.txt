@@ -1,0 +1,29 @@
+Evaluating homework 04 on student 14 from B class
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			Number:1
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			Number:1
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/14/04/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/14/04/task2.c:7:15: warning: implicit declaration of function ‘exact_square’ [-Wimplicit-function-declaration]
+  printf("%d", exact_square(number));
+               ^
+
+
+Summary
+
+	task1 - 0/2
+	task2 - 0/2 - warning

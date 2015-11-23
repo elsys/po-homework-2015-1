@@ -1,0 +1,23 @@
+Evaluating homework 04 on student 17 from A class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/17/04/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/04/task1.c:9:9: warning: unused variable ‘i’ [-Wunused-variable]
+     int i;
+         ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/04/task1.c: In function ‘number_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/04/task1.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 2/2

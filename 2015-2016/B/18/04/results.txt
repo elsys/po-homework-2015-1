@@ -1,0 +1,20 @@
+Evaluating homework 04 on student 18 from B class
+
+
+Evalutaing task3.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 2/2
+	task2 - 2/2
+	task3 - 2/2

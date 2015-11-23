@@ -1,0 +1,20 @@
+Evaluating homework 05 on student 14 from A class
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			3 1 2
+		Got: 
+ 			Type first number: Type second number: Type third number: How much times to execute function: 312
+
+	Test 2 failed:
+		Expected:
+			9 1 5
+		Got: 
+ 			Type first number: Type second number: Type third number: How much times to execute function: 915
+
+
+Summary
+
+	task1 - 0/2

@@ -1,0 +1,38 @@
+Evaluating homework 05 on student 17 from A class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c:23:2: warning: implicit declaration of function ‘printErzeugung’ [-Wimplicit-function-declaration]
+  printErzeugung(aktuellGen, n);
+  ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c:26:3: warning: implicit declaration of function ‘nechste_erzeugung’ [-Wimplicit-function-declaration]
+   nechste_erzeugung(aktuellGen, nechsteGen, n);
+   ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c:28:19: warning: implicit declaration of function ‘live’ [-Wimplicit-function-declaration]
+  }while(p<1000 && live(nechsteGen, n));
+                   ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c: At top level:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c:44:6: warning: conflicting types for ‘nechste_erzeugung’
+ void nechste_erzeugung(int *aktuell, int *nechste, int lenge)
+      ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c:26:3: note: previous implicit declaration of ‘nechste_erzeugung’ was here
+   nechste_erzeugung(aktuellGen, nechsteGen, n);
+   ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c:67:6: warning: conflicting types for ‘printErzeugung’
+ void printErzeugung(int *erzeugung, int lenge)
+      ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/17/05/task2.c:23:2: note: previous implicit declaration of ‘printErzeugung’ was here
+  printErzeugung(aktuellGen, n);
+  ^
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/1 - warning

@@ -71,7 +71,7 @@ int create_letter_distribution_diagram ( char* string )
         }
 
          for(position=0;position<26;position++)
-            printf("%c-->%d\n",letters[position],num[position]);
+            printf("%c: %d\n",letters[position],num[position]);
 
     return 0;
 }

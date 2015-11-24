@@ -6,15 +6,19 @@ int palindrom(char c[1000]);
 int main()
 {
 	char c[1000];
+
 	printf("Text:");
-	scanf("%s" , c);
+	scanf("%s", c);
 	printf("%d\n" , palindrom(c));
+
+	return 0;
 }
 
 
 int palindrom(char c[1000])
 {
 	int i=0, lenght;
+
 	lenght = strlen(c) - 1;
 	while(lenght>i)
 	{

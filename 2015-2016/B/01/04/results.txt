@@ -1,0 +1,28 @@
+Evaluating homework 04 on student 01 from B class
+
+
+Evalutaing task3.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/01/04/task3.c: In function ‘create_letter_distribution_diagram’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/01/04/task3.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/01/04/task1.c: In function ‘is_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/01/04/task1.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 2/2
+	task3 - 0/2 - warning

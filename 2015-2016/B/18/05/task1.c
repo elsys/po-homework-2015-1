@@ -23,6 +23,7 @@ int main()
 
 }
 
+
 void rotr(int *a, int *b, int *c)
 { 
     int help = 0;

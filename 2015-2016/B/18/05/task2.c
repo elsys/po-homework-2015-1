@@ -64,12 +64,12 @@ void next_generation(int *current, int *next, int length)
         {
             if ( *(current + index) == 1)
             {
-               printf(" *");
+               printf("*");
             }
         
             else
             {
-               printf(" .");
+               printf(".");
             }
             
         }   
@@ -82,7 +82,7 @@ void next_generation(int *current, int *next, int length)
         {
             for (index = 0; index < length; index++)
             {
-                printf(" .");  
+                printf(".");  
             }  
             return;
         }

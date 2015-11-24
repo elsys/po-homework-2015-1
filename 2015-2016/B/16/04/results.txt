@@ -1,0 +1,23 @@
+Evaluating homework 04 on student 16 from B class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Files can't compile (gcc err code:256)
+
+	/home/sasho/programs/elsys/po-homework/2015-2016/B/16/04/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/16/04/task2.c:13:8: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+ printf("%d")
+        ^
+/home/sasho/programs/elsys/po-homework/2015-2016/B/16/04/task2.c:15:1: error: expected ‘;’ before ‘return’
+ return 0;
+ ^
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/2 - error

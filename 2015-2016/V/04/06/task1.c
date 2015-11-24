@@ -10,6 +10,8 @@ int main()
 	scanf("%d", &num);
 
 	printf("%d\n", is_prime(num));
+	
+	return 0;
 }
 
 

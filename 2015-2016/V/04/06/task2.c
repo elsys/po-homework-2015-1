@@ -5,9 +5,12 @@ int exact_square(int num);
 int main()
 {
 	int num;
+
 	printf("Number=");
 	scanf("%d", &num);
+
 	printf("%d\n", exact_square(num));
+	return 0;
 }
 
 int exact_square(int num)

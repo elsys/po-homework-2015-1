@@ -1,0 +1,23 @@
+Evaluating homework 06 on student 03 from G class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/G/03/06/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/03/06/task1.c:9:3: warning: ‘rex’ is used uninitialized in this function [-Wuninitialized]
+   printf("%d",is_prime(rex));
+   ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/G/03/06/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/03/06/task2.c:9:1: warning: ‘result’ is used uninitialized in this function [-Wuninitialized]
+ printf("%d",exact_square(result));
+ ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning

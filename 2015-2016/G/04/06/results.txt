@@ -1,0 +1,23 @@
+Evaluating homework 06 on student 04 from G class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/G/04/06/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/04/06/task1.c:26:3: warning: ‘k’ is used uninitialized in this function [-Wuninitialized]
+   printf("%d\n",simplenum(k));
+   ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/G/04/06/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/04/06/task2.c:19:1: warning: ‘answer’ is used uninitialized in this function [-Wuninitialized]
+ printf("%d\n",square_root(answer));
+ ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning

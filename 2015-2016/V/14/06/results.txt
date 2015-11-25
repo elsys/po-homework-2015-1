@@ -1,0 +1,26 @@
+Evaluating homework 06 on student 14 from V class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/14/06/task1.c: In function ‘is_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/14/06/task1.c:8:5: warning: statement with no effect [-Wunused-value]
+     for (i; i <=number; i++) {
+     ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/14/06/task2.c: In function ‘exact_square’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/14/06/task2.c:8:5: warning: statement with no effect [-Wunused-value]
+     for (i; i<n; i++) {
+     ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/14/06/task2.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning

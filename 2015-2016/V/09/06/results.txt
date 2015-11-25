@@ -1,0 +1,36 @@
+Evaluating homework 06 on student 09 from V class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/09/06/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/06/task1.c:12:14: warning: too many arguments for format [-Wformat-extra-args]
+       printf("1", n);
+              ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/06/task1.c:15:14: warning: too many arguments for format [-Wformat-extra-args]
+       printf("0", n);
+              ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/06/task1.c: In function ‘is_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/06/task1.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Evalutaing task2.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			Enter number:  1
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			Enter number:  0
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2

@@ -1,0 +1,23 @@
+Evaluating homework 07 on student 15 from V class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/15/07/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/15/07/task1.c:8:24: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   scanf("%d %d %d %d", ({printf("a b c d:"); &a;}), &b, &c, &d);
+                        ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/15/07/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/15/07/task2.c:10:18: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   scanf("%d%*c", ({printf("Enter N: "); &n;}) );
+                  ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/1 - warning

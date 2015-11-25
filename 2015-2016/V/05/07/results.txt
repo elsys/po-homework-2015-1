@@ -1,0 +1,19 @@
+Evaluating homework 07 on student 05 from V class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/05/07/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/05/07/task2.c:29:17: warning: unused variable ‘i2’ [-Wunused-variable]
+     int i,  i1, i2, i3, i4;
+                 ^
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/1 - warning

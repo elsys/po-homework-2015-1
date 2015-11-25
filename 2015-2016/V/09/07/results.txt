@@ -1,0 +1,26 @@
+Evaluating homework 07 on student 09 from V class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/09/07/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/07/task1.c:9:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int **’ [-Wformat=]
+     scanf ("%d %d %d %d", &a, &b, &c, &n);
+            ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/07/task1.c:10:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+     printf("%d %d %d \n", a, b, c);
+            ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/07/task1.c:12:14: warning: passing argument 1 of ‘rotr’ from incompatible pointer type [-Wincompatible-pointer-types]
+         rotr(&a, &b, &c);
+              ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/07/task1.c:3:6: note: expected ‘int *’ but argument is of type ‘int **’
+ void rotr(int *a, int *b, int *c);
+      ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/09/07/task1.c:15:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+     printf("%d %d %d \n", a, b, c);
+            ^
+
+
+Summary
+
+	task1 - 0/2 - warning

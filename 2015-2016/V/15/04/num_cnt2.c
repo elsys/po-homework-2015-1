@@ -18,13 +18,13 @@ int main() {
 	//printf("%d", ({ int a = 5, b = 4; swap(a,b); a; }));
 
 	int n = 0, num, i = 0; //n = size of the array below; num = temporary number we will get
-	scanf("%d", ({printf("Enter a number:"); &num;}));
+	scanf("%d",&num);//scanf("%d", ({printf("Enter a number:"); &num;}));
 
 	num = positive(num);	
 
 	//printf("%d\n", num);
 
-	n = int2arr((int[1000]){}, num);
+	n = int2arr((int[1000]){0}, num);
 	
 	int* arr = malloc(n*sizeof(int));
 	

@@ -6,7 +6,7 @@ int main() {
 
 	int n, i = 0, j;
 	do
-		scanf("%d",({printf("Enter how much rows by colons do you want(1 number rows = colons):"); &n;}));
+		scanf("%d",&n);//scanf("%d",({printf("Enter how much rows by colons do you want(1 number rows = colons):"); &n;}));
 	while(n <= 2 || n >= 10);
 	int square[n][n]; //= { 0 };
 	printf("Farewell!Now enter the values of you own %d by %d square:\n",n,n);

@@ -3,7 +3,7 @@ int is_prime(unsigned int in);
 
 int main()
 {
-    unsigned int input=0;
+    int input=0;
     scanf("%d",&input);
     printf("%d",is_prime(input));
     return 0;

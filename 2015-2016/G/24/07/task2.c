@@ -74,7 +74,7 @@ void next_generation(int *current, int *next, int length){
 
 	}
 
-};
+}
 
 int is_dead(int *current, int length){
 
@@ -92,7 +92,7 @@ int is_dead(int *current, int length){
 
 	return 1;
 
-};
+}
 
 void print_current(int *current, int length){
 
@@ -114,4 +114,4 @@ void print_current(int *current, int length){
 
 	printf("\n");
 
-};
+}

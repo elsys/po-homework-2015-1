@@ -8,17 +8,8 @@ int main()
 	int x=0, y=0, z=0;
 	int n=0, i=0, j=0;
 	
-	printf("Type first number: ");
-	scanf("%d",&x);
+	scanf("%d %d %d %d",&x, &y, &z, &n);
 	
-	printf("Type second number: ");
-	scanf("%d",&y);
-
-	printf("Type third number: ");
-	scanf("%d",&z);
-		
-	printf("How much times to execute function: ");
-	scanf("%d",&n);
 	j=n-1;
 
 	for(i=0; i<=j; i++)

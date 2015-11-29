@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-/*Velislav Yotov 10a Nomer-5
-task1-is_prime function
-Proverqva dali chisloto e prosto.Ako e prosto:1 ako ne:0 ako ima greshka:-1*/
 int str_into_int(char* input)
 {
 	int i,number,length;
 	length=strlen(input)-1;
+
 	for(i=0,number=0;i<length;i++)
      {
 		number+=input[i]-'0';
+
 		 if(i!=length-1)
             {
                 number*=10;
             }
 	 }
+
 	 return number;
 }
 
@@ -31,11 +31,13 @@ int is_prime(char string[10])
 			return -1;
 		}
 	}
-    number=str_into_int(string);
+	number=str_into_int(string);
+
     if(number==0 || number==1)
     {
-    return 0;
     printf("0");
+    return 0;
+
     }
     for(i=2;i<number;i++){
 		if(number%i==0)
@@ -44,8 +46,8 @@ int is_prime(char string[10])
             return 0;
         }
 	}
-	return 1;
-	printf("1")
+	printf("1");
+    return 1;
 }
 
 int main(void)

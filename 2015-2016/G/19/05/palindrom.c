@@ -22,9 +22,10 @@ int main()
     {
         if(rev[i] != str[i])
         {
-            return 0;
+            printf("0");
         }
     }
 
-    return 1;
+    printf("1");
+    return 0;
 }

@@ -2,7 +2,7 @@
 
 int exact_square ( int );
 
-main()
+int main()
 {
 
     int n;

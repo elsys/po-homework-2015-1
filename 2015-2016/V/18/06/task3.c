@@ -8,7 +8,7 @@ int main()
     int i, count[26] = {0};
 
     printf("Input a string\n");
-    gets(string);
+    fgets(string,sizeof(string)-1,stdin);
 
    create_letter_distribution_diagram(string, count);
 
@@ -32,8 +32,3 @@ void create_letter_distribution_diagram(char string[], int count[])
             count[string[i]-'a']++;
         }
     }
-
-
-
-}
-

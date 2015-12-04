@@ -22,7 +22,7 @@ int main(){
 	}
 
 	for(count_printer = 0; count_printer < 26; count_printer++){
-		printf("%c - %d\n", alphabet[count_printer].letter_id, alphabet[count_printer].times_in_sentence);
+		printf("%c: %d\n", alphabet[count_printer].letter_id, alphabet[count_printer].times_in_sentence);
 	}
 	return 0;
 }

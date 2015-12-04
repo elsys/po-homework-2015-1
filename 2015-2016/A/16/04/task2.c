@@ -2,7 +2,7 @@
 #include <stdlib.h>
 void exact_square(void);
 
-void main(void)
+int main(void)
 {
     exact_square();
 }

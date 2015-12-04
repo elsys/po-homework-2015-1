@@ -26,8 +26,8 @@ void next_generation(int *current, int *next, int lenght){
         for(len_help=1;len_help<=lenght;len_help++){
             if(*(current+len_help) == 0){
                 end++;
-                printf(" .");
-            } else printf(" *");
+                printf(".");
+            } else printf("*");
 
             if(*(current+len_help-1) == *(current+len_help+1)) {
                 *(next+len_help) = 0;

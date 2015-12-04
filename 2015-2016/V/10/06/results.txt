@@ -1,0 +1,20 @@
+Evaluating homework 06 on student 10 from V class
+
+
+Evalutaing task2.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			Enter a number : 1
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			Enter a number : 0
+
+
+Summary
+
+	task2 - 0/2

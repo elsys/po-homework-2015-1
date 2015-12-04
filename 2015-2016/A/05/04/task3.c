@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//Velislav Yotov 10a Nomer5
-//Function create_letter_distribution_diagram
-//Vuvejda se niz i se izvejdat v nizhodqsht red po kolko vsichkite prisustvashti bukvi spored tehniq broi
+/*Velislav Yotov 10a Nomer5
+Function create_letter_distribution_diagram
+Vuvejda se niz i se izvejdat v nizhodqsht red po kolko vsichkite prisustvashti bukvi spored tehniq broi*/
 
 void create_letter_distribution_diagram(void)
 {
@@ -84,7 +84,7 @@ void create_letter_distribution_diagram(void)
         printf("%d",occures[c]);
     }
 }
-void main(void)
+int main(void)
 {
     create_letter_distribution_diagram();
 }

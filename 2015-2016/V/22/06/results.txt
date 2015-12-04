@@ -1,0 +1,26 @@
+Evaluating homework 06 on student 22 from V class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/22/06/task1.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^
+
+
+Evalutaing task2.c
+	Files can't compile (gcc err code:256)
+
+	/home/sasho/programs/elsys/po-homework/2015-2016/V/22/06/task2.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/22/06/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/22/06/task2.c:10:19: error: expected expression before ‘int’
+  res=exact_square(int n);
+                   ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - error

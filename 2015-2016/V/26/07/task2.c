@@ -9,7 +9,7 @@ int main()
 {
 	int array_lenght;
 	do
-    {
+	{
 		scanf("%d",&array_lenght);
 	}while(array_lenght < 0 || array_lenght > 20);
 	int current[array_lenght];
@@ -17,7 +17,8 @@ int main()
 	int count,count_print;
 	for(count = 0; count < array_lenght; count++)
 		scanf ("%d",&current[count]);
-  printf("\n");
+	 printf("\n");
+	 
 	for(count_print = 0; count_print < array_lenght; count_print++)
 	{
         if(current[count_print])
@@ -26,6 +27,7 @@ int main()
             printf(".");
 	}
 	printf("\n");
+	
 	for(count = 0; count < 4 && check_generation(current, next, array_lenght); count++)
 	{
         next_generation(current, next, array_lenght);
@@ -39,12 +41,12 @@ int main()
         printf("\n");
         strcpy_int(current, next, array_lenght);
 	}
+	return 0;
 }
 
 void next_generation(int *current, int *next, int length)
 {
 	int count;
-	int count_print;
 	*next = 0;
 	for(count = 1; count < length; count++)
     {

@@ -24,7 +24,7 @@ int main()
 				g--;
 			}
 		printf("\n");
-		g += 2;
+		g = o+2;
 		o += 2;
 		k--;
 	}

@@ -2,23 +2,18 @@
 
 int main()
 {
-   int  h,c,n,t;
+   char string[20];
 
-   scanf("%d",&n);
+   int i=0,n=0;
 
+    scanf("%s",string);
 
-   for (h=1 ; h<=n ; h++)
-   {
+    i = strlen(string)-1;
 
-      for (c=h ; c<=n; c++)
-         printf(" ");
-
-
-      for (t=1 ; t<=(2*h-1); t++)
-         printf("*");
-
-      printf("\n");
-   }
-
-   return 0;
+    while(i >= 0)
+    {
+        printf("%c",string[i]);
+        i--;
+    }
+    return 0;
 }

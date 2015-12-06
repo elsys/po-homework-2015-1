@@ -2,13 +2,15 @@
 
 int exact_square(int);
 
-void main(void)
+int main()
 {
 	int n,res;
 	printf("\n input number:");
 	scanf("%d",&n);
-	res=exact_square(int n);
+	res=exact_square(n);
 	printf("\n %d",res);
+
+	return 0;
 }
 int exact_spuare(int n)
 {

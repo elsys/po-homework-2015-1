@@ -19,6 +19,7 @@ int main(void)
     {
         printf("0");
     }
+    return 0;
 }
 int is_prime(int x)
 {

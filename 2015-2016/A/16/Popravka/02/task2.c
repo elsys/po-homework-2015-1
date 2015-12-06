@@ -10,7 +10,7 @@ int main(void)
     int len;
     int l;
     char x;
-    scanf("%s", &s);
+    scanf("%s", s);
     n = 0;
     j = 0;
     x = s[n];

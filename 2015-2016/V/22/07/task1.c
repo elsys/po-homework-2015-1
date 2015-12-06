@@ -2,7 +2,7 @@
 
 void rotr(int *a,int *b,int *c);
 
-int main
+int main()
 {
 	int a,b,c,n;
 	scanf("%d",&a);

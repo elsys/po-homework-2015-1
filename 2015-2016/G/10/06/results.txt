@@ -1,0 +1,23 @@
+Evaluating homework 06 on student 10 from G class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			1
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/G/10/06/task2.c:40:2: warning: ISO C does not allow extra ‘;’ outside of a function [-Wpedantic]
+ };
+  ^
+
+
+Summary
+
+	task1 - 1/2
+	task2 - 0/2 - warning

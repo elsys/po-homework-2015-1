@@ -10,13 +10,13 @@ int main(void)
     if(scanf("%d", &flag) != 1)
     {
         printf("-1");
-        return;
+        return 0;
     }
     printf("\nInsert your number - ");
     if(scanf("%d", &x) != 1)
     {
         printf("-1");
-        return;
+        return 0;
     }
     is_prime(x, flag);
 }
@@ -26,7 +26,7 @@ void is_prime(int x, int flag)
     if(x==1||x==-1)
     {
         printf("\n1");
-        return;
+        return 0;
     }
     y = 2;
     if(flag==1)
@@ -43,7 +43,7 @@ void is_prime(int x, int flag)
                 if(c==0)
                 {
                     printf("\n0");
-                    return;
+                    return 0;
                 }
                 y--;
             }
@@ -56,7 +56,7 @@ void is_prime(int x, int flag)
                 if(c==0)
                 {
                     printf("\n0");
-                    return;
+                    return 0;
                 }
                 y++;
             }

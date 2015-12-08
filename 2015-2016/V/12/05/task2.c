@@ -9,10 +9,10 @@ int main(){
 	scanf("%s",palindromlisi);
 	int len = strlen(palindromlisi);
 	if(check(len,palindromlisi)){
-		printf("Yes it is.\n");
+		printf("1");
 	}
 	else
-		printf("No it is.\n");
+		printf("0");
 	
 }
 int check(int len, char palindromlisi[]){

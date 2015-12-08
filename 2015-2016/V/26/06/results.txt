@@ -1,0 +1,25 @@
+Evaluating homework 06 on student 26 from V class
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			Enter Number:1
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			Enter Number:0
+
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 0/2
+	task2 - 2/2

@@ -1,0 +1,19 @@
+Evaluating homework 05 on student 16 from A class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/16/05/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/16/05/task2.c:47:13: warning: ‘return’ with no value, in function returning non-void
+             return;
+             ^
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/1 - warning

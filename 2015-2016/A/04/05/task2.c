@@ -28,53 +28,29 @@ int main()
 {
     int length,n,current[20],next[20],countforZeros,i,j;
 
-    printf("Enter length: ");
     scanf("%d",&length);
     if(length>20)
     {
-        printf("Length should be max 20!");
         return 1;
     }
     if(length<=0)
     {
-        printf("Length should be 1 at least!");
         return 1;
     }
-void next_generation(int *current,int *next,int length)
-{
-    int i;
-    next[0]=0;
-	next[length-1]=0;
 
-	for(i=1;i<length-1;i++)
-    {
-		if((current[i]==0) && ((current[i-1]==1 || current[i+1]==1) && !(current[i-1]==1 && current[i+1]==1)))
-		{
-			next[i]=1;
-		}
-		else
-			next[i]=0;
-	}
-
-	for(i=0;i<length;i++)
-    {
-		current[i]=next[i];
-	}
-}
     for(i=0;i<length;i++)
     {
         scanf("%d",&n);
         if(n==0 || n==1)
-            {
+        {
             if((i==0 || i==(length-1)) && n==1)
             {
-                printf("\nFirst and last cell should always be 0!");
                 return 1;
             }
             current[i]=n;
         }
-        else{
-            printf("\nExpected 0 or 1!");
+        else
+        {
             return 1;
         }
     }
@@ -93,7 +69,6 @@ void next_generation(int *current,int *next,int length)
             else
                 printf("*");
 		}
-        printf("\n");
         if(countforZeros==length)
             break;
 

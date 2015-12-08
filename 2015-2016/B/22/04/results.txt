@@ -1,0 +1,32 @@
+Evaluating homework 04 on student 22 from B class
+
+
+Evalutaing task3.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/22/04/task3.c: In function ‘create_letter_distribution_diagram’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/22/04/task3.c:31:21: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+     alphabet_letters[helper2] ++;
+                     ^
+/home/sasho/programs/elsys/po-homework/2015-2016/B/22/04/task3.c:38:21: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+     alphabet_letters[helper2] ++;
+                     ^
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Files can't compile (gcc err code:256)
+
+	/home/sasho/programs/elsys/po-homework/2015-2016/B/22/04/task2.c: In function ‘exact_square’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/22/04/task2.c:26:2: error: expected declaration or statement at end of input
+  return 0;
+  ^
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/2 - error
+	task3 - 0/2 - warning

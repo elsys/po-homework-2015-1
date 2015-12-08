@@ -2,7 +2,7 @@
 
 int numbers[6];
 
-void rotr(int *a, int *b, int *c)
+void rotr(int a, int b, int c)
 {
     numbers[4] = numbers[3];
     numbers[5] = numbers[1];

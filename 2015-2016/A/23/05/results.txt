@@ -1,0 +1,18 @@
+Evaluating homework 05 on student 23 from A class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/23/05/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/23/05/task1.c:14:12: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     printf("");scanf("%d %d %d %d",&a,&b,&c,&n);
+            ^
+
+
+Evalutaing task2.c
+	Test 1 passed
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 1/1

@@ -1,0 +1,25 @@
+Evaluating homework 06 on student 11 from V class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			Vuvedi chislo:1
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			Vuvedi chislo:0
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/2

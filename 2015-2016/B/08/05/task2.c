@@ -23,8 +23,10 @@ int main() {
 
 void next_generation(int *current, int *next, int lenght) {
 
-	int index, limit_times, printing, swap;
+	int index, limit_times, printing, check, swap, is_checked = 0;
+
 	for(limit_times = 0; limit_times < 1000; limit_times++) {
+		
 		for(index = 0; index < lenght; index++) {
 			if (   (current[index] == 1 || current[index] == 0) 
 				&& ( (current[index - 1] == 0 && current[index + 1] == 1) 
@@ -37,14 +39,27 @@ void next_generation(int *current, int *next, int lenght) {
 		}
 		for(printing = 0; printing < lenght; printing++){
 			if(current[printing] == 1)
-				printf(" *");
+				printf("*");
 			else if(current[printing] == 0)
-				printf(" .");
+				printf(".");
 		}
+
+
+		is_checked = 0;
+
+		for(check = 0; check < lenght && is_checked != 1; check++){
+			if(current[check] == 1) is_checked = 1;
+		}
+
+		if(is_checked == 0) break; 
+		
 
 		for(swap = 0; swap < lenght; swap++){
 			current[swap] = next[swap];
 		}
+
+
+
 		printf("\n");
 	}
 

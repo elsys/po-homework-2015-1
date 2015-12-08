@@ -1,0 +1,35 @@
+Evaluating homework 05 on student 10 from A class
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			3 1 2
+		Got: 
+ 			a=b=c=spining_times= new_a=3 new_b=1 new_c=2
+
+	Test 2 failed:
+		Expected:
+			9 1 5
+		Got: 
+ 			a=b=c=spining_times= new_a=9 new_b=1 new_c=5
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/A/10/05/task2.c: In function ‘next_generation’:
+/home/sasho/programs/elsys/po-homework/2015-2016/A/10/05/task2.c:15:14: warning: ‘current’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if(current[i-1] == 1)
+              ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/10/05/task2.c:20:5: warning: ‘length’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if(i+1 < length)
+     ^
+/home/sasho/programs/elsys/po-homework/2015-2016/A/10/05/task2.c:29:8: warning: ‘next’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    next[i] = 1;
+        ^
+
+
+Summary
+
+	task1 - 0/2
+	task2 - 0/1 - warning

@@ -1,0 +1,27 @@
+Evaluating homework 07 on student 09 from G class
+
+
+Evalutaing task1.c
+	Files can't compile (gcc err code:256)
+
+	/home/sasho/programs/elsys/po-homework/2015-2016/G/09/07/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/09/07/task1.c:24:5: error: expected declaration or statement at end of input
+     printf("\n %d %d %d \n", a, b, c);    
+     ^
+
+
+Evalutaing task2.c
+	Files can't compile (gcc err code:256)
+
+	/home/sasho/programs/elsys/po-homework/2015-2016/G/09/07/task2.c:1:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
+ 
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+/tmp/buildd/glibc-2.19/csu/../sysdeps/x86_64/start.S:118: undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+
+Summary
+
+	task1 - 0/2 - error
+	task2 - 0/1 - error

@@ -1,0 +1,14 @@
+Evaluating homework 07 on student 14 from V class
+
+
+Evalutaing task1.c
+	Files can't compile (gcc err code:256)
+
+	/home/sasho/programs/elsys/po-homework/2015-2016/V/14/07/task1.c:15:7: error: expected identifier or ‘(’ before ‘int’
+ void (int *a, int *b, int *c) {
+       ^
+
+
+Summary
+
+	task1 - 0/2 - error

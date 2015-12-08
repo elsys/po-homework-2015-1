@@ -5,13 +5,22 @@ void next_generation(int *, int *, int );
 int end = 0,max=0;
 int length;
 int main(){
-	int  current[20], next[20] , helper;
+	int  current[20], next[20] , helper, helper4;
         
 	scanf( "%d", &length );
 	for(helper = 0 ; helper < length ; helper++)
+	{
 	scanf( "%d", &current[helper] );
+  	}
+	
+	for (helper4 = 0; helper4 < length ; helper4++){
+		if ( *(current + helper4) == 0 ){ printf(".");}
+		if ( *(current + helper4) == 1 ){ printf("*");}	
+			}
+	printf("\n");	
+
 	while(end != 1){
-	next_generation( current , next , length);
+		next_generation( current , next , length);
      }
 return 0;
 }
@@ -30,8 +39,8 @@ if ( *(current + helper1 - 1) != *(current + helper1 + 1) && helper1 + 1 != leng
 			
 	}	
 		for (helper3 = 0; helper3 < length ; helper3++){
-			if ( *(next + helper3) == 0 ){ printf(". "); *(current + helper3) = 0;}
-			if ( *(next + helper3) == 1 ){ printf("* "); *(current + helper3) = 1;}	
+			if ( *(next + helper3) == 0 ){ printf("."); *(current + helper3) = 0;}
+			if ( *(next + helper3) == 1 ){ printf("*"); *(current + helper3) = 1;}	
 			}
 	
 		while ( *(next + helper2) == 0){

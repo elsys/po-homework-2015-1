@@ -1,0 +1,30 @@
+Evaluating homework 04 on student 20 from A class
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			-1
+
+	Test 2 passed
+
+Evalutaing task2.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			3 9 = 3 ^ 2
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			0 2 is not a power of any number.
+
+
+Summary
+
+	task1 - 1/2
+	task2 - 0/2

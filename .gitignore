@@ -37,3 +37,4 @@
 # Gedit backup files
 *~
 
+*.db

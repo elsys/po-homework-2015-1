@@ -12,7 +12,6 @@ int main()
 		while(in[i] == 'x') i++;
 		if(i>=n) break;
 		c = in[i];
-		//a++;
 		for( j=i ; j<n ; ++j )
         {
             if(in[j] != 'x' && c == in[j])

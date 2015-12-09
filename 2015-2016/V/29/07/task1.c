@@ -18,9 +18,8 @@ int main() {
 void rotr(int* a, int* b, int* c) {
     *a += *b;
     *b = *a - *b;
-    *a = *a - *b;
-
+    *a -= *b;
     *a += *c;
     *c = *a - *c;
-    *a = *a - *c;
+    *a -= *c;
 }

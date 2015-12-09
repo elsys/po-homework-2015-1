@@ -5,14 +5,14 @@ int palindrom(char *in);
 int main()
 {
 	char in[1025];
-	gets(in);
+	scanf("%s",in);
 	printf("%d\n",palindrom(in));
 	return 0;
 }
 
 int palindrom(char *in)
 {
-	int a=0, i=0, n;
+	int i=0, n;
 	if(strlen(in)%2==1) i++;
 	n=strlen(in)/2;
 

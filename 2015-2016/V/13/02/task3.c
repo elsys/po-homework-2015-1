@@ -1,28 +1,40 @@
 #include <stdio.h>
-#include <string.h>
-char in[1025];
-unsigned int a=0, c, i, n, j;
+#define NUM 1000
+void sorting(int *sort);
 
 int main()
 {
-	scanf("%s",in);
-	n=strlen(in);
-	for( i=0 ; i<n ; i++ )
-	{
-		while(in[i] == 'x') i++;
-		if(i>=n) break;
-		c = in[i];
-		for( j=i ; j<n ; ++j )
+    int sort[NUM] = { 0 };
+    register int k=0, l=0;
+
+    for( k = 0; (k==0) ? sort[k]!=42 : sort[k-1]!=42 && k < NUM ; k++ )
+    {
+            scanf("%d", &sort[k]);
+    }
+
+    sorting(sort);
+
+    for( l = k; l > 0 ; l-- )
+    {
+        printf("%d ",sort[l]);
+    }
+    return 0;
+}
+
+void sorting(int *sort)
+{
+    register int i=0, j=0, swap;
+
+    for (i = 0 ; i < ( NUM - 1 ) ; i++)
+    {
+        for (j = 0 ; j < ( NUM - i - 1 ) ; j++)
         {
-            if(in[j] != 'x' && c == in[j])
+            if (sort[j] < sort[j+1])
             {
-                a++;
-                in[j]='x';
+            swap      = sort[j];
+            sort[j]   = sort[j+1];
+            sort[j+1] = swap;
             }
         }
-
-		if(a>0) printf("-- Number %c exist %d times -->\n",c,a);
-		a=0;
-	}
-	return 0;
+    }
 }

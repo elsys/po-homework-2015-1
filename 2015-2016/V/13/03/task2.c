@@ -1,17 +1,17 @@
 #include <stdio.h>
+void reverse(char *a);
 
 int main()
 {
-    int i;
     char in[1025];
     scanf("%s",in);
     reverse(in);
     return 0;
 }
 
-int reverse(char *a)
+void reverse(char *a)
 {
-   if(*a!='\0')
+   if(*(a+1)!='\0')
    {
      reverse(a+1);
    }

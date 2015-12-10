@@ -16,6 +16,6 @@ int palindrom(char *in)
 	if(strlen(in)%2==1) i++;
 	n=strlen(in)/2;
 
-	for(;i<n;i++) if(in[i]!=in[2*n-i-1]) return 1;
-	return 0;
+	for(;i<n;i++) if(in[i]!=in[2*n-i-1]) return 0;
+	return 1;
 }

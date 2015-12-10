@@ -1,5 +1,5 @@
 #include <stdio.h>
-int is_prime(unsigned int in);
+int is_prime(int in);
 
 int main()
 {
@@ -9,7 +9,7 @@ int main()
     return 0;
 }
 
-int is_prime(unsigned int in)
+int is_prime(int in)
 {
     if(in < 2) return -1;
     if(in == 2 || in == 3) return 1;

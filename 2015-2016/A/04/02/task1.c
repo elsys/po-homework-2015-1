@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main(void)
+int main()
 {
    int i = 0;
    char y;
    for (i = 0; i < 256; i++)
    {
-      printf("%c ", y);
+      printf("%d = %c\n", i,y);
       y++ ;
     }
+
+    return 0;
 }
+

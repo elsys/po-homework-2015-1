@@ -9,10 +9,10 @@ int main() {
 
     prime = is_prime(n);
     if (prime == 1) {
-      printf("1", n);
+      printf("1");
     }
    else {
-      printf("0", n);
+      printf("0");
    }
 
     return 0;

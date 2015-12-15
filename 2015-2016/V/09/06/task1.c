@@ -29,4 +29,5 @@ int is_prime(int n) {
     if (i == n) {
         return 1;
     }
+    return 0;
 }

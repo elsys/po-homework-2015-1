@@ -1,16 +1,10 @@
 #include <stdio.h>
 
-void create_letter_distribution_diagram();
+void sortData(int*[2]);
 
 int main()
 {
-    create_letter_distribution_diagram();
-    return 0;
-}
-
-void create_letter_distribution_diagram()
-{
-	    int data[26][2];
+    int data[26][2];
     int i, c, d;
     int swap[2];
     char ch;
@@ -72,6 +66,7 @@ void create_letter_distribution_diagram()
     {
         printf("%c: %d\n", data[i][0] + 'a', data[i][1]);
     }
+    return 0;
 }
 
 

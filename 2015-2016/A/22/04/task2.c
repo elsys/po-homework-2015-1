@@ -4,14 +4,13 @@ int exact_square(int);
 
 int main()
 {
-	int num, res; 
+	int num; 
 	scanf("%d",&num);
-	res=exact_square(num);
-	printf("%d\n",res);
+	printf("%d\n", exact_square(num));
 	return 0;
 }
 
-int exact_square(num)
+int exact_square(int num)
 {
 	int i, sqr;
 	i=num;

@@ -4,17 +4,16 @@ int is_prime(int);
 
 int main()
 {
-	int num, res;
+	int num;
 	scanf("%d",&num);
-	res=is_prime(num);
-	printf("%d\n",res);
+	printf("%d\n", is_prime(num));
 	return 0;
 }
 
-int is_prime(num)
+int is_prime(int num)
 {
 	int i, res;
-	if(num==1)
+	if(num<=1)
 	{
 		return -1;
 	}

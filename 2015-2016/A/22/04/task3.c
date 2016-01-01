@@ -11,23 +11,30 @@ int main()
 
 int create_letter_distribution_diagram()
 {
-	int i, j, n;
+	int i=0, j=0, n=0;
 	int p=0;
 	int num[26];
+	char s;
 	char text[10000], lett[26]="abcdefghijklmnopqrstuvwxyz";
-	fgets(text, 10000, stdin);
-	n=strlen(text);
-	for(i=0; i<n; i++)
+	while(1)
 	{
-		if (text[i]>='A' && text[i]<='Z')
+		s=getchar();
+		if(s==EOF)
 		{
-			text[i]=text[i]-('A'-'a');
+			break;
 		}
 		else
 		{
-			i--;
+			if (s>='A' && s<='Z')
+			{
+				s=s-('A'-'a');
+			}
+			text[i]=s;
+			i++;
 		}
+		
 	}
+	n=strlen(text);
 	for(i=0; i<n; i++)
 	{
 		
@@ -63,7 +70,7 @@ int create_letter_distribution_diagram()
 	}
 	for(i=0; i<26; i++)
 	{
-		printf("%c:%d\n",lett[i],num[i]);
+		printf("%c: %d\n",lett[i],num[i]);
 	}
 	return 0;
 }

@@ -8,21 +8,22 @@ int main()
     return 0;
 }
 void create_letter_distribution_diagram()
-{   char s[1000];
-    int a[26][2],i,j,n,c,d;
+{   char c;
+    int a[26][2],i=0,j,d,e;
 
-    scanf("%s",s);
-    n=strlen(s);
     for(i=0,j='a';i<26;i++)
     {   a[i][1]=j;
         a[i][0]=0;
         j++;
     }
-    for(i=0;i<n;i++)
-        if(s[i]>='A'&&s[i]<='Z')
-                s[i]=s[i]+('a'-'A');
-    for(i=0;i<n;i++)
-    {   switch(s[i])
+
+    while(scanf("%c",&c)!=EOF)
+     {
+
+            if(c>='A'&&c<='Z')
+                c=c+('a'-'A');
+
+        switch(c)
         {
           case 'a':
           a[0][0]++;  break;
@@ -79,32 +80,30 @@ void create_letter_distribution_diagram()
 
         }
 
-    }
+     }
+
        for(i=0;i<26;i++)
             for(j=0;j<26;j++)
                 if(a[i][0]>a[j][0])
                 {
-                    c=a[i][0];
+                    e=a[i][0];
                     d=a[i][1];
                     a[i][0]=a[j][0];
                     a[i][1]=a[j][1];
-                    a[j][0]=c;
+                    a[j][0]=e;
                     a[j][1]=d;
                 }
                 else
                     if(a[i][1]<a[j][1])
                         {
-                            c=a[i][0];
+                            e=a[i][0];
                             d=a[i][1];
                             a[i][0]=a[j][0];
                             a[i][1]=a[j][1];
-                            a[j][0]=c;
+                            a[j][0]=e;
                             a[j][1]=d;
                         }
         for(i=0;i<26;i++)
-        printf("\n%c: %d ",a[i][1],a[i][0]);
-
-
-
+        printf("\n%c: %d",a[i][1],a[i][0]);
 
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main(void)
+int main(void)
 {
     int x, temp, y;
     int n[13];
@@ -74,4 +74,5 @@ void main(void)
                     break;
             }
     }
+    return 0;
 }

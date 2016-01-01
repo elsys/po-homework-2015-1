@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-void main(void)
+int main(void)
 {
    char a[10], b[10];
    int d, i, n;
-   printf("Vuvedete niz koito da bude oburnat: ");
-   scanf("%s",&a);
+   fgets(a, 10, stdin);
    n = strlen(a);
    for (i=n-1 , d=0 ; i >= 0; i--, d++)
    {

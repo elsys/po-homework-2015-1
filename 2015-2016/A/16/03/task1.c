@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main(void)
+int main(void)
 {
     int i, n, z, k = 0;
-    printf("Vuvedete chislo: ");
     scanf("%d",&z);
 
     for(i = 1;i <= z;++i)
@@ -21,4 +20,5 @@ void main(void)
         k = 0;
         printf("\n");
     }
+    return 0;
 }

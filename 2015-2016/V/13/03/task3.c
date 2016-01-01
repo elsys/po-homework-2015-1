@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <string.h>
 char s, cards[13];
-int sort(int n);
+void sort(int n);
 
 int main()
 {
-    gets(cards);
+    scanf("%s",cards);
     sort(13);
     puts(cards);
     return 0;
 }
 
-int sort(int n)
+void sort(int n)
 {
     int i, j;
-    for(i=0;i<n-1;i++)
+    for(i=0;i<n;i++)
     {
         while(cards[i]>='0' && cards[i]<='9') i++;
         switch(cards[i])

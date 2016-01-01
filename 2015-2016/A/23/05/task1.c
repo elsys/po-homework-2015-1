@@ -10,22 +10,15 @@ void rotr(int *a,int *b,int *c)
 }
 int main()
 {
-    int a,b,c,n,i=0;
-    printf("");scanf("%d %d %d %d",&a,&b,&c,&n);
-    int *var1;
-    int *var2;
-    int *var3;
-    var1 = &a;
-    var2 = &b;
-    var3 = &c;
-    while (i<n)
+    int a,b,c,n;
+    scanf("%d %d %d %d",&a,&b,&c,&n);
+    while (n>0)
     {
-        i++;
-        rotr(var1,var2,var3);
+        n--;
+        rotr(&a,&b,&c);
     }
-    printf("%d ",*var1);
-    printf("%d ",*var2);
-    printf("%d",*var3);
-    printf("\n");
+    printf("%d ",a);
+    printf("%d ",b);
+    printf("%d\n",c);
     return 0;
 }

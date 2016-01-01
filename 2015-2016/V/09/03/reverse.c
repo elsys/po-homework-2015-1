@@ -5,7 +5,7 @@ int main()
     char a[100], temp;
     int i=0, j=0;
     printf("Enter words: \n");
-    gets(a);
+    scanf("%s", a);
     j = strlen(a) - 1;
     for(i;i<j;i++){
         temp = a[i];

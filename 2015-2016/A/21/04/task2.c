@@ -26,17 +26,11 @@ int exact_square(float number)
 	{
 		if(count * count == replacer)
 		{
-			printf("\n1");
-			printf("\n");
-			printf("\n%d = %d ^ 2", replacer, count);
-			printf("\n");
+			printf("1\n");
 			return 0;
 		}
 	}
-	printf("\n0");
-	printf("\n");
-	printf("\nThere is no square root of %.2f ", number);
-	printf("\n");
+	printf("0\n");
 	
 	return 0;
 }

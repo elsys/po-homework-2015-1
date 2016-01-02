@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int i,q,n,z=0; // q = Prazno prostrastvo
-    printf("Kolko redove iskash : ");
+    int i,q,n,z=0;
     scanf("%d",&n);
     for(i=1;i<=n;++i)
     {

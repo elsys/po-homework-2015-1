@@ -3,10 +3,10 @@
 
 int main() {
 
-	unsigned long long cdta = 0;
+	int cdta = 0;
 
 	do 
-		scanf("%llu", &cdta);
+		scanf("%d", &cdta);
 	while(cdta % 2 == 0 || cdta <= 0);
 
 	int deers[cdta];

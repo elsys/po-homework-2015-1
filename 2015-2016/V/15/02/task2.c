@@ -5,11 +5,11 @@ int mstrlen(const char*);
 
 int main()
 {
-	char* buffer;  
+	char buffer[100];  
 	int i = 0;
 	do {
-	scanf("%ms", &buffer); // m means to dynamically allocate memory for the string!Requires to be freed thereafter
-	if(buffer[0] == 'S' && buffer[1] == 'T' && buffer[2] == 'O' && buffer[3] == 'P') // too lazy to write strcmp
+	scanf("%s", buffer);
+	if(buffer[0] == 'S' && buffer[1] == 'T' && buffer[2] == 'O' && buffer[3] == 'P')
 		break;
 	for(i = 0; i <= mstrlen(buffer); i++)
 	{
@@ -17,7 +17,6 @@ int main()
 			buffer[i] -= 32;
 	}
 	printf("%s ",buffer);
-	free(buffer);
 	} while(1);
 	return 0;
 }

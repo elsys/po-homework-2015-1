@@ -8,7 +8,7 @@ int main() {
 
 	int stars, current_row, spaces;
 
-	for(current_row = 1; current_row ^ rows+1; current_row++)
+	for(current_row = 1; current_row ^ (rows+1); current_row++)
 	{
 		for(spaces = rows - current_row; spaces >= 1; spaces--)
 			printf(" ");

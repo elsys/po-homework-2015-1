@@ -1,70 +1,49 @@
 #include<stdio.h>
 #include<stdlib.h>
-void next_generation()
+void next_generation(int *current, int *next, int length)
 {
-	int *current;
-	int *next;
-	int length;
-	int i=0;
-	int live_near;
-	for(i = 0;i < length;i++)
+	int i;
+	next[0]=0;
+	next[length-1]=0;
+	for(i=1;i<length-2;i++)
 	{
-		live_near = 0;
-		if(i-1 >= 0)
+		if(current[i-1]==current[i+1])
 		{
-			if(current[i-1] == 1)
-			{
-				live_near++;
-			}
+			next[i]=0;
 		}
-		if(i+1 < length)
+		if(current[i-1]!=current[i+1])
 		{
-			if(current[i+1] == 1)
-			{
-				live_near++;
-			}
-		}
-		if(live_near == 1 && current[i] == 0 && i != 0 && i+1 < length)
-		{
-			next[i] = 1;
-		}
-		else
-		{
-			next[i] = 0;
+			next[i]=1;
 		}
 	}
-
+	for(i=0;i<length-1;i++)
+	{
+		current[i]=next[i];
+	}
 }
 int main()
 {
-	char ch;
-	int entered[20],generated[20],n,i=0,death_count=0,loop=0;
+	int current[20],next[20],n,i=0,death_count=0,loop=0;
 	do
 	{
 		printf("n=");scanf("%d",&n);
-	}while(n <= 0 || n >= 20);
-	while(1)
+	}while(n<=0 || n>=20);
+	getchar();
+	for(i=0;i<n;i++)
 	{
-		ch=getchar();
-		if(ch == '1')
+		if(scanf("%d",&current[i])==0)
 		{
-			entered[i] = 1;
-			i++;
+			return 0;
 		}
-		if(ch == '0')
+		if(current[i]!=0 && current[i]!=1)
 		{
-			entered[i] = 0;
-			i++;
-		}
-		if(i >= n)
-		{
-		break;
+			return 0;
 		}
 	}
 	printf("\n");
-	for(i = 0;i < n;i++)
+	for(i=0;i<n;i++)
 	{
-		if(entered[i] == 0)
+		if(current[i]==0)
 		{
 			printf(".");
 		}
@@ -76,11 +55,11 @@ int main()
 	printf("\n");
 	do
 	{
-		next_generation(entered,generated,n);
-		death_count = 0;
-		for(i = 0;i < n;i++)
+		next_generation(current,next,n);
+		death_count=0;
+		for(i=0;i<n;i++)
 		{
-			if(generated[i] == 0)
+			if(current[i]==0)
 			{
 				death_count++;
 				printf(".");
@@ -89,7 +68,6 @@ int main()
 			{
 				printf("*");
 			}
-			entered[i] = generated[i];
 		}
 		printf("\n");
 		loop++;
@@ -97,4 +75,3 @@ int main()
 	printf("\n");
 	return 0;
 }
-

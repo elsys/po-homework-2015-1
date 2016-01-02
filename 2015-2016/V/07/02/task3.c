@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void main()
+int main()
 {
 	int a=0,l;
 	char s,izr[1000];
@@ -24,4 +24,5 @@ void main()
 		printf("%s\n",izr);
 		izr[0]='\0';
 	}
+	return 0;
 }

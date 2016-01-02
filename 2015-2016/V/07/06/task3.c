@@ -4,9 +4,10 @@
 
 void create_letter_distribution_diagram();	//в условието пишеше въвеждането и извеждането да стават във функцията
 
-void main()
+int main()
 {
 	create_letter_distribution_diagram();
+	return 0;
 }
 
 void create_letter_distribution_diagram()

@@ -1,12 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-int main()
-{
-	int number,digit;
-	scanf("%d",&number);
-	digit=exact_square(number);
-	printf("%d",digit);
-}
 int exact_square(int number)
 {
 	int digit,i;
@@ -20,4 +13,11 @@ int exact_square(int number)
 		}
 	}
 	return digit;
+}
+int main()
+{
+	int number,digit;
+	scanf("%d",&number);
+	digit=exact_square(number);
+	printf("%d",digit);
 }

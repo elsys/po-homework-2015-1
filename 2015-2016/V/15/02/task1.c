@@ -3,8 +3,6 @@
 #define ASCII_COUNT 255
 #endif
 
-
-
 int main()
 {
 

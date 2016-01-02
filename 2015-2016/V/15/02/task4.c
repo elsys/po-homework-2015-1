@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <inttypes.h>
 
 #define positive( x ) ((x < 0) ? (-x) : (x))
 
-unsigned int getSize(const long long int num) {
+unsigned int getSize(const long int num) {
     if (num < 10) return 1;
     return 1 + getSize(num / 10);
 }
 
-int getNum(long long int num, unsigned int n)
+int getNum(long int num, unsigned int n)
 {
 	while(n != 0)
 	{
@@ -19,8 +20,8 @@ int getNum(long long int num, unsigned int n)
 
 int main()
 {
-	long long int num;
-	scanf("%lld",&num);
+	long int num;
+	scanf("%ld",&num);
 	num = positive(num);
 
 	int i = 0;

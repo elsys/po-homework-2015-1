@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int i,a[10];
 	long long int n;
@@ -18,4 +18,5 @@ void main()
 		if(a[i]>1)
 			printf("%d, ",i);
 	printf("\b\b.");
+	return 0;
 }

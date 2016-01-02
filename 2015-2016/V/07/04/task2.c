@@ -2,7 +2,7 @@
 
 int mag(int (*m)[100][100],int a);
 
-void main()
+int main()
 {
 	int a,i,j,b,x[100][100];
 	printf("\nVavedi dalzina na stranata na kvadrata:");
@@ -21,6 +21,7 @@ void main()
 		printf("\nTozi kvadrat e magicheski!\n");
 	else
 		printf("\nNikakva magia, opitai pak.\n");
+	return b;
 }
 
 int mag(int (*m)[100][100],int a)

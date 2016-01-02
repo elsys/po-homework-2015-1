@@ -19,6 +19,7 @@ int main()
 				case 'Q': a[i]=12; break;
 				case 'K': a[i]=13; break;
 				case 'A': a[i]=14; break;
+				default: printf("\nGRESHKA! Mogat da se vavezdat samo chislata ot 2 do 9 i bukvite T, J, Q, K i A."); return -1;
 			}
 	}
 	while(!sort)
@@ -36,16 +37,18 @@ int main()
 	}
 	for(i=0;i<13;i++)
 	{
-		if(a[i]>=2 && a[i]<=10)
-			printf("%d ",a[i]);
+		if(a[i]>=2 && a[i]<10)
+			printf("%d",a[i]);
 		else
 			switch(a[i])
 			{
-				case 11: printf("J "); break;
-				case 12: printf("Q "); break;
-				case 13: printf("K "); break;
-				case 14: printf("A "); break;
+				case 10: printf("T"); break;
+				case 11: printf("J"); break;
+				case 12: printf("Q"); break;
+				case 13: printf("K"); break;
+				case 14: printf("A"); break;
 			}
 	}
 	printf("\n");
+	return 0;
 }

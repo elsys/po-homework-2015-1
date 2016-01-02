@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int n,i,j=1;
 	printf("\nKolko visok da e triagalnika?");
@@ -18,4 +18,5 @@ void main()
 		n--;
 	}
 	printf("\n");
+	return 0;
 }

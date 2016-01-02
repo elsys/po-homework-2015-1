@@ -3,7 +3,7 @@
 
 int pal(char x[1000]);
 
-void main()
+int main()
 {
 	char a[1000];
 	int b;
@@ -11,6 +11,7 @@ void main()
 	scanf("%s",a);
 	b=pal(a);
 	printf("%d\n",b);
+	return b;
 }
 
 int pal(char x[1000])

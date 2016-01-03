@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sun Jan  3 17:10:05 2016
+Sun Jan  3 17:31:47 2016
 
 ## Evaluating task1.c
 
@@ -8,57 +8,37 @@ Sun Jan  3 17:10:05 2016
 
 ### Task details:
 
-Name: Implement function is_prime
+Name: Task: colors
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-1
-```
-But was:
-```
-
-```
-Test case 1 failed ✘ 
-
----
-Expected:
-```
-0
-```
-But was:
-```
-
-```
+Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+Test case 0 passed ✔︎ 
+Test case 1 passed ✔︎ 
 ## Evaluating task3.c
 
 **File successfully compiled**
 
 ### Task details:
 
-Name: Implement function create_letter_distribution_diagram
+Name: Task: Rudolph
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-Test case 0 timeout 🕐
-Test case 1 timeout 🕐
+Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+Test case 0 passed ✔︎ 
+Test case 1 passed ✔︎ 
 ## Evaluating task2.c
 
 **File successfully compiled**
 
 ### Task details:
 
-Name: Implement function exact_square
+Name: Task: Nokia 3310
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
+Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 Test case 0 failed ✘ 
 
 ---
 Expected:
 ```
-1
+35
 ```
 But was:
 ```

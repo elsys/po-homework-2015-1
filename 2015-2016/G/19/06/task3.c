@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 void create_letter_distribution_diagram();
 
@@ -11,44 +10,39 @@ int main()
 
 void create_letter_distribution_diagram()
 {
-    FILE *fp;
-    long lSize;
-    char *buffer;
-
-    fp = fopen ( "in.txt" , "rb" );
-    if( !fp ) return;
-
-    fseek( fp , 0L , SEEK_END);
-    lSize = ftell( fp );
-    rewind( fp );
-
-    buffer = calloc( 1, lSize+1 );
-    if( !buffer ) fclose(fp),fputs("memory alloc fails",stderr),exit(1);
-
-    if( 1!=fread( buffer , lSize, 1 , fp) )
-      fclose(fp),free(buffer),fputs("entire read fails",stderr),exit(1);
-
-    int data[26][2];
-    int i;
+	    int data[26][2];
+    int i, c, d;
+    int swap[2];
+    char ch;
     for(i = 0; i < 26;i++){
         data[i][0] = i;
         data[i][1] = 0;
     }
 
-    for(i = 0; buffer[i]; i++)
+    while(1)
     {
-        char c = tolower(buffer[i]);
-        if(c >= 'a' && c <= 'z')
+
+	ch = getchar();
+	if(ch == EOF)
+	{
+	    break;
+	}
+	
+	if(ch >= 'A' && ch <= 'Z')
+	{
+	   ch = ch + ('a' - 'A'); 
+	}
+
+	if(ch >= 'a' && ch <= 'z')
         {
-            data[c - 'a'][1]++;
+            data[ch - 'a'][1]++;
         }
     }
-    int c, d;
-    int swap[2];
-    int length = strlen(buffer);
-    for (c = 0 ; c < ( length - 1 ); c++)
+
+    
+    for (c = 0 ; c < 25; c++)
     {
-        for (d = 0 ; d < length - c - 1; d++)
+        for (d = 0 ; d < 25 - c - 1; d++)
         {
             if (data[d][1] < data[d+1][1])
             {
@@ -74,12 +68,10 @@ void create_letter_distribution_diagram()
         }
     }
 
-    for(i = 0; i < 27;i++)
+    for(i = 0; i < 26;i++)
     {
         printf("%c: %d\n", data[i][0] + 'a', data[i][1]);
     }
-
-    fclose(fp);
-    free(buffer);
 }
+
 

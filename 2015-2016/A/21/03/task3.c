@@ -1,16 +1,18 @@
 #include <stdio.h>
+#include <string.h>
 
 int number(char);
+
 int main()	
 {
-	int i,k;
-	char teste[14],teste1;
-	scanf("%s",teste);
-	for(i=1;i<13;i++)
+	int i, k;
+	char teste[14], teste1;
+	scanf("%s", teste);
+	for(i = 1 ; i < strlen(teste) ; i++)
 	{
-		for(k=0;k<13-i;k++)
+		for(k = 0 ; k < strlen(teste) - i ; k++)
 		{
-			if(number(teste[k])>number(teste[k+1]))
+			if(number(teste[k]) > number(teste[k+1]))
 			{
 				teste1 = teste[k];
 				teste[k] = teste[k+1];
@@ -18,8 +20,7 @@ int main()
 			}
 		}
 	}
-	printf("\n%s",teste);
-	printf("\n");
+	printf("\n%s", teste);
 	return 0;
 }
 
@@ -40,6 +41,6 @@ int number(char order)
 		case '4': return 3;
 		case '3': return 2;
 		case '2': return 1;
-		default: return 1;
+		default: return 0;
 	}
 }

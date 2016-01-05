@@ -3,30 +3,26 @@
 #include<string.h>
 int create_letter_distribution_diagram();
 
-void find_frequency()
-{
-	int c=0;
-	int count[100];
-	char s[100];
-	while(s[c]!='\0')
-	{
-		if(s[c]>='a' && s[c]<='z')
-		{
-			count[s[c]-'a']++;
-		}
-		if(s[c]>='A' && s[c]<='Z')
-		{
-			count[s[c]-'A']++;
-		}
-		c++;
-	}
-}
 int create_letter_distribution_diagram()
 {
-	char string;
-	int c,order[26]={0},sorted[26],tmp,i,y;
-	scanf("%s",&string);
-	find_frequency(string,order);
+	char c;
+	int l,order[26]={0},sorted[26],tmp,tmp2,i,y;
+	while(1)
+	{
+		c=getchar();
+		if(c==EOF)
+		{
+			break;
+		}
+		if(c>='a' && c<='z')
+		{
+			order[c-'a']++;
+		}
+		if(c>='A' && c<='Z')
+		{
+			order[c-'A']++;
+		}
+	}
 	for(i=0;i<26;i++)
 	{
 		sorted[i]=i;
@@ -36,17 +32,29 @@ int create_letter_distribution_diagram()
 
 		for(y=0;y<26-i;y++)
 		{
-			if(order[sorted[y]]<order[sorted[y+1]])
+			if(order[y]<order[y+1])
 			{
 				tmp=sorted[y];
+				tmp2=order[y];
 				sorted[y]=sorted[y+1];
 				sorted[y+1]=tmp;
+				order[y]=order[y+1];
+				order[y+1]=tmp2;
+			}
+			if(sorted[y]>sorted[y+1] && order[y]==order[y+1])
+			{
+				tmp=sorted[y];
+				tmp2=order[y];
+				sorted[y]=sorted[y+1];
+				sorted[y+1]=tmp;
+				order[y]=order[y+1];
+				order[y+1]=tmp2;
 			}
 		}
 	}
-	for(c=0;c<26;c++)
+	for(l=0;l<26;l++)
 	{
-		printf("\n%c:%d",sorted[c]+'a',order[sorted[c]]);
+		printf("\n%c:%d",sorted[l]+'a',order[l]);
 	}
 	return 0;
 }

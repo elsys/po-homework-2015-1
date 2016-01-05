@@ -1,9 +1,9 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
-{   char c;
-    c='*';
+{   char c='*';
     int n,i,k,j;
     scanf("%d",&n);
     for(i=1;i<=n;i++)

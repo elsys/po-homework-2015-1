@@ -66,9 +66,9 @@ void create_letter_distribution_diagram(struct Distribution diagram[])
 
 
     /* using bubble sort to make the most frequent letters appear first*/
-    for (i = 1; i < Maxnum; i++)
+    for (i = 1; i < Maxnum - 1; i++)
     {
-        for (j = 1; j < Maxnum; j++)
+        for (j = 1; j < Maxnum - i - 1; j++)
         {
             if (diagram[j].occurance < diagram[j + 1].occurance)
             {

@@ -11,7 +11,7 @@ void print_hex(int);
 int main() {
 
 	int i, length;
-	char option, color[13], *temp, tmpchar;
+	char option, color[13], *temp;
 	
 	scanf("%c", &option);
 

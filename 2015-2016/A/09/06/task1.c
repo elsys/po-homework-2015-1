@@ -11,7 +11,7 @@ void print_hex(int);
 int main() {
 
 	int i, length;
-	char option, color[13], *temp;
+	char option, color[13], *temp, tmpchar;
 	
 	scanf("%c", &option);
 
@@ -30,6 +30,9 @@ int main() {
 	    
 		fgets(color, 14, stdin);
 		temp = strtok(color, ", ");
+		
+		getchar();
+		
 		printf("#");
 
 		while (temp != NULL) {

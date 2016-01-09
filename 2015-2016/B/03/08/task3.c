@@ -6,7 +6,7 @@ int find_rudolf ( int *, int );
 int main () {
 	int deer [100] , deer_num, count;
 	do {
-		printf("Deer num: \n");scanf("%d", &deer_num);
+		scanf("%d", &deer_num);
 	} while ( deer_num % 2 == 0 );
 	
 	for ( count = 0; count < deer_num ; count ++ ) {

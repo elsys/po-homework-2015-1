@@ -34,7 +34,7 @@ int main(){
 		if(string[index]=='o')counter = counter+3;
 		if(string[index]=='r')counter = counter+3;
 		if(string[index]=='v')counter = counter+3;
-		if(string[index]=='z')counter = counter+3;
+		if(string[index]=='y')counter = counter+3;
 
 		if(string[index]=='s')counter = counter+4;
 		if(string[index]=='z')counter = counter+4;

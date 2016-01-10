@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Tue Jan  5 18:58:44 2016
+Sat Jan  9 22:01:02 2016
 
 ## Evaluating task1.c
 
@@ -23,7 +23,17 @@ Name: Task: Rudolph
 
 Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
+Test case 1 failed ✘ 
+
+---
+Expected:
+```
+9
+```
+But was:
+```
+8
+```
 ## Evaluating task2.c
 
 **File successfully compiled**
@@ -34,4 +44,3 @@ Name: Task: Nokia 3310
 
 Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 

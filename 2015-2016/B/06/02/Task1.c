@@ -7,4 +7,5 @@ int main()
 		printf(" %d , %c \n" ,k ,k);
 	}
 	return 0;
+
 }

@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:42:12 2016
+Mon Jan 11 22:05:58 2016
 
 ## Evaluating task1.c
 
@@ -11,6 +11,8 @@ Sat Jan  9 21:42:12 2016
 Name: Triangle
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -22,6 +24,8 @@ But was:
 ```
 h= aa  aaaa
 ```
+
+ Final points are 0
 ## Evaluating task3.c
 
 **File successfully compiled**
@@ -31,6 +35,8 @@ h= aa  aaaa
 Name: Cards
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -42,6 +48,8 @@ But was:
 ```
 9827AJKQ6345Ð
 ```
+
+ Final points are 0
 ## Evaluating triugulnic.c
 
 File doesn't match naming convention
@@ -63,6 +71,8 @@ File doesn't match naming convention
 Name: Reverse
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -74,3 +84,5 @@ But was:
 ```
 insert text:olleH
 ```
+
+ Final points are 0

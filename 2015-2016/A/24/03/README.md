@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:44:39 2016
+Mon Jan 11 22:06:11 2016
 
 ## Evaluating roman2arabic.c
 
@@ -15,6 +15,8 @@ File doesn't match naming convention
 Name: Triangle
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -26,6 +28,8 @@ But was:
 ```
 *  * * *
 ```
+
+ Final points are 0
 ## Evaluating task4.c
 
 **File successfully compiled**
@@ -35,8 +39,12 @@ But was:
 Name: Roman to Arabic
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 passed ✔︎ 
 Test case 1 passed ✔︎ 
+
+ Final points are 5
 ## Evaluating deck.c
 
 File doesn't match naming convention
@@ -54,6 +62,8 @@ File doesn't match naming convention
 Name: Cards
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -65,6 +75,8 @@ But was:
 ```
 Ð23456789JQKA¢
 ```
+
+ Final points are 0
 ## Evaluating rev_text.c
 
 File doesn't match naming convention
@@ -78,6 +90,8 @@ File doesn't match naming convention
 Name: Reverse
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -89,3 +103,5 @@ But was:
 ```
 
 ```
+
+ Final points are 0

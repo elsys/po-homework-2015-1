@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:43:58 2016
+Mon Jan 11 22:06:04 2016
 
 ## Evaluating cards.c
 
@@ -15,6 +15,8 @@ File doesn't match naming convention
 Name: Triangle
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -26,6 +28,8 @@ But was:
 ```
 Input triangle height:    .   /_\
 ```
+
+ Final points are 0
 ## Evaluating task4.c
 
 **File successfully compiled**
@@ -35,6 +39,8 @@ Input triangle height:    .   /_\
 Name: Roman to Arabic
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -57,6 +63,8 @@ But was:
 ```
 Input roman number: Roman number in decimal is: 219
 ```
+
+ Final points are 0
 ## Evaluating reverse.c
 
 File doesn't match naming convention
@@ -78,7 +86,11 @@ File doesn't match naming convention
 Name: Cards
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 timeout 🕐
+
+ Final points are 0
 ## Evaluating task2.c
 
 **File successfully compiled**
@@ -88,6 +100,8 @@ Test case 0 timeout 🕐
 Name: Reverse
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -99,3 +113,5 @@ But was:
 ```
 Input your string: olleH
 ```
+
+ Final points are 0

@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:56:12 2016
+Mon Jan 11 22:06:03 2016
 
 ## Evaluating task1.c
 
@@ -11,6 +11,8 @@ Sat Jan  9 21:56:12 2016
 Name: rotr
 
 Description: https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -22,3 +24,5 @@ But was:
 ```
 312
 ```
+
+ Final points are 0

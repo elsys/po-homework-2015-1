@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:45:49 2016
+Mon Jan 11 22:06:12 2016
 
 ## Evaluating task1.c
 
@@ -11,6 +11,8 @@ Sat Jan  9 21:45:49 2016
 Name: is_prime
 
 Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -23,6 +25,8 @@ But was:
 0
 ```
 Test case 1 passed ✔︎ 
+
+ Final points are 2.5
 ## Evaluating task3.c
 
 **File successfully compiled**
@@ -32,6 +36,8 @@ Test case 1 passed ✔︎
 Name: create_letter_distribution_diagram
 
 Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Points: 15
 Test case 0 failed ✘ 
 
 ---
@@ -43,6 +49,8 @@ But was:
 ```
 a:3 e:6 s:4 i:2 l:2 n:2 t:2 c:1 h:1 m:1 o:1 r:1 w:1 y:1 b:0 d:0 f:0 g:0 j:0 k:0 p:0 q:0 u:0 v:0 x:0 z:0
 ```
+
+ Final points are 0
 ## Evaluating task2.c
 
 **File successfully compiled**
@@ -52,4 +60,8 @@ a:3 e:6 s:4 i:2 l:2 n:2 t:2 c:1 h:1 m:1 o:1 r:1 w:1 y:1 b:0 d:0 f:0 g:0 j:0 k:0 
 Name: exact_square
 
 Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Points: 5
 Test case 0 passed ✔︎ 
+
+ Final points are 5

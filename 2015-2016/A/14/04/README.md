@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:46:45 2016
+Mon Jan 11 22:06:03 2016
 
 ## Evaluating task1.c
 
@@ -11,6 +11,8 @@ Sat Jan  9 21:46:45 2016
 Name: is_prime
 
 Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -33,3 +35,5 @@ But was:
 ```
 Enter a number to check if its prime:  The answer is: 0
 ```
+
+ Final points are 0

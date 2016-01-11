@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:47:28 2016
+Mon Jan 11 22:05:56 2016
 
 ## Evaluating task2.c
 
@@ -11,4 +11,8 @@ Sat Jan  9 21:47:28 2016
 Name: exact_square
 
 Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Points: 5
 Test case 0 passed ✔︎ 
+
+ Final points are 5

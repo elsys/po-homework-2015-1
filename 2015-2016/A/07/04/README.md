@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:47:15 2016
+Mon Jan 11 22:05:59 2016
 
 ## Evaluating task1.c
 
@@ -11,8 +11,12 @@ Sat Jan  9 21:47:15 2016
 Name: is_prime
 
 Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Points: 5
 Test case 0 passed ✔︎ 
 Test case 1 passed ✔︎ 
+
+ Final points are 5
 ## Evaluating task2.c
 
 **File successfully compiled**
@@ -22,4 +26,8 @@ Test case 1 passed ✔︎
 Name: exact_square
 
 Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Points: 5
 Test case 0 passed ✔︎ 
+
+ Final points are 5

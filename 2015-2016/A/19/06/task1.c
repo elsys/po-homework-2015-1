@@ -89,11 +89,11 @@ int convert_to_dec(char *hex_number)
 			for (c = 0; c <= 5; c++)
 			{
 				if(hex_number[i] == 'a' + c)
-					hex_number[i] = c + 10 + '0';/*is this legit?*/
+					hex_number[i] = c + 10 + '0';
 			}
 	}
 
-	sum = sum + (hex_number[0] - '0')*16; /*u sure?*/
+	sum = sum + (hex_number[0] - '0')*16; 
 	sum = sum + (hex_number[1] - '0')*1;
 
 	return sum;

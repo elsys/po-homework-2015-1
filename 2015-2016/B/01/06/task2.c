@@ -6,7 +6,7 @@ int main()
     char words[159];
     int counter,sum=0;
 
-    scanf("%[^\n]s",&words);
+    scanf("%[^\n]s",words);
 
   for(counter=0;words[counter]!=0;counter++){
     if (words[counter]== 'a' || words[counter]== 'd' || words[counter]== 'g' || words[counter]== 'j' || words[counter]== 'm' || words[counter]== 'p' || words[counter]== 't' || words[counter]== 'w') sum += 1;

@@ -1,0 +1,29 @@
+Evaluating homework 05 on student 23 from B class
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			3 1 2
+		Got: 
+ 			Number 1: Number 2: Number 3: Number of rotations: 3 1 2
+
+	Test 2 failed:
+		Expected:
+			9 1 5
+		Got: 
+ 			Number 1: Number 2: Number 3: Number of rotations: 9 1 5
+
+
+Evalutaing task2.c
+	Test 1 failed:
+		Expected:
+			.*.*. .....
+		Got: 
+ 			Amount of cells:Cell 1:Cell 2:Cell 3:Cell 4:Cell 5:* * . . .  * * * * *  Created 2 generations.
+
+
+Summary
+
+	task1 - 0/2
+	task2 - 0/1

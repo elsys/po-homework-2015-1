@@ -1,0 +1,57 @@
+Evaluating homework 06 on student 19 from G class
+
+
+Evalutaing task3.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c: In function ‘create_letter_distribution_diagram’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:25:14: warning: implicit declaration of function ‘calloc’ [-Wimplicit-function-declaration]
+     buffer = calloc( 1, lSize+1 );
+              ^
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:25:14: warning: incompatible implicit declaration of built-in function ‘calloc’
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:25:14: note: include ‘<stdlib.h>’ or provide a declaration of ‘calloc’
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:26:65: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+     if( !buffer ) fclose(fp),fputs("memory alloc fails",stderr),exit(1);
+                                                                 ^
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:26:65: warning: incompatible implicit declaration of built-in function ‘exit’
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:26:65: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:29:18: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+       fclose(fp),free(buffer),fputs("entire read fails",stderr),exit(1);
+                  ^
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:29:18: warning: incompatible implicit declaration of built-in function ‘free’
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:29:18: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:29:65: warning: incompatible implicit declaration of built-in function ‘exit’
+       fclose(fp),free(buffer),fputs("entire read fails",stderr),exit(1);
+                                                                 ^
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:29:65: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:40:18: warning: implicit declaration of function ‘tolower’ [-Wimplicit-function-declaration]
+         char c = tolower(buffer[i]);
+                  ^
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:83:5: warning: incompatible implicit declaration of built-in function ‘free’
+     free(buffer);
+     ^
+/home/sasho/programs/elsys/po-homework/2015-2016/G/19/06/task3.c:83:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			0
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			1
+
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 0/2
+	task2 - 2/2
+	task3 - 0/2 - warning

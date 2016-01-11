@@ -2,18 +2,19 @@
 #include <stdlib.h>
 void exact_square(void);
 
-void main(void)
+int main(void)
 {
     exact_square();
+    return 0;
 }
 
 
 void exact_square(void)
 {
     int x;
+    int n = 1;
     scanf("%d", &x);
     printf("\n");
-    int n = 1;
     while(n<x)
     {
         if(x==n*n)

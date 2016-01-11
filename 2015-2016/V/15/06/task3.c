@@ -33,7 +33,7 @@ int main() {
 
 void create_letter_distribution_diagram(const char* string) {
     unsigned int i = 0, j;
-    alpha model[26] = {  };
+    alpha model[26] = {{ 0 }};
     for(j = 0; j <= ('z' - 'a'); j++)
         model[j] = add_letter(j+'a',0);
     while(*string++)

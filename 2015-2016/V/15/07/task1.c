@@ -5,7 +5,7 @@ void rotr(int*, int*, int*);
 int main() {
 	int a, b, c, d;
 	do
-		scanf("%d %d %d %d", ({printf("a b c d:"); &a;}), &b, &c, &d);
+		scanf("%d %d %d %d", &a, &b, &c, &d);
 	while(d <= 0);
 	do
 		rotr(&a,&b,&c);

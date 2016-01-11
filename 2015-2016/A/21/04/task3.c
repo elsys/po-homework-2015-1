@@ -2,16 +2,20 @@
 #define Alpha 26
 
 void create_letter_distribution_diagram();
+void output(int i, int count, int letters, int maximum, char alphabet[Alpha], int times[200]);
 
 int main()
 {
+
 	void create_letter_distribution_diagram();
+
 	return 0;
 }
 
 void create_letter_distribution_diagram()
 {
-	int count = 0 ,times[200], i, maximum = 0;
+
+	int letters = 26, count = 0, times[200], i, maximum = 0;
 	char alphabet[Alpha], letter;
 	
 	for(letter = 'a' , count = 0; letter <= 'z'; letter ++, count ++)
@@ -22,32 +26,41 @@ void create_letter_distribution_diagram()
 	
 	while(1) 
 	{
-		letter = getchar();
-		if(letter == EOF)
+		scanf("%c", &letter);
+		if(letter != 'b')
 		{
-			break;
-		}
-	
-		for(i = 0; i < 26; i ++)
-		{
-			if(letter == alphabet[i - ('z' - 'Z')] || letter == alphabet[i])
+			for(i = 0; i < letters; i ++)
 			{
-				times[i] ++;
-				if(times[i] < maximum) 
+				if(letter == alphabet[i - ('z' - 'Z')] || letter == alphabet[i])
 				{
-					times[i] = maximum;
+					times[i] ++;
+					if(times[i] < maximum) 
+					{
+						times[i] = maximum;
+					}
 				}
 			}
 		}
+		else
+		{
+			break;
+		}
+		
 	}
+	
+	output(i, count, letters, maximum, alphabet, times);	
+}
+
+void output(int i, int count, int letters, int maximum, char alphabet[Alpha], int times[200])
+{
 
 	for(i = maximum ; i >= 0 ; i ++)
 	{
-		for(count = 0 ; count < 26 ; count ++)
+		for(count = 0 ; count < letters ; count ++)
 		{
 			if(times[count] == i)
 			{
-				printf("\n%c: %d", alphabet[i], count);
+				printf("%c: %d\n", alphabet[i], count);
 			}
 		}
 	} 

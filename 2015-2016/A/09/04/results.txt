@@ -1,0 +1,25 @@
+Evaluating homework 04 on student 09 from A class
+
+
+Evalutaing task3.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			0
+
+	Test 2 passed
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 1/2
+	task2 - 2/2
+	task3 - 2/2

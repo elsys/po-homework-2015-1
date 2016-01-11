@@ -1,0 +1,44 @@
+Evaluating homework 04 on student 12 from B class
+
+
+Evalutaing task3.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task3.c: In function ‘create_letter_distribution_diagram’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task3.c:38:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task1.c:3:2: warning: parameter names (without types) in function declaration
+  int is_prime(num);
+  ^
+/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task1.c: In function ‘is_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task1.c:14:6: warning: type of ‘num’ defaults to ‘int’ [-Wimplicit-int]
+  int is_prime(num) {
+      ^
+/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task1.c:23:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task2.c:3:2: warning: parameter names (without types) in function declaration
+  int exact_square(num);
+  ^
+/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task2.c: In function ‘exact_square’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task2.c:15:6: warning: type of ‘num’ defaults to ‘int’ [-Wimplicit-int]
+  int exact_square(num) {
+      ^
+/home/sasho/programs/elsys/po-homework/2015-2016/B/12/04/task2.c:23:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning
+	task3 - 0/2 - warning

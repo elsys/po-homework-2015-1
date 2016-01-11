@@ -2,12 +2,13 @@
 
 int exact_square(int);
 
-void main()
+int main()
 {
 	int a,rez;
 	scanf("%d",&a);
 	rez=exact_square(a);
 	printf("%d",rez);
+	return rez;
 }
 
 int exact_square(int a)

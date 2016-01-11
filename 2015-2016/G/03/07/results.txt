@@ -1,0 +1,29 @@
+Evaluating homework 07 on student 03 from G class
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			3 1 2
+		Got: 
+ 			4 2 3
+
+	Test 2 failed:
+		Expected:
+			9 1 5
+		Got: 
+ 			10 5 9
+
+
+Evalutaing task2.c
+	Test 1 failed:
+		Expected:
+			.*.*. .....
+		Got: 
+ 			0100000
+
+
+Summary
+
+	task1 - 0/2
+	task2 - 0/1

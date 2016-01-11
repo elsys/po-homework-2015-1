@@ -1,0 +1,19 @@
+Evaluating homework 07 on student 12 from V class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/12/07/task2.c: In function ‘next_generation’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/12/07/task2.c:42:6: warning: unused variable ‘count_print’ [-Wunused-variable]
+  int count_print;
+      ^
+
+
+Summary
+
+	task1 - 2/2
+	task2 - 0/1 - warning

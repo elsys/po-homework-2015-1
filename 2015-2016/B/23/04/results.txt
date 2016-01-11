@@ -1,0 +1,23 @@
+Evaluating homework 04 on student 23 from B class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/23/04/task1.c: In function ‘is_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/23/04/task1.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/23/04/task2.c: In function ‘exact_square’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/23/04/task2.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning

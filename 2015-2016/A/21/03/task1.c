@@ -3,26 +3,23 @@
 
 int main()
 {
-    int n,i,p,l,k;
-	
-    printf("\n Enter height = ");
+    int n, i, l, k;
+
     scanf("%d",&n);
 
-    printf("\n");
-
-    for(i=1;i<=n;i++)
+    for(i = 1 ; i <= n ; i++)
     {
-	k=0;
-        for(l=0;l<=n-i;l++)
+	k = 0;
+        for(l = 0 ; l <= n - i ; l++ )
         {
            printf(" ");
         }
-        while(k!=2*i-1)
+        while(k != 2*i - 1)
         {
-           printf("1");
-           k++;
+        	printf("1");
+		k ++;
         }
-        printf("\n");
-    }
-    return 0;
+        	printf("\n");
+	}
+	return 0;
 }

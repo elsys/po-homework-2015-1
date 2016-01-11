@@ -9,7 +9,6 @@ int power_10(int power);
 
 int main(){
 	char number[maxnum];
-	printf("Enter your number:\n");
 	scanf("%s",number);
 	int len = strlen(number);
 	printf("%d\n",is_prime(number,len));

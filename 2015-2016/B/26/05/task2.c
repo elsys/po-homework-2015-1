@@ -9,8 +9,8 @@ int main(){
     for( i = 0 ; i < lenght ; i++ ){
         scanf("%d", &current[ i ]);}
     for( i = 0 ; i < lenght ; i++){
-            if( current[ i ] == 1)printf("* ");
-            if( current[ i ] == 0)printf(". ");
+            if( current[ i ] == 1)printf("*");
+            if( current[ i ] == 0)printf(".");
             }
     printf("\n");
     for( i = 0 ; i <= 1000 ; i++ ){
@@ -31,8 +31,8 @@ void next_generation(int *current , int *next , int lenght ){
         }
 
     for( i = 0 ; i < lenght ; i++){
-        if( next[ i ] == 1 ) printf("* ");
-        if( next[ i ] == 0 ) printf(". ");
+        if( next[ i ] == 1 ) printf("*");
+        if( next[ i ] == 0 ) printf(".");
         }
     printf("\n");
     for( i = 0 ; i < lenght ; i++)

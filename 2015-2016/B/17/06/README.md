@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:42:36 2016
+Mon Jan 11 22:40:04 2016
 
 ## Evaluating task1.c
 
@@ -22,21 +22,11 @@ rgb(77, 0, 230)
 ```
 But was:
 ```
-rgb(-528, -816, -816)
+rgb(77,0,230)
 ```
-Test case 1 failed ✘ 
+Test case 1 passed ✔︎ 
 
----
-Expected:
-```
-#fbff4d
-```
-But was:
-```
-#0000
-```
-
- Final points are 0
+ Final points are 5.0
 ## Evaluating task3.c
 
 **File successfully compiled**

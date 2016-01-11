@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:24:55 2016
+Mon Jan 11 22:48:04 2016
 
 ## Evaluating povtarqshtisechisla.c
 

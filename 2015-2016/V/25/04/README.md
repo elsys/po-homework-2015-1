@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:15 2016
+Mon Jan 11 22:48:07 2016
 
 ## Evaluating 1va-zad.c
 

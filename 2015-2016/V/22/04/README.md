@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:12 2016
+Mon Jan 11 22:48:06 2016
 
 ## Evaluating homework.c
 

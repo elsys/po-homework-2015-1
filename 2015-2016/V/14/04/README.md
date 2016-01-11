@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:05 2016
+Mon Jan 11 22:48:05 2016
 
 ## Evaluating magic square.c
 

@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:39 2016
+Mon Jan 11 22:48:17 2016
 
 ## Evaluating digits.c
 

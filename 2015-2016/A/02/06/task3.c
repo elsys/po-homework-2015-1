@@ -17,11 +17,11 @@ int main()
 
                 if(n==j)
                 {
-                  printf("%d",i);
+                  printf("%d",m[i]);
                   return 0;
                 }
 
            }
-printf("%d",i++);
+printf("%d",m[i+1]);
     return 0;
 }

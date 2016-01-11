@@ -68,7 +68,7 @@ void hexi_rgb()
 	temp2 = pass_the_meme(hexvalue[7]);
 	b = temp1 * 16 + temp2 * 1;
 
-	printf("rgb(%d,%d,%d)", r, g, b);
+	printf("rgb(%d, %d, %d)", r, g, b);
 }
 void conversion(int colour)
 { 	

@@ -18,7 +18,7 @@ int main()
 			i += 3;
 		if (input_s == 's' || input_s == 'z' )
 			i += 4;
-		printf("%c", input_s);
+
 	} while (input_s != '\n');
 
 	printf("%d", i);

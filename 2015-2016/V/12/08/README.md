@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:00 2016
+Mon Jan 11 22:25:04 2016
 
 ## Evaluating task1.c
 
@@ -29,19 +29,9 @@ Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-caz
 
 Points: 15
 Test case 0 passed ✔︎ 
-Test case 1 failed ✘ 
+Test case 1 passed ✔︎ 
 
----
-Expected:
-```
-9
-```
-But was:
-```
-8
-```
-
- Final points are 7.5
+ Final points are 15
 ## Evaluating task2.c
 
 **File successfully compiled**

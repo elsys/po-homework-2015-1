@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:43 2016
+Mon Jan 11 22:25:08 2016
 
 ## Evaluating task1.c
 
@@ -8,32 +8,32 @@ Mon Jan 11 22:25:43 2016
 
 ### Task details:
 
-Name: Task: colors
+Name: is_prime
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-Points: 10
+Points: 5
 Test case 0 failed ✘ 
 
 ---
 Expected:
 ```
-rgb(77, 0, 230)
+1
 ```
 But was:
 ```
-0 0
+Enter number:1
 ```
 Test case 1 failed ✘ 
 
 ---
 Expected:
 ```
-#fbff4d
+0
 ```
 But was:
 ```
-0 0
+Enter number:0
 ```
 
  Final points are 0
@@ -43,9 +43,9 @@ But was:
 
 ### Task details:
 
-Name: Task: Nokia 3310
+Name: exact_square
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
 Points: 5
 Test case 0 failed ✘ 
@@ -53,11 +53,11 @@ Test case 0 failed ✘
 ---
 Expected:
 ```
-35
+1
 ```
 But was:
 ```
-4
+Enter a number: 1
 ```
 
  Final points are 0

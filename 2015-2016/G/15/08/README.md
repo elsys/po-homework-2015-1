@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:00 2016
+Mon Jan 11 22:25:44 2016
 
 ## Evaluating task1.c
 
@@ -13,10 +13,30 @@ Name: Task: colors
 Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
 Points: 10
-Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
+Test case 0 failed ✘ 
 
- Final points are 10
+---
+Expected:
+```
+rgb(77, 0, 230)
+```
+But was:
+```
+rgb(0, 0, 0)
+```
+Test case 1 failed ✘ 
+
+---
+Expected:
+```
+#fbff4d
+```
+But was:
+```
+#fb
+```
+
+ Final points are 0
 ## Evaluating task3.c
 
 **File successfully compiled**
@@ -29,19 +49,9 @@ Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-caz
 
 Points: 15
 Test case 0 passed ✔︎ 
-Test case 1 failed ✘ 
+Test case 1 passed ✔︎ 
 
----
-Expected:
-```
-9
-```
-But was:
-```
-8
-```
-
- Final points are 7.5
+ Final points are 15
 ## Evaluating task2.c
 
 **File successfully compiled**

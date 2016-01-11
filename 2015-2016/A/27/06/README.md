@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Mon Jan 11 20:14:18 2016
+Mon Jan 11 20:14:39 2016
 
 ## Evaluating task1.c
 
@@ -23,17 +23,7 @@ Name: Task: Rudolph
 
 Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 Test case 0 passed ✔︎ 
-Test case 1 failed ✘ 
-
----
-Expected:
-```
-9
-```
-But was:
-```
-8
-```
+Test case 1 passed ✔︎ 
 ## Evaluating task2.c
 
 **File successfully compiled**

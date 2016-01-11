@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:59:41 2016
+Mon Jan 11 20:12:56 2016
 
 ## Evaluating task1.c
 
@@ -11,17 +11,7 @@ Sat Jan  9 21:59:41 2016
 Name: Task: colors
 
 Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-rgb(77, 0, 230)
-```
-But was:
-```
-rgb(77,0,230)
-```
+Test case 0 passed ✔︎ 
 Test case 1 passed ✔︎ 
 ## Evaluating task3.c
 
@@ -32,18 +22,18 @@ Test case 1 passed ✔︎
 Name: Task: Rudolph
 
 Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-Test case 0 passed ✔︎ 
-Test case 1 failed ✘ 
+Test case 0 failed ✘ 
 
 ---
 Expected:
 ```
-9
+2
 ```
 But was:
 ```
-8
+32578
 ```
+Test case 1 passed ✔︎ 
 ## Evaluating task2.c
 
 **File successfully compiled**

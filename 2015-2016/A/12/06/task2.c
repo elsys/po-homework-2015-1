@@ -7,8 +7,7 @@ int main()
     char c, c1, buf[160];
     int i, j;
 
-	do{
-		gets(buf);
+		fgets(buf, 160, stdin);
 		j=0;
 		i=0;
 		while(buf[j]!='\0' && buf[j]!=0x0d)
@@ -26,7 +25,6 @@ int main()
 			j++;
 		};
 	printf("%d",i);
-	}while(strcmp(buf,"end"));
 
 	return 0;
 }

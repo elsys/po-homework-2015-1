@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 void hex2dec(void);
 void dec2hex(void);
 
 int main()
 {
-    char s[10], c;
+    char c;
     c=getchar();
     if(c=='h')
     {
@@ -16,13 +17,13 @@ int main()
     {
         dec2hex();
     }
-	getch();
+	getchar();
 	return 0;
 }
 
 void hex2dec()
 {
-// Преобразува RGB от Hex към Dec
+// Preobrazuva RGB ot Hex kum Dec
     int i, r, g, b;
     char s[10], s1[10];
     long int col;
@@ -42,7 +43,7 @@ void hex2dec()
 
 void dec2hex(void)
 {
-//Преобразува RGB от Dec към Hex
+// Preobrazuva RGB ot Dec kum Hex
     int i, j, k;
     char r[5], g[5], b[5];
 

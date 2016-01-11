@@ -32,4 +32,5 @@ int main (){
   
    printf("%d", times);
 
+  return 0;
 }

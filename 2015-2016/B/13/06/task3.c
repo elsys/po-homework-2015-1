@@ -29,4 +29,6 @@ int main (){
     {
       if(number[counter] != 0)  printf("%d", number[counter]);
     }
+
+  return 0;
 }

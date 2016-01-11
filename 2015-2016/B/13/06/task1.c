@@ -56,4 +56,6 @@ int main (){
       if(numbers[2] == 0) printf("%x%x", numbers[2], numbers[2]);
       else printf("%x", numbers[2]);
    }
+
+  return 0;
 }

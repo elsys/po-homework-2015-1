@@ -49,11 +49,11 @@ int main()
 
 
 
-                printf("rgb(%d,%d,%d)",a[1],a[3],a[5]);
+                printf("rgb(%d, %d, %d)",a[1],a[3],a[5]);
         }
     if(c=='d')
         {
-            scanf("%d,%d,%d",&a[1],&a[3],&a[5]);
+            scanf("%d, %d, %d",&a[1],&a[3],&a[5]);
             s[0]='#';
             for(i=1;i<7;i=i+2)
                 {

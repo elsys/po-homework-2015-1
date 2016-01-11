@@ -39,7 +39,6 @@ int main()
          count++;
       } 
       
-              printf("%d\n", count);
    }
    
    printf("%d\n", count);

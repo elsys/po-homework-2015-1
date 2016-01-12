@@ -28,7 +28,7 @@ int main(){
 		
 		make_hex(decimal, hex);
 		
-		printf("%s%s%s%s%s%s%s \n", hex[0], hex[1], hex[2], hex[3], hex[4], hex[5], hex[6]);
+		printf("%c%c%c%c%c%c%c \n", hex[0], hex[1], hex[2], hex[3], hex[4], hex[5], hex[6]);
 	
 	}else {
 	

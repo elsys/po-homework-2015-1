@@ -7,7 +7,7 @@ void h_to_d(char [],int []);
 void d_to_h(int [], char []);
 int main(){
 
-int dec[3],counter;
+int dec[3];
 char choose,hex[7];
 scanf("%c", &choose);
 
@@ -17,10 +17,7 @@ scanf("%c", &choose);
 	printf("rgb(%d, %d, %d)\n",dec[0], dec[1], dec[2]);	
 	
 	}else if(choose == 'd'){
-		for(counter = 0; counter < 3; counter++){
-			scanf("%d" ,&dec[counter]);
-			
-		}
+		scanf("%d,%d,%d", &dec[0], &dec[1], &dec[2]);
 		d_to_h(dec, hex);
 		printf("%s \n", hex);
 	

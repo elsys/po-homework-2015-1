@@ -31,7 +31,7 @@ int main (){
      if(input_string[5] > 96 && input_string[5] < 123) blue = blue + (input_string[5] - 87) * 16;
      else blue = blue + (input_string[5] - 48) * 16;
      
-     printf("rgb(%d,%d,%d)", red, green, blue);  
+     printf("rgb(%d, %d, %d)", red, green, blue);  
           
    }
 

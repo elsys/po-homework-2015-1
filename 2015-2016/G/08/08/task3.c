@@ -11,7 +11,7 @@ int main()
         scanf("%d",&num);
 
     }
-    while(num % 2 == 0 || num >= 201);
+    while(num % 2 == 0 || num > 200);
 
     int deer[num];
     int nums[100] = {0};

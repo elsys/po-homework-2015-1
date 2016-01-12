@@ -32,7 +32,6 @@ int main()
 {
 char string[100];
 int counter=0,number=0;
-printf("Enter Roman number:");
 scanf("%s",string);
 if(Roman_Value(string[counter])<=0)
             {

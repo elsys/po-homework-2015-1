@@ -14,7 +14,7 @@ int main(){
     if(choice=='h'){
 
         scanf(" %c%02x%02x%02x",&c,&hexNum1,&hexNum2,&hexNum3);
-        printf("rgb(%d,%d,%d)",hexNum1,hexNum2,hexNum3);
+        printf("rgb(%d, %d, %d)",hexNum1,hexNum2,hexNum3);
     }
 
     return 0;

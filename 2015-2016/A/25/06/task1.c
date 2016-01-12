@@ -35,7 +35,7 @@ int main(){
 
       blue = HexToDec(hex,i);
 
-      printf("rgb(%d,%d,%d)", red, green, blue);
+      printf("rgb(%d, %d, %d)", red, green, blue);
 
     }
 

@@ -38,7 +38,7 @@ void hex2dec()
 	b=col&0xff;
 	g=(col>>8)&0xff;
 	r=(col>>16)&0xff;
-	printf("rgb(%2d, %2d, %2d)",r,g,b);
+	printf("rgb(%d, %d, %d)",r,g,b);
 }
 
 void dec2hex(void)

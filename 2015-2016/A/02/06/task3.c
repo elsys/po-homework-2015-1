@@ -22,6 +22,6 @@ int main()
                 }
 
            }
-printf("%d",m[i+1]);
+printf("%d",m[n-1]);
     return 0;
 }

@@ -2,138 +2,91 @@
 #include <string.h>
 #include <stdlib.h>
 
-void dec(char*);
-void hex(char*);
-void convert_to_hex(char*);
-int convert_to_dec(char*);
+int to_dec(char*);
+void to_hex(char*);
 
 int main()
 {
 	char convert;
 	char color[20];
 
+	char hex_number[2], dec_number[3];
+
 	scanf("%c\n", &convert);
 
 	fgets(color, 20, stdin);
 
-	if (convert == 'h') 
+	if(convert == 'h')
 	{
-		hex(color);
+		printf("rgb(");
+		for(int i = 1; i < 7; i+=2)
+		{
+			hex_number[0] = color[i];
+			hex_number[1] = color[i+1];
+			
+			if(i < 5)
+				printf("%d, ", to_dec(hex_number));
+			else 
+				printf("%d", to_dec(hex_number));
+		}
+		printf(")");
 	}
-	else if (convert == 'd')
+	else if(convert == 'd')
 	{
-		dec(color);
+		printf("#");
+		int l = strlen(color);
+		for(int i = 0; i < l; i++)
+		{
+			for(int c = 0; c < 3; c++)
+			{
+				dec_number[c] = 0;
+			}
+			if(color[i] != ',' && color[i] != ' ')
+			{
+				for(int c = 0; color[i]>='0' && color[i]<='9'; c++)
+				{
+					dec_number[c] = color[i];
+					i++;
+				}
+				to_hex(dec_number);
+			}
+		}
 	}
-
 	
-	printf("\n"); /*?*/
 	return 0;
 }
 
-void hex(char *color)
+int to_dec(char *hex_number)
 {
-	int i, l, c;
-	char hex_number[2];
+	int temp;
+	int result = 0;
 
-	l = strlen(color) - 1;
-
-	for (i = 1; i < l; i+=2)
+	for(int i = 0; i < 2; i++)
 	{
-		for(c = i; c <= i+1; c++)
+		if(hex_number[i] > '9')
 		{
-			hex_number[c] = color[i];
+			temp = hex_number[i] - 'a' + 10;
 		}
-
-		if(i <= 4)
-			printf("%d, ", convert_to_dec(hex_number));
-		else 
-			printf("%d)", convert_to_dec(hex_number));
+		else
+			temp = hex_number[i] - '0';
+		
+		if(i == 0)
+			result  = temp*16 + result;
+		else
+			result = result + temp;
 	}
+	return result;
 }
 
-void dec(char *color)
+void to_hex(char *dec_number)
 {
-	printf("DEC:	Huh, i bet it wouldn't work\n%s\n", color);
+	int number = atoi(dec_number);
 
-	int l, i, c;
-	char dec_number[3];
-
-	l = strlen(color);
-	
-	printf("#");
-	for (i = 0; i < l; i++)
-	{
-		for(c = 0; color[i] != ','; c++)
-		{
-			dec_number[c] = color[i];
-		}
-
-		convert_to_hex(dec_number);
-
-		while(color[i] == ' ')
-			i++;
-	}
+	if(number == 0) 
+		printf("00");
+	else if(number <= 9)
+		printf("0%x", number);
+	else
+		printf("%x", number);
+			
 }
-
-
-
-
-
-
-int convert_to_dec(char *hex_number)
-{
-	int sum = 0, i, c;
-	for(i = 0; i < 2; i++)
-	{
-		if(hex_number[i] >= '9')
-			for (c = 0; c <= 5; c++)
-			{
-				if(hex_number[i] == 'a' + c)
-					hex_number[i] = c + 10 + '0';
-			}
-	}
-
-	sum = sum + (hex_number[0] - '0')*16; 
-	sum = sum + (hex_number[1] - '0')*1;
-
-	return sum;
-}
-
-void convert_to_hex(char *dec_number)
-{	
-	int second_reminder, first_reminder, number, i;
-	char letter;
-
-	number = atoi(dec_number);
-
-	first_reminder = number%16;
-	number/=16;
-	second_reminder = number%16;
-	
-	if(second_reminder < 10)
-		letter = second_reminder;
-	else 
-		for (i = 10; i <= 15; i++)
-		{
-			if(second_reminder == i)
-				letter = 'a' + (i - 10);
-		}
-	printf("%c", letter);
-
-
-	if(first_reminder < 10)
-		letter = first_reminder;
-	else 
-		for (i = 10; i <= 15; i++)
-		{
-			if(first_reminder == i)
-				letter = 'a' + (i - 10);
-		}
-	printf("%c", letter);
-
-}
-
-
-
-
-

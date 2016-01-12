@@ -11,9 +11,9 @@ int main()
     scanf("%d",&g);
 
     rotr(&e,&f,&g);
-    printf("%d",e);
-    printf("%d",f);
-    printf("%d",g);
+    printf("%d ",e);
+    printf("%d ",f);
+    printf("%d ",g);
 
     return 0;
 }

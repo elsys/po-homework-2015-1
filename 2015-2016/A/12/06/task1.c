@@ -17,7 +17,6 @@ int main()
     {
         dec2hex();
     }
-	getchar();
 	return 0;
 }
 

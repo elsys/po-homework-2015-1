@@ -89,7 +89,7 @@ void h_to_d(char hex[7],int dec[3]){
 
 int counth,countd;
 	for(counth = 1,countd = 0;counth < strlen(hex);countd++,counth += 2 ){
-		dec[countd] = hexvalue(hex[counth])*16 + hexvalue(hex[counth + 1]);
+		dec[countd] = decvalue(hex[counth])*16 + decvalue(hex[counth + 1]);
 	}
 
 

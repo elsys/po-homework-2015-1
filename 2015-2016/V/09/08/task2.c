@@ -3,10 +3,10 @@ int main()
 {
   int n=0, i=0;
   char message[160];
+  
   printf("Enter message: \n");
   fgets(message, 160, stdin);
   int j = strlen(message);
-
   for (i; i<j; i++){
     switch (message[i]){
       case 'a': n++; break;

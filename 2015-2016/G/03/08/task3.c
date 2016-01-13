@@ -31,7 +31,7 @@ helper++;
 }
 }
 if(helper ==1 ){
-printf(" \n raindeer index=%d ", counter); break;
+printf(" \n raindeer rudolf=%d ",  box[counter]); break;
 }
 
 }

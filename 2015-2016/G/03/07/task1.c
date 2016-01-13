@@ -19,10 +19,11 @@ void rotr(int *a,int *b,int *c){
 int bex;
 int base;
 int boss;
-    scanf("%d",&n);
+    
 scanf("%d",&bex);
     scanf("%d",&base);
      scanf("%d",&boss);
+scanf("%d",&n);
 
      for(i=1;i<=n;i++){
             cut = bex;

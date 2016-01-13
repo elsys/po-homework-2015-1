@@ -1,37 +1,79 @@
 # Assignment report
 ---
-Mon Jan 11 22:12:39 2016
+Wed Jan 13 18:21:40 2016
 
-## Evaluating backwards.c
-
-File doesn't match naming convention
-
-## Evaluating pyramid.c
+## backwards.c
 
 File doesn't match naming convention
 
-## Evaluating sortdeck.c
+## pyramid.c
 
 File doesn't match naming convention
 
-## Evaluating task1.c
+## sortdeck.c
 
-**File compiled with error or warnings**
+File doesn't match naming convention
 
-```
-/home/tsvetelina/elsys/po-homework/2015-2016/B/15/03/task1.c: In function ‘main’:
-/home/tsvetelina/elsys/po-homework/2015-2016/B/15/03/task1.c:23:1: warning: implicit declaration of function ‘getch’ [-Wimplicit-function-declaration]
- getch();
- ^
-/tmp/cc4WBoq5.o: In function `main':
-task1.c:(.text+0xa2): undefined reference to `getch'
-collect2: error: ld returned 1 exit status
-```
+## task4.c
 
-### Task details:
+**File successfully compiled**
 
-Name: Triangle
+### Task details
+
+Name: Roman to Arabic
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
 Points: 5
+
+#### Test cases
+Test case 0 passed ✔︎ 
+Test case 1 passed ✔︎ 
+
+ **Final points are 5**
+## romandigits.c
+
+File doesn't match naming convention
+
+## task3.c
+
+**File successfully compiled**
+
+### Task details
+
+Name: Cards
+
+Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
+
+#### Test cases
+**Test case 0 failed ✘ **
+
+---
+Expected:
+```
+23456789ТJQKA
+```
+But was:
+```
+Deck = Sorted
+```
+
+ **Final points are 0**
+## task2.c
+
+**File successfully compiled**
+
+### Task details
+
+Name: Reverse
+
+Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
+
+#### Test cases
+Test case 0 passed ✔︎ 
+
+ **Final points are 5**

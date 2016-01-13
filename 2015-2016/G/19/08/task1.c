@@ -4,9 +4,8 @@
 #include <math.h>
 
 int convertToDecimal(char[]);
-void printToHex(int);
+void printToHex(int, int);
 int powNum(int, int);
-
 int main() 
 {
     char oper;
@@ -39,7 +38,7 @@ int main()
         int i;
         int n = 0;
         int index = 0;
-        scanf ("%[^\n]%*c", l);
+        scanf("%[^\n]%*c", l);
         for (i = 0; i <= strlen(l); i++) 
         {
             if(i != strlen(l)){
@@ -63,12 +62,12 @@ int main()
             
 
         printf("#"); 
-        printToHex(nums[0]);
-        printToHex(nums[1]); 
-        printToHex(nums[2]);
+        printToHex(nums[0], 1);
+        printToHex(nums[1], 1); 
+        printToHex(nums[2], 1);
     }
 
-    return (EXIT_SUCCESS);
+    return 0;
     
 }
 
@@ -96,21 +95,27 @@ int convertToDecimal(char* n)
 
     return r;
 }
-void printToHex(int n )
+void printToHex(int n, int step)
 {
-    if(n == 0)
+    if(step == 1 && n == 0)
+    {
+        printf("00");
+    }else if(n <= 15 && step == 1)
+    {
+        printf("0");
+    }else if(n == 0)
     {
         return;
     }
     
     int rem = n % 16;
-    printToHex(n / 16);
+    printToHex(n / 16, step + 1);
     
     if (rem >= 10) 
     {
-        putchar((char)('a' + (rem - 10)));
+        printf("%c", (char)('a' + (rem - 10)));
     } 
-    else 
+    else if(n != 0) 
     {
          printf("%d", rem);
     }

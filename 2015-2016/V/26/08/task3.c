@@ -1,30 +1,32 @@
 #include <stdio.h>
 
-int main()
-{
-	int n, eleni[200], stado[100], i, r = 0;
+int main(){
+	int n, check, rudolf, i, j;
+	int arr[200];
 	do{
 		scanf("%d", &n);
-	}while(n%2 == 0 || n > 200);
-	for(i = 0; i < 100; i++){
-        stado[i] = 0;
-	}
+	}while(n <= 0 || n >= 200 || n % 2 == 0);
 	for(i = 0; i < n; i++){
 		do{
-			scanf("%d", &eleni[i]);
-		}while(eleni[i] < 1 || eleni[i] > 100 || stado[eleni[i]] > 1);
-		stado[eleni[i]]++;
-	}
-	for(i = 0; i < 100; i++){
-		if(stado[i] == 1)
-			if(r == 0)
-				r = i;
+			check = 0;
+			scanf("%d", &arr[i]);
+			for(j = 0; j < i; j++){
+				if(arr[i] == arr[j])
+					check++;
+			}
+		}while(arr[i] <= 0 || arr[i] > 100 || check > 2);
 	}
 	for(i = 0; i < n; i++){
-		if(eleni[i] == r){
-			printf("%d", i);
-			return 0;
+		for(j = i; j < n;){
+			j++;
+			if((arr[i] == arr[j]) && (arr[j] != 0)){
+				arr[i] = 0;
+				arr[j] = 0;
+			}
+			else if(arr[i] != 0)
+					rudolf = arr[i];
 		}
 	}
-	return -1;
+	printf("%d",rudolf);
+	return 0;
 }

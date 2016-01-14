@@ -2,8 +2,11 @@
 
 int main()
 {
-	int swap, i=0, j=0, a[4][4]={{1,2,3,4},{1,2,3,4},{1,2,3,4},{1,2,3,4}};
-	//for(;i<4 && j<4;i++,j++) scanf("%d",&a[i][j]); Vuvejdaneto ne raboti zatova otgore ima stoinosti na masiva
+	int swap, i=0, j=0, a[4][4];//={{1,2,3,4},{1,2,3,4},{1,2,3,4},{1,2,3,4}};
+	for(;i<4;i++)
+	{
+		scanf("%d %d %d %d",&a[i][0],&a[i][1],&a[i][2],&a[i][3]);
+	}
 
     for(i=0;i<4;i++)
     {

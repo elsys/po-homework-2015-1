@@ -20,7 +20,7 @@ int main()
                     in[j]='x';
                 }
         }
-		if(a>1) printf("-- Number %c exist %d times -->\n",c,a);
+		if(a>1) printf("%c",c);
 		a=1;
 	}
 	return 0;

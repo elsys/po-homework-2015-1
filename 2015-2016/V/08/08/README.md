@@ -1,18 +1,34 @@
 # Assignment report
 ---
-Thu Jan 14 19:23:15 2016
+Thu Jan 14 19:23:13 2016
 
 ## task1.c
 
-**File compiled with error or warnings**
+**File successfully compiled**
 
-```
-/tmp/ccavKcNJ.o: In function `getNum':
-task1.c:(.text+0x2ea): undefined reference to `pow'
-task1.c:(.text+0x362): undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-```
+### Task details
 
+Name: Task: colors
+
+Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+
+Points: 10
+
+#### Test cases
+Test case 0 failed ✘
+
+---
+Expected:
+```
+rgb(77, 0, 230)
+```
+But was:
+```
+rbg(845, 816, 246)
+```
+Test case 1 passed ✔︎
+--- 
+#### Final points: 5.0
 ## task3.c
 
 **File successfully compiled**
@@ -27,19 +43,9 @@ Points: 15
 
 #### Test cases
 Test case 0 passed ✔︎
-Test case 1 failed ✘
-
----
-Expected:
-```
-9
-```
-But was:
-```
-8
-```
+Test case 1 passed ✔︎
 --- 
-#### Final points: 7.5
+#### Final points: 15
 ## task2.c
 
 **File successfully compiled**

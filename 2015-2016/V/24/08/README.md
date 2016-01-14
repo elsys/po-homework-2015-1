@@ -1,39 +1,47 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:14 2016
+Thu Jan 14 19:23:16 2016
 
-## Evaluating task1.c
+## task3.c
 
 **File successfully compiled**
 
-### Task details:
+### Task details
 
-Name: Task: colors
+Name: Task: Rudolph
 
 Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-Points: 10
-Test case 0 failed ✘ 
+Points: 15
+
+#### Test cases
+Test case 0 passed ✔︎
+Test case 1 passed ✔︎
+--- 
+#### Final points: 15
+## task2.c
+
+**File successfully compiled**
+
+### Task details
+
+Name: Task: Nokia 3310
+
+Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+
+Points: 5
+
+#### Test cases
+Test case 0 failed ✘
 
 ---
 Expected:
 ```
-rgb(77, 0, 230)
+35
 ```
 But was:
 ```
-button=6
+button=35
 ```
-Test case 1 failed ✘ 
-
----
-Expected:
-```
-#fbff4d
-```
-But was:
-```
-button=4
-```
-
- Final points are 0
+--- 
+#### Final points: 0

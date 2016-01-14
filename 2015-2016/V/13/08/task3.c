@@ -30,7 +30,7 @@ int main()
     {
         if(el[i] != 0)
         {
-            printf("%d",i);
+            printf("%d",el[i]);
         }
     }
     return 0;

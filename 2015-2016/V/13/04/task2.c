@@ -12,6 +12,6 @@ int main()
 	if(in[0][0] + in[1][1] + in[2][2] == in[2][0] + in[1][1] + in[0][2]) i++;
 	if(in[1][0] + in[1][1] + in[1][2] == in[0][1] + in[1][1] + in[2][1] && in[0][1] + in[1][1] + in[2][1] == in[0][0] + in[1][1] + in[2][2]) i++;
 
-	if(i==4) printf("\nThe square is magical\n");
-	else printf("\nThe square isn't magical\n");
+	if(i==4) printf("1");
+	else printf("0");
 }

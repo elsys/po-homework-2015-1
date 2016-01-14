@@ -7,7 +7,10 @@ int main()
 {
     scanf("%s",cards);
     sort(13);
-    puts(cards);
+    for(int i=0;i<13;i++)
+    {
+    	printf("%c",cards[i]);
+    }
     return 0;
 }
 

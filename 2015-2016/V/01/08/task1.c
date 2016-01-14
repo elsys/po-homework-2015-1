@@ -52,5 +52,5 @@ void hex_dec()
  r=(momo[1]*16)+momo[2];
  g=(momo[3]*16)+momo[4];
  b=(momo[5]*16)+momo[6];
- printf("rbb(%d, %d, %d)",r,g,b);
+ printf("rgb(%d, %d, %d)",r,g,b);
 }

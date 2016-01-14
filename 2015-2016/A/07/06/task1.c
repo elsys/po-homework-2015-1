@@ -40,7 +40,7 @@ int main()
         r = dec[1]*16 + dec[2];
         g = dec[3]*16 + dec[4];
         b = dec[5]*16 + dec[6];
-        printf("rgb(%d,%d,%d)", r, g, b);
+        printf("rgb(%d, %d, %d)", r, g, b);
     }
     if(c == 'd')
     {

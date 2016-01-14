@@ -9,7 +9,6 @@ int main(){
 
 char choose, hex[7];
 int dec[3];
-int counter = 0;
 
 scanf("%c",&choose);
 
@@ -21,9 +20,7 @@ scanf("%c",&choose);
 		
 	}else if(choose == 'd'){
 	
-		for(;counter <3; counter++){
-			scanf("%d",&dec[counter]);
-		}
+			scanf("%d,%d,%d", &dec[0], &dec[1], &dec[2]);
 		
 			dec_to_hex(dec, hex);
 			printf("%s\n", hex);

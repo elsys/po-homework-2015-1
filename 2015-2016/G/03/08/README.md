@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Thu Jan 14 18:35:31 2016
+Thu Jan 14 18:37:35 2016
 
 ## task3.c
 
@@ -37,8 +37,8 @@ But was:
 ```
 raindeer rudolf=9
 ```
----
- #### Final points: 0
+--- 
+#### Final points: 0
 ## task2.c
 
 **File successfully compiled**
@@ -63,5 +63,5 @@ But was:
 ```
 number of clicks:11
 ```
----
- #### Final points: 0
+--- 
+#### Final points: 0

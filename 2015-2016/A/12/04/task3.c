@@ -66,6 +66,6 @@ void create_letter_distribution_diagram()
 	printf("\n");
 	for(i=0; i<26; i++)
 	{
-		printf("%c: %3d\n", sort[i].ch, sort[i].oc);
+		printf("%c: %d\n", sort[i].ch, sort[i].oc);
 	}
 }

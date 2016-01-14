@@ -16,19 +16,9 @@ Points: 10
 
 #### Test cases
 Test case 0 passed ✔︎
-Test case 1 failed ✘
-
----
-Expected:
-```
-#fbff4d
-```
-But was:
-```
-#fb
-```
+Test case 1 passed ✔︎
 --- 
-#### Final points: 5.0
+#### Final points: 10
 ## task3.c
 
 **File successfully compiled**
@@ -48,17 +38,13 @@ Test case 1 passed ✔︎
 #### Final points: 15
 ## task2.c
 
-**File successfully compiled**
+**File compiled with error or warnings**
 
-### Task details
+```
+/home/tsvetelina/elsys/po-homework/2015-2016/G/13/08/task2.c: In function ‘main’:
+/home/tsvetelina/elsys/po-homework/2015-2016/G/13/08/task2.c:20:30: error: ‘i’ undeclared (first use in this function)
+    if(!check_clicks(sentence[i])){
+                              ^
+/home/tsvetelina/elsys/po-homework/2015-2016/G/13/08/task2.c:20:30: note: each undeclared identifier is reported only once for each function it appears in
+```
 
-Name: Task: Nokia 3310
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 5
-
-#### Test cases
-Test case 0 passed ✔︎
---- 
-#### Final points: 5

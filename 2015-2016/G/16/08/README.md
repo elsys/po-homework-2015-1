@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Thu Jan 14 18:39:35 2016
+Thu Jan 14 18:39:37 2016
 
 ## task3.c
 
@@ -15,30 +15,10 @@ Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-caz
 Points: 15
 
 #### Test cases
-Test case 0 failed ✘
-
----
-Expected:
-```
-2
-```
-But was:
-```
-raindeer rudolf=2
-```
-Test case 1 failed ✘
-
----
-Expected:
-```
-9
-```
-But was:
-```
-raindeer rudolf=9
-```
+Test case 0 passed ✔︎
+Test case 1 passed ✔︎
 --- 
-#### Final points: 0
+#### Final points: 15
 ## task2.c
 
 **File successfully compiled**
@@ -52,16 +32,6 @@ Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-caz
 Points: 5
 
 #### Test cases
-Test case 0 failed ✘
-
----
-Expected:
-```
-35
-```
-But was:
-```
-number of clicks:11
-```
+Test case 0 passed ✔︎
 --- 
-#### Final points: 0
+#### Final points: 5

@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Thu Jan 14 18:39:35 2016
+Thu Jan 14 18:39:38 2016
 
 ## task3.c
 
@@ -24,7 +24,7 @@ Expected:
 ```
 But was:
 ```
-raindeer rudolf=2
+
 ```
 Test case 1 failed ✘
 
@@ -35,7 +35,7 @@ Expected:
 ```
 But was:
 ```
-raindeer rudolf=9
+
 ```
 --- 
 #### Final points: 0
@@ -61,7 +61,7 @@ Expected:
 ```
 But was:
 ```
-number of clicks:11
+button klicks = 35
 ```
 --- 
 #### Final points: 0

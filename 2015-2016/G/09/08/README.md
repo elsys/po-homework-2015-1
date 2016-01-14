@@ -1,12 +1,12 @@
 # Assignment report
 ---
-Mon Jan 11 22:25:40 2016
+Thu Jan 14 18:39:36 2016
 
-## Evaluating Task1.c
+## Task1.c
 
 File doesn't match naming convention
 
-## Evaluating task2.c
+## task2.c
 
 **File compiled with error or warnings**
 
@@ -23,10 +23,3 @@ File doesn't match naming convention
     ^
 ```
 
-### Task details:
-
-Name: Task: Nokia 3310
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 5

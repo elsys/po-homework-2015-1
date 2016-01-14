@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:57:23 2016
+Mon Jan 11 22:05:54 2016
 
 ## Evaluating task1.c
 
@@ -11,6 +11,8 @@ Sat Jan  9 21:57:23 2016
 Name: rotr
 
 Description: https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -22,3 +24,5 @@ But was:
 ```
 insert numbers to rotate a,b,c insert how many times to rotate 3 1 2
 ```
+
+ Final points are 0

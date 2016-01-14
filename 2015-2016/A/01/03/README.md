@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:40:08 2016
+Mon Jan 11 22:05:54 2016
 
 ## Evaluating task1.c
 
@@ -11,6 +11,8 @@ Sat Jan  9 21:40:08 2016
 Name: Triangle
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -22,6 +24,8 @@ But was:
 ```
 vuvedi visochinata n    +  + + +
 ```
+
+ Final points are 0
 ## Evaluating task3.c
 
 **File compiled with error or warnings**
@@ -58,3 +62,5 @@ collect2: error: ld returned 1 exit status
 Name: Cards
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5

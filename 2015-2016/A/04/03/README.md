@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:42:00 2016
+Mon Jan 11 22:05:56 2016
 
 ## Evaluating String Reverse.c
 
@@ -15,6 +15,8 @@ File doesn't match naming convention
 Name: Triangle
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -26,6 +28,8 @@ But was:
 ```
 *  * * *
 ```
+
+ Final points are 0
 ## Evaluating Pyramid.c
 
 File doesn't match naming convention
@@ -39,6 +43,8 @@ File doesn't match naming convention
 Name: Cards
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 failed ✘ 
 
 ---
@@ -50,6 +56,8 @@ But was:
 ```
 
 ```
+
+ Final points are 0
 ## Evaluating TesteKarti.c
 
 File doesn't match naming convention
@@ -63,4 +71,8 @@ File doesn't match naming convention
 Name: Reverse
 
 Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Points: 5
 Test case 0 passed ✔︎ 
+
+ Final points are 5

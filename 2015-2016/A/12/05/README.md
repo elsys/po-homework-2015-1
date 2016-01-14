@@ -1,6 +1,6 @@
 # Assignment report
 ---
-Sat Jan  9 21:56:19 2016
+Mon Jan 11 22:06:02 2016
 
 ## Evaluating task1.c
 
@@ -11,7 +11,11 @@ Sat Jan  9 21:56:19 2016
 Name: rotr
 
 Description: https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
+
+Points: 5
 Test case 0 passed ✔︎ 
+
+ Final points are 5
 ## Evaluating task2.c
 
 **File successfully compiled**
@@ -21,6 +25,8 @@ Test case 0 passed ✔︎
 Name: next_generation
 
 Description: https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
+
+Points: 10
 Test case 0 failed ✘ 
 
 ---
@@ -32,3 +38,5 @@ But was:
 ```
 .*.*. .....
 ```
+
+ Final points are 0

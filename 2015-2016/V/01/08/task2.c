@@ -18,6 +18,6 @@ int main()
         }
         p++;
     }while(p<160);
-    printf("broy na klikovete = %d",i);
+    printf("%d",i);
     return 0;
 }

@@ -15,6 +15,6 @@ int main()
 			case 's': case 'z': button+= 4; break;
 		}
 	}
-	printf("\n %d",button);
+	printf("\n%d",button);
 	return 0;
 }

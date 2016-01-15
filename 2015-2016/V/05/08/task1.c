@@ -21,7 +21,7 @@ int main() {
 		case 'h' : {
 			char num[6];
 			scanf("%*c%s", num);
-			printf("rgb(%d, %d,%d)\n", tohex(num[0]) * 16 + tohex(num[1]), tohex(num[2]) * 16 + tohex(num[3]), tohex(num[4]) * 16 + tohex(num[5]));
+			printf("rgb(%d, %d, %d)\n", tohex(num[0]) * 16 + tohex(num[1]), tohex(num[2]) * 16 + tohex(num[3]), tohex(num[4]) * 16 + tohex(num[5]));
 			break;
 		}
 	}

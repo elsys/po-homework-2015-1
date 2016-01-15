@@ -58,7 +58,7 @@ int main()
             res2[i]=res[i]*16+res[i+1];
             res2[i+1]=res[i+2]*16+res[i+3];
             res2[i+2]=res[i+4]*16+res[i+5];
-            printf("%d, %d, %d",res2[i],res2[i+1],res2[i+2]);
+            printf("rgb(%d, %d, %d)",res2[i],res2[i+1],res2[i+2]);
     }
     if(type=='d'){
         scanf("%d, %d, %d",&cr10[i],&cr10[i+1],&cr10[i+2]);

@@ -26,7 +26,7 @@ int main()
     int next[21];
     int length;
     scanf("%d",&length);
-    int i,  i1, i2, i3, i4;
+    int i,i1,i3,i4;
     for( i = 0 ;i < length;i++)
     {
         scanf("%d",&current[i]);

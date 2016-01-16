@@ -33,7 +33,7 @@ int main(){
 	
 		check = 0;
 		
-		for(count_cd = count_d ;count_cd < deers; count_cd++){
+		for(count_cd = 0; count_cd < deers; count_cd++){
 		
 			if(deer[count_d] == deer[count_cd]){
 			
@@ -43,7 +43,7 @@ int main(){
 			
 		}
 		
-		if(!check){
+		if(check == 1){
 		
 			printf("%d \n", deer[count_d]); break;
 			

@@ -17,7 +17,7 @@ int main(){
 
 		for(counter = 0; counter < strlen(sentence); counter++ ){
 
-			if(!check_clicks(sentence[i])){
+			if(!check_clicks(sentence[counter])){
 
 				printf("Only lower case and spaces are allowed - try again \n");
 				check = 0;

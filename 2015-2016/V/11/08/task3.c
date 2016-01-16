@@ -3,7 +3,6 @@ int main(){
 	int nomer,k,rudolf;
 	int mqsto[200];
 	do{
-		printf("broi eleni:");
 		scanf("%d",&nomer);
 	}while(nomer<=0||nomer>=200||nomer%2==0);
 	for(int i=0;i<nomer;i++){

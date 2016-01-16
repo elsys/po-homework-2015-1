@@ -6,13 +6,13 @@ int main()
 	char str[5];
 	int l,n=0;
     scanf("%s",str);
-	for(l=strlen(str)-1;l>=0;l--)
+    for(l=0;l<strlen(str)-1;l++)
 		{
             if(str[l]=='I' && (str[l+1]=='V' || str[l+1]=='X' || str[l+1]=='L' || str[l+1]=='C'))
             {
                 n--;
             }
-            if(str[l]=='X' && (str[l+1]=='L' || str[l+1]=='C'))
+            else if(str[l]=='X' && (str[l+1]=='L' || str[l+1]=='C'))
             {
                 n-=10;
             }

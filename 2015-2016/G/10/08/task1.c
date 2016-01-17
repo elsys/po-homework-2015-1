@@ -20,11 +20,7 @@ int main(){
 	
 	}else if(n == 'd'){
 	
-		for(i = 0; i < 3; i++){
-		
-			scanf("%d" ,&decimal[i]);
-			
-		}
+		scanf("%d,%d,%d" ,&decimal[0], &decimal[1], &decimal[3]);
 		
 		make_hex(decimal, hex);
 		
@@ -101,7 +97,7 @@ void make_decimal(char hex[7],int decimal[3]){
 	
 	for(counth = 1,countd = 0;counth < strlen(hex);countd++,counth += 2 ){
 	
-		decimal[countd] = hexvalue(hex[counth])*16 + hexvalue(hex[counth + 1]);
+		decimal[countd] = decimalvalue(hex[counth])*16 + decimalvalue(hex[counth + 1]);
 		
 	}
 

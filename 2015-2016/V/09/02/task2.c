@@ -4,7 +4,7 @@ int main()
     int i, n;
     int number0=0,number1=0,number2=0,number3=0,number4=0,number5=0,number6=0,number7=0,number8=0,number9=0;
    do{
-    printf("Enter number below or equal to 1 billion: \n");
+    //printf("Enter number below or equal to 1 billion: \n");
     scanf("%d", &i);
    }while(i>1000000000);
     while(i!=0){

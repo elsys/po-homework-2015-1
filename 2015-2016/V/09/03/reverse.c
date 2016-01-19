@@ -13,6 +13,6 @@ int main()
         a[j] = temp;
         j--;
     }
-    //printf("%s", a);
+    printf("%s", a);
     return 0;
 }

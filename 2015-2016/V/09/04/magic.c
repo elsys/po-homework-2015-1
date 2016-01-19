@@ -4,10 +4,10 @@ int main(){
    int i, j = 0, M,N;
    int s, a, n;
    int temp = 0;
-   printf("Enter size n x n: \n");
+   //printf("Enter size n x n: \n");
     scanf("%d %d", &M, &N);
     if(M==N){
-   printf("Enter %d x %d numbers: \n", M, N);
+   //printf("Enter %d x %d numbers: \n", M, N);
    for (i = 0; i < M; i++) {
       for (j = 0; j < N; j++){
          scanf("%d", &magic[i][j]);

@@ -4,7 +4,7 @@ int exact_square(int);
 int main() {
     int n;
 
-    printf("Enter number: \n");
+    //printf("Enter number: \n");
     scanf("%d", &n);
 
     if(exact_square(n) == 1) {

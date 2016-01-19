@@ -48,7 +48,7 @@ int palindrome(int number)
 	
 	if (strcmp(result, reverse) == 0)
 	{
-		printf("%s\n", reverse);
+		printf("%s", reverse);
 		return 0;
 	}
     else

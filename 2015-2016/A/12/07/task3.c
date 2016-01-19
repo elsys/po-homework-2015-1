@@ -6,12 +6,7 @@ int pali(int c);
 int main()
 {
     int m, n;
-    char mas1[100];
-
-	do
-    {
-		scanf("%d",&n);
-	}while(!(n>=0 && n<=65535));
+    scanf("%d",&n);
 
 	do
 	{

@@ -3,7 +3,7 @@ int main()
 {
 	char cards[13];
 	int i=0, j, temp;
-	printf("Enter 13 cards in a random order, from 2 to A:(10=T) \n");
+	//printf("Enter 13 cards in a random order, from 2 to A:(10=T) \n");
 	while(i<13){
 		scanf("%c",&cards[i]);
         if(cards[i] >= '2' && cards[i] <= '9') i++;

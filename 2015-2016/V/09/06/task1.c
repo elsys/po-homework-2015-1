@@ -4,7 +4,7 @@ int is_prime(int);
 int main() {
     int n, prime;
 
-    printf("Enter number: \n");
+    //printf("Enter number: \n");
     scanf("%d",&n);
 
     prime = is_prime(n);

@@ -29,7 +29,7 @@ int main()
         l=i-1;
         for(i=0; i<=l; i++,l--)
             if(hex[i]!=hex[l])
-            {
+            {   c=0;
                 n++;
                 break;
             }

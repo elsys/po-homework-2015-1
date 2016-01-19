@@ -3,7 +3,6 @@
 int convert(int binary, int masive[],int v,int p);
 int main()
 {
-
     int i,n,v,p;
 
     int bin[bits] = {-1};
@@ -35,14 +34,13 @@ int main()
     return 0;
 }
 
-
 int convert(int binary,int masive[],int v,int p)
 {
-    int i,helper,counter,number=0,j;
+    int i,helper,number=0,j;
 
     helper=binary;
 
-    for(i=7; i>=0; i--)
+    for(i=bits-1; i>=0; i--)
     {
 
         masive[i]=helper%2;
@@ -52,17 +50,12 @@ int convert(int binary,int masive[],int v,int p)
 
     masive[bits-p-1]=v;
 
-    for(i=bits-1,counter=0,helper=1; i>=0; i--)
+    for(i=bits-1,helper=1; i>=0; i--,helper*=2)
     {
 
-            if(masive[i]==1)number=number+helper;
-
-                counter++;
-
- for(j=1,helper=1; j<=counter;j++)
-    helper=helper*2;
+        if(masive[i]==1)number=number+helper;
 
     }
-printf("%d",number);
+    printf("%d",number);
     return 0;
 }

@@ -12,7 +12,7 @@ int polindrome()
 {
     char a[100];
     char b[100];
-    printf("Enter word: \n");
+    //printf("Enter word: \n");
     scanf("%s", a);
     strcpy(b, a);
     strrev(b);

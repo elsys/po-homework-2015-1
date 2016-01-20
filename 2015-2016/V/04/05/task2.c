@@ -7,7 +7,6 @@ int main()
 {
 	char c[1000];
 
-	printf("Text:");
 	scanf("%s", c);
 	printf("%d\n" , palindrom(c));
 

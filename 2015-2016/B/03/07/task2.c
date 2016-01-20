@@ -6,13 +6,8 @@ int change_bit( int, int, int );
 int main()
 {
     int n, v, p;
-    scanf("%d", &n);
-    do {
-        scanf("%d", &v);
-    } while ( v < 0 || v > 1);
-    do {
-        scanf("%d", &p);
-    } while ( p < 0 || p > 7);
+    scanf("%d%d%d", &n, &v, &p);
+
     printf( "%d", change_bit ( n, v, p ) );
     return 0;
 }

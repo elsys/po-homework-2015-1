@@ -1,18 +1,23 @@
-//Ot vhoda se vuvejda niz.Nizut da se izvede sushtiqt no oburnat.
-//Velislav Yotov 10A Nomer-5
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 int main()
 {
-char string[500];
-int i,l;
-printf("Vuvedi string  ");
-scanf("%s",string);
-printf("\n");
-l=strlen(string);
-for(i=l-1;i>=0;i--)
+    int lines,counter,temp,counter2;
+    printf("Input number of lines.\n");
+    scanf("%d",&lines);
+
+    for(counter=0;counter<=lines;counter++)
     {
-        printf("%c",string[i]);
+        temp=lines-counter;
+        for(counter2=0;counter2<lines*2;counter2++)
+        {
+            if(counter2>=temp && lines*2-1-counter2>temp)
+                {
+			printf("+");
+		}
+            else
+                printf(" ");
+        }
+        printf("\n");
     }
 }

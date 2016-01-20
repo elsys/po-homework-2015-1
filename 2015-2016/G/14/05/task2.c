@@ -1,43 +1,33 @@
+
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 int main()
 {
-    char w[150], w_rev[150], temp;
-    int i = 0, k = 0, len = 0, status = 0;
+   char text[100];
+   char g;
+   int a, b, c, i = 0;
 
-
-    printf("Enter text:\n");
-    gets(w);
-    strcpy(w_rev,w);
-
-    len = strlen(w) - 1;
-
-    while(i < len){
-        temp = w_rev[i];
-        w_rev[i] = w_rev[len];
-        w_rev[len] = temp;
+    printf("Enter word:\n");
+    while((g = getchar()) !='\n'){
+        text[i] = g;
         i++;
-        len--;
-
-    }
-   // printf("%s\n",w_rev);
-   // printf("w_len:%d\n",strlen(w));
-   // printf("w_rev_len:%d\n",strlen(w_rev));
-    printf("\n");
-    len = strlen(w) - 1;
-
-    while(k <= len){
-        if(w[k] == w_rev[k]){
-            status = 1;
-        }else{
-            status = 0;
-        }
-        k++;
     }
 
-    printf("%d\n",status);
+   c = i - 1;
+   b = i/2;
 
-    return 0;
+   for (a = 0; a < b; a++)
+   {
+      if (text[a] != text[c])
+      {
+         printf("0\n");
+         break;
+      }
+      c--;
+   }
+   if (a == b)
+      printf("1\n");
+
+   return 0;
 }

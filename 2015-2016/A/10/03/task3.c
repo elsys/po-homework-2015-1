@@ -1,82 +1,70 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-int Findvalue(char a){
-int v=0;
-switch (a){
-case 'A':
-v=14;
-break;
-case 'K':
-v=13;
-break;
-case 'Q':
-v=12;
-break;
-case 'J':
-v=11;
-break;
-case 'T':
-v=10;
-break;
-case '9':
-v=9;
-break;
-case '8':
-v=8;
-break;
-case '7':
-v=7;
-break;
-case '6':
-v=6;
-break;
-case '5':
-v=5;
-break;
-case '4':
-v=4;
-break;
-case '3':
-v=3;
-break;
-case '2':
-v=2;
-break;
-default:v=0;
-}
-return v;
+
+int Romanvalue(char c)
+{
+	int s=0;
+	switch(c)
+	{
+	case 'I':
+	s=1;
+	break;
+	case 'V':
+	s=5;
+	break;
+	case 'X':
+	s=10;
+	break;
+	case 'L':
+	s=50;
+	break;
+	case 'C':
+	s=100;
+	break;
+	case '\0':
+	s=0;
+	break;
+	}
+	return s;
 }
 
-int main(){
-int n,x,y,z,i,t;
-char a[13],b[13]="23456789TJQKA",temp;
-printf("Enter cards:");scanf("%s",a);
-for(i=0;i<strlen(b)-1;i++){
-t=0;
-	for(z=0;z<strlen(b)-1;z++){
-		if(a[i]==b[z]){
-		t=1;
-		}
-	}
-	if(t==0){
-	printf("Invalid deck.");
+int main()
+{
+char r[50];
+int i=0;
+int number=0;
+printf("Enter Roman number=");scanf("%s",r);
+while(r[i])
+{
+	if(Romanvalue(r[i])<0)
+	{
+	printf("Invalid number %s.",&r[i]);
 	return 0;
 	}
-}
-for(x=0;x<strlen(a);x++){
-	for(y=0;y<strlen(a)-1;y++){
-		if(Findvalue(a[y])>Findvalue(a[y+1])){
-		int temp=a[y+1];
-		a[y+1]=a[y];
-		a[y]=temp;
+		if(Romanvalue(r[i])>256)
+		{
+		printf("Invalid number %s.",&r[i]);
 		}
-	}
+		if((strlen(r)-i)>2)
+		{
+			if(Romanvalue(r[i])<Romanvalue(r[i+2]))
+			{
+			printf("Invalid number.");
+			return 0;
+			}
+		}									
+				if(Romanvalue(r[i])>=Romanvalue(r[i+1]))
+				{
+					number=number+Romanvalue(r[i]);
+				}
+				else
+				{
+				number=number+(Romanvalue(r[i+1])-Romanvalue(r[i]));
+				i++;
+				}
+				i++;
 }
-printf("\n%s",a);
-return 0;
+	printf("%d",number);
+	return 0;
 }
-
-
-
-

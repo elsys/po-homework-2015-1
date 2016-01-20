@@ -1,0 +1,29 @@
+Evaluating homework 04 on student 02 from B class
+
+
+Evalutaing task3.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/B/02/04/task3.c: In function ‘create_letter_distribution_diagram’:
+/home/sasho/programs/elsys/po-homework/2015-2016/B/02/04/task3.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			1
+
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 1/2
+	task2 - 2/2
+	task3 - 0/2 - warning

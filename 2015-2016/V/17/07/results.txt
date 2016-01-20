@@ -1,0 +1,28 @@
+Evaluating homework 07 on student 17 from V class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:7:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+  scanf("%d %d %d %d", a, b, c, n);
+        ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:7:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:7:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Wformat=]
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:7:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 5 has type ‘int’ [-Wformat=]
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c: In function ‘rotr’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:20:9: warning: ‘return’ with a value, in function returning void
+  return 0;
+         ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:7:2: warning: ‘c’ is used uninitialized in this function [-Wuninitialized]
+  scanf("%d %d %d %d", a, b, c, n);
+  ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:7:2: warning: ‘b’ is used uninitialized in this function [-Wuninitialized]
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:7:2: warning: ‘a’ is used uninitialized in this function [-Wuninitialized]
+/home/sasho/programs/elsys/po-homework/2015-2016/V/17/07/task1.c:7:2: warning: ‘n’ is used uninitialized in this function [-Wuninitialized]
+
+
+Summary
+
+	task1 - 0/2 - warning

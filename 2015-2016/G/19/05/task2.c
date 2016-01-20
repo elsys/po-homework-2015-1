@@ -7,7 +7,6 @@ int main()
     char rev[1000];
     int i=0,j=0;
 
-    printf("Enter any string : ");
     scanf("%s",str);
     i = strlen(str) - 1;
 
@@ -22,9 +21,10 @@ int main()
     {
         if(rev[i] != str[i])
         {
-            return 0;
+            printf("0");
         }
     }
 
-    return 1;
+    printf("1");
+    return 0;
 }

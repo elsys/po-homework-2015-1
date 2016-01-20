@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(void)
+int main()
 {
    char s[10], r[10];
    int n, i, d;
 
-   printf("Vuvedi Niz: ");
    scanf("%s",&s);
 
    n = strlen(s);

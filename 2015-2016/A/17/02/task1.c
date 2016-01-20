@@ -1,11 +1,12 @@
-#include<stdio.h>
- 
-void main() {
-   int i = 0;
-   char q;
- 
-   for (i = 0; i < 256; i++) {
-      printf("%c ", q);
-      q = q + 1;
-   }
+#include <stdio.h>
+
+int main()
+{
+    int i;
+
+    for(i=0; i < 256; i++)
+    {
+        printf("\n%d. : %c", i, i);
+    }
+    return 0;
 }

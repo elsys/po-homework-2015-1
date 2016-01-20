@@ -1,0 +1,28 @@
+Evaluating homework 06 on student 13 from V class
+
+
+Evalutaing task3.c
+	Test 1 passed
+	Test 2 passed
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/13/06/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/13/06/task1.c:7:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘unsigned int *’ [-Wformat=]
+     scanf("%d",&input);
+           ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/13/06/task1.c: In function ‘is_prime’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/13/06/task1.c:14:9: warning: unused variable ‘i’ [-Wunused-variable]
+     int i;
+         ^
+
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 2/2
+	task3 - 2/2

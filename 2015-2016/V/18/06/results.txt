@@ -1,0 +1,45 @@
+Evaluating homework 06 on student 18 from V class
+
+
+Evalutaing task3.c
+	Files can't compile (gcc err code:256)
+
+	/home/sasho/programs/elsys/po-homework/2015-2016/V/18/06/task3.c: In function ‘create_letter_distribution_diagram’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/18/06/task3.c:34:5: error: expected declaration or statement at end of input
+     }
+     ^
+
+
+Evalutaing task1.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			Enter an integer. 1
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			Enter an integer. 0
+
+
+Evalutaing task2.c
+	Test 1 failed:
+		Expected:
+			1
+		Got: 
+ 			Enter a number: 1
+
+	Test 2 failed:
+		Expected:
+			0
+		Got: 
+ 			Enter a number: 0
+
+
+Summary
+
+	task1 - 0/2
+	task2 - 0/2
+	task3 - 0/2 - error

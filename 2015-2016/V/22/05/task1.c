@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(void)
+int main()
 {
 	int i=0;
 	int n[1000];
@@ -10,4 +10,6 @@ void main(void)
 	while (i<4){
 		printf("\n %d %d %d %d",n[i],n[i+4],n[i+8],n[i+12]);
 		i++;
+
+	return 0;
 }

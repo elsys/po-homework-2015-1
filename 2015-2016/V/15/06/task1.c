@@ -9,7 +9,8 @@ int toInt(char*);
 int main()
 {
     char s[10];
-    scanf("%s", ({printf("Enter a number:");s;}));
+    //scanf("%s", ({printf("Enter a number:");s;}));
+	scanf("%s",s);
     printf("%d",is_Prime(s));
 
     return 0;

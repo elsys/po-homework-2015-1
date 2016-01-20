@@ -62,7 +62,7 @@ void next_generation(int *current, int *next, int length)
 
     for(i=0;i<length;i++)
     {
-        current[i]=next[i];
+        current[i]=next[i];.
     }
     printf("\n");
 }

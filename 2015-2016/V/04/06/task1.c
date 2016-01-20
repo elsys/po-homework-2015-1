@@ -5,8 +5,6 @@ int is_prime(int num);
 int main()
 {
 	int num;
-
-	printf("num=");
 	scanf("%d", &num);
 
 	printf("%d\n", is_prime(num));

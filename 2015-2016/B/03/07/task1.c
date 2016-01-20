@@ -6,12 +6,9 @@ int find_bit ( int, int );
 int main()
 {
     int a, b;
-    do {
-        scanf("%d", &a);
-    } while ( a < 0 || a > 7);
-    do {
-        scanf("%d", &b);
-    } while ( b < 0 || b > 200);
+
+    scanf("%d%d", &a, &b);
+
     printf("%d", find_bit( a , b ) );
     return 0;
 }

@@ -64,4 +64,5 @@ void next_generation(int *current, int *next, int length)
     {
         current[i]=next[i];
     }
+    printf("\n");
 }

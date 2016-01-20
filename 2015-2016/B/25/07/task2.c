@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
     int n, v=2, p=8;

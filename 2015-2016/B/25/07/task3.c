@@ -54,3 +54,4 @@ int sim(int number){
 	else return 1;
 
 }
+

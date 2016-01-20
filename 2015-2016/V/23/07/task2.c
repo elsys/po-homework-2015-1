@@ -13,9 +13,6 @@ int main(){
 
     int n;
     scanf("%d", &n);
-        do {
-            scanf("%d", &n);
-        } while(n < 0 || n > 20);
     int current[n],next[n];
     retry:
     for(int i = 0;i < n;i++)
@@ -25,20 +22,19 @@ int main(){
     int proverka;
     for(int j = 0;j < 1000;j++){
         proverka = 0;    
-            for(int i = 0;i < n-1;i++)
+            for(int i = 0;i < n;i++)
                 printf("%c", (current[i] == 0) ? '.' : '*');
             printf(" \n");
         proverka = checkAlive(current, n);
 
         next_generation(current, next,n);
+	next[0] = next[n-1] = 0;
 
-        if(proverka != 1){
-            for(int i = 0;i < n-1;i++){
-                    printf("%c", (current[i] == 0) ? '.' : '*');
+	for(int i = 0; i < n ; i++)
+		current[i] = next[i];
 
-                }printf("\n");                         
+        if(proverka != 1)                      
                 break;
-            }
         }
 
 }

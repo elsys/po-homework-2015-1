@@ -17,6 +17,6 @@ int main()
 				
 		}i++;
 	}
-	printf("button=%d \n", button);
+	printf("%d \n", button);
 return 0;
 }		

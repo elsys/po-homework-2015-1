@@ -1,4 +1,4 @@
-#inclide <stdio.h>
+#include <stdio.h>
 
 int main(){
 	int p, n, v;

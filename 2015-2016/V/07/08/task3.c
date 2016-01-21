@@ -27,14 +27,14 @@ int main()
 			else
 				return -1;
 		}
-	for(i=0;i<=n;i++)
+	printf("%d\n",Rud);
+	/*for(i=0;i<=n;i++)
 		if(eleni[i]==Rud)
 		{
 			//printf("Rudolf e ")
 			printf("%d",i);
-
 			//printf("-yat elen.\n");
 			return 0;
-		}
+		}*/
 	return -1;
 }

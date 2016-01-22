@@ -25,4 +25,5 @@ int main(){
 	for (index = 0 ; index < many ; index++){
 		if (deers[index]!=0)printf("%d",deers[index]);
 	}
+return 0;
 }

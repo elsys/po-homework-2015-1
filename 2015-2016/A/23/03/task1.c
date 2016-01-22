@@ -4,7 +4,6 @@
 int main()
 {
     int n,i,l,z;
-    printf("Enter number of lines:");
     scanf("%d",&n);
     for (i=0;i<=n;i++)
     {

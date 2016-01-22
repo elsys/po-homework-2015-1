@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 int main()
 {
     int n, v, p;
     int temp, counter, counterremember;
     int temp2[50];
+    int counter2;
     counter = 0;
     scanf("%d", &n);
     scanf("%d", &v);
@@ -33,14 +33,17 @@ int main()
     counter--;
     counterremember = counter;
     counter = 0;
+    counter2 = 0;
     n = 0;
+    v = 1;
     while(counterremember > -1)
     {
-        v = pow(2, counter);
-        //printf("\nv - %d", v);
-       // printf("\ntemp - %d", temp2[counter]);
+        while(counter2!=counter)
+        {
+            v = v * 2;
+            counter2++;
+        }
         temp = temp2[counter] * v;
-       // printf("\ntemp2 - %d", temp);
         n = n + temp;
         counter++;
         counterremember--;

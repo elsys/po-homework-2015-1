@@ -28,10 +28,10 @@ int main()
 	int n,c;
 	if(scanf("%d",&n)==0)
 	{
-		printf("-1\n");
+		printf("-1");
 		return -1;
 	}
 	c=is_prime(n);
-	printf("%d\n",c);
+	printf("%d",c);
 	return 0;
 }

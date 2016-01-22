@@ -50,7 +50,7 @@ void create_letter_distribution_diagram()
 	{
 		printf("%c: %d ",LettersCount[i][0]+'a',LettersCount[i][1]);
 	}
-	if(i=26)
+	if(i==26)
 	{
 		printf("%c: %d",LettersCount[i][0]+'a',LettersCount[i][1]);
 	}

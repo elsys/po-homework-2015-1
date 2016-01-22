@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include <string.h>
+#define MAX 100
 
-int main(){
-	int n,i; char s[100]; 
-	scanf("%s",s);
-	int l;
-	l=strlen(s);
-	for(i=0;i<l;i++,l--){
-		if(s[i]!=s[l-1]){
-			printf("String is not palindrome"); return 0;		
-		}	
-	}
-	printf("String is palindrome");
-	return 0;
+int main() {
+	char s[MAX];
+	scanf("%s", s);
+	int l=0, result=0; 
+	l=strlen(s)-1;
+	
+	for( int i = 0 ; i < l ; i++, l-- ) {
+		
+		if( s[i] != s[l] ) {
+			result=1;
+			break;
+		}
+	}	
+	printf("%d", result);	
 }

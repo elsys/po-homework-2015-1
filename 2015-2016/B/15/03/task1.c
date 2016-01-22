@@ -20,5 +20,4 @@ for(i=0;i<n;i++)
     f=f+2;
     printf("\n");
 }
-getch();
 }

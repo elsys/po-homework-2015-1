@@ -2,7 +2,7 @@
 
 int is_prime(int);
 
-void main(void)
+int main()
 {
 	int n,res;
 	printf("\n input number:");
@@ -16,6 +16,8 @@ void main(void)
 			res=is_prime(n);
 	}
 	printf("\n %d",res);
+
+	return 0;
 }
 int is_prime(int n)
 {

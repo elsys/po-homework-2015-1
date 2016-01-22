@@ -11,16 +11,11 @@ int main()
    if(scanf("%f",&n) && (int)n == n)
    {
        c = getchar();
-
-       if(c == '\n')
-       {
            result = is_prime(n);
 
            if (result == 1) printf("1");
 
            else printf("0");
-       }
-       else printf("-1");
    }
    else printf("-1");
 

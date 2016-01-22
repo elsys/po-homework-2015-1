@@ -17,7 +17,7 @@ int is_prime(char* input) {
 
 	int i, length, number = 0;
 
-	length = strlen(input) - 1;
+	length = input[strlen(input) - 1] == '\n' ? strlen(input) - 1 : strlen(input);
 
 	for (i = 0; i < length; i++) {
 		if (input[i] < '0' || input[i] > '9') {

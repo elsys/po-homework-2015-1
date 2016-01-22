@@ -3,14 +3,12 @@
 
 int main(){
 	char s[50];
-	char b;
+	int b;
 	fgets(s,50,stdin);
 	b=strlen(s);
 	b--;
-	while(b>=0){
-		printf("%c",s[b]);
-		b--;
-	}
+	for(; b >=0 ; b--)
+	printf("%c",s[ b ]);
 	printf("\n");
 return 0;
 }

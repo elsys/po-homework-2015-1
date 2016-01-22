@@ -1,24 +1,29 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 int main()
 {
-    char x[100];
-    int n;
+    char c[50];
+    int i;
+
     while(1)
     {
-        scanf("%s",&x);
-        if(x[0]=='S' && x[1]=='T' && x[2]=='O' && x[3]=='P')
+        scanf("%s", c);
+        if(c[0]=='S' && c[1]== 'T' && c[2]=='O' && c[3]=='P')
         {
-            return 0;
+            break;
         }
-        for(n=0;n<100;n++)
-        {
-            if(x[n]>='a' && x[n]<='z')
+
+
+            for(i=0;i<strlen(c);i++)
             {
-                x[n]=x[n]-32;
-            }
+                if(c[i] >= 'a' && c[i] <= 'z')
+                {
+                    c[i]=c[i]-32;
 
-        }
-        printf("\n%s", x);
-
+                }
+            } printf("%s", c);
     }
+    return 0;
 }

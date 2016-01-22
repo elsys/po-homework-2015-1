@@ -1,27 +1,36 @@
 #include <stdio.h>
-int funk (int);
+
+int is_prime (int);
 int main()
- {
-  int num,i;
-  scanf("%d",&num);
-  i=funk(num);
-  printf("%d",i);
- }
+{
+int num,i;
+scanf("%d",&num);
+i=is_prime(num);
+printf("%d",i);
+return 0;
+}
 
-int funk (int num)
- { 
-  int counter,i=0;
+int is_prime (int num)
+{
+ int counter=0,i;
+
  
-  for(counter=0;counter<=num;counter++)
-   {
-     if(num==counter*counter)
-     i++;	
-   }
-  if(i>0)
-   counter=1;
-  else
-   counter=0;
 
-  return counter;
+ for(i=1;i<=num;i++)
+  {
+    if(num%i==0){counter++;}
 
- }
+  }
+
+if(counter>2)
+ i=0;
+else
+ i=1;
+
+return i;
+}
+
+
+
+
+

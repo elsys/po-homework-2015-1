@@ -1,41 +1,84 @@
 #include <stdio.h>
+#define MAX 13
+
+int toNumber(char);
+int toCard(int);
+
 int main(){
-    int i,temp,j,n[13];
-    char cur;
-    printf("Enter cards: \n");
-    for(i=0;i<13;i++){
-        scanf("%s",&cur);
-        if(cur>='2'&&cur<='9')
-            n[i]=cur-'0';
+    int i, j, n[MAX];
+    char str[MAX], temp;
+
+    scanf("%s", str);
+
+    for(i = 0; i < MAX; i++){
+        if(str[i] >= '2' && str[i] <= '9')
+            n[i] = str[i] - '0';
+
         else
-            switch(cur){
-                case 'A': n[i]=14;  break;
-                case 'K': n[i]=13;  break;
-                case 'Q': n[i]=12;  break;
-                case 'J': n[i]=11;  break;
-                case 'T': n[i]=10;  break;
-            }
+            n[i] = toNumber(str[i]);
     }
-    for (i=0;i<13;i++){
-        for (j=0;j<13-1-i;j++){
-            if(n[j]>n[j+1]){
-                temp=n[j];
-                n[j]=n[j+1];
-                n[j+1]=temp;
+
+    for(i=0; i < MAX; i++){
+        for(j = 0; j < MAX - i ; j++){
+            if(n[j] > n[j+1]){
+                temp = n[j];
+                n[j] = n[j+1];
+                n[j+1] = temp;
             }
         }
     }
-    for(i=0;i<13;i++){
-        if(n[i]>=2&&n[i]<=9)
-            printf("%d ",n[i]);
-        else
-            switch(n[i]){
-                case 14: printf("A ");  break;
-                case 13: printf("K ");  break;
-                case 12: printf("Q ");  break;
-                case 11: printf("J ");  break;
-                case 10: printf("T ");  break;
-            }
+
+    for(i = 0; i < MAX; i++){
+        if(n[i] > 1 && n[i] < 10)
+            str[i] = n[i] + '0';
+
+       else
+           str[i] = toCard(n[i]);
+
+        printf("%c", str[i]);
     }
+
+
+
+    return 0;
+}
+
+int toNumber(char card){
+
+    if(card == 'T')
+        return 10;
+
+    if(card == 'J')
+        return 11;
+
+    if(card == 'Q')
+       return 12;
+
+    if(card == 'K')
+        return 13;
+
+    if(card == 'A')
+        return 14;
+
+    return 0;
+}
+
+int toCard(int number){
+
+    if(number == 10)
+        return 'T';
+
+    if(number == 11)
+        return 'J';
+
+    if(number == 12)
+        return 'Q';
+
+    if(number == 13)
+        return 'K';
+
+    if(number == 14)
+        return 'A';
+
     return 0;
 }

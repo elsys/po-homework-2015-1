@@ -1,0 +1,10 @@
+Evaluating homework 07 on student 01 from V class
+
+
+Evalutaing task1.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 2/2

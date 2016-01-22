@@ -1,69 +1,50 @@
 #include <stdio.h>
-#include <string.h>
+
+int card_function(char);
 
 int main()
 {
-    char x[20];
-    int n,y=0; int arabic=0;
-    scanf("%s", x);
+   char string[14],temp;
 
-    n=strlen(x)-1;
-    for(;x[n]=='I' && y<3;n--)
-    {
-        arabic++;
-        y++;}
-    if(x[n]=='V')
-    {
-        arabic+=5;
-        n--;}
-    if(x[n]=='I')
-    {
-        arabic--;
-        n--;}
-    y=0;
-    while(x[n]=='X' && y<3)
-    {
-        y++;
-        arabic+=10;
-        n--;
+   int i=0,n=0;
 
+    scanf("%s",string);
 
-        if(x[n]=='I')
+    for(i = 1;i < 13; i++)
+    {
+        for(n=0; n < 13-i; n++)
+        {
+            if(card_function(string[n]) > card_function(string[n+1]))
             {
-                arabic--;
-                n--;}
+                temp = string[n];
+                string[n] = string[n+1];
+                string[n+1] = temp;
+            }
+        }
     }
 
-    if(x[n]=='L')
+    printf("%s", string);
+
+    return 0;
+}
+
+int card_function(char string)
+{
+    switch(string)
     {
-        arabic+=50;
-        n--;}
-
-    if(x[n]=='X')
-            {
-                arabic-=10;
-                n--;}
-            y=0;
-
-
-    for(;x[n]=='C' && y<3;n--)
-    {
-            y++;
-            arabic+=100;
-
-        if(x[n]=='X')
-           {
-                arabic=arabic-10;
-                n--;}
+        case '2': return 2;
+        case '3': return 3;
+        case '4': return 4;
+        case '5': return 5;
+        case '6': return 6;
+        case '7': return 7;
+        case '8': return 8;
+        case '9': return 9;
+        case 'T': return 10;
+        case 'J': return 11;
+        case 'Q': return 12;
+        case 'K': return 13;
+        case 'A': return 14;
+        default: return 1;
     }
-
-    if(arabic>256)
-    {
-        printf("\nToo large");}
-    else
-    {
-
-        printf("%d",arabic);}
-   return 0;
-
 }

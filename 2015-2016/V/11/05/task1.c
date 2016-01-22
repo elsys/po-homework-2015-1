@@ -1,26 +1,25 @@
 #include <stdio.h>
-#include <string.h>
-int palindrom(int l,char s[]);
-int main()
-{
 
-  int i=0,l;
-    char s[50];
-    scanf("%s",&s);
-    l=strlen(s)-1;
-    if(palindrom(l,s)){
-        printf("Yes");
-    }
-    else
-        printf("No");
+int main(){
+	int a[4][4],i=0,k=0;
+	for(i=0;i<4;i++){
+		for(k=0;k<4;k++){
+			scanf("%d",&a[i][k]);
+		}
+	}
+	int h;
+	for(i=1;i<4;i++){
+		for(k=0;k<i;k++){
+			h=a[i][k];
+			a[i][k]=a[k][i];
+			a[k][i]=h;
+		}
+	}
+	for(i=0;i<4;i++){
+		printf("\n");
+		for(k=0;k<4;k++){
+			printf("%2d ",a[i][k]);
+		}
+	}
 }
-int palindrom(int l,char s[]){
-    int i;
-    for(i=0;i<l;i++){
-    if(s[i]!=s[l]){
-        return 0;
-    }
-    l--;
-    }
-    return 1;
-}
+

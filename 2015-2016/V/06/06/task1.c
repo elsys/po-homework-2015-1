@@ -1,27 +1,28 @@
 #include <stdio.h>
-int is_prime(int);
+void is_prime(int);
 
-int main(){
-	int n;
+int main() {
+	int n=0;
 	scanf("%d",&n);
 	is_prime(n);
+	return 0;
 }
-int is_prime(int n){
-	int i=2;
-	while(n%i!=0){
-		i++;
-	
+void is_prime(int n){
+	int c=2;
+	while(n%c!=0){
+		c++;
 	}
-	if(i==n){
+
+	if( n==c ) {
+	
 		printf("1");
-	
 	}
-	if(i!=n){
-		if(n<=0){
-			printf("-1");
-		}
-	   	if(n>0){
-	   		printf("0");
-		}
+
+	if( n != c) {
+		printf("0");
+	}
+
+	if( n<0 ) {
+		printf("-1");
 	}
 }

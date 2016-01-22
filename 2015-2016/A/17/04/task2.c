@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 int number_square(int);
 
 int main()

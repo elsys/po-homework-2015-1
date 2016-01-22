@@ -44,11 +44,9 @@ int main()
                     break;
                 }
             }
-            //printf("%c", x[counter]);
             counter++;
             n = n / 16;
         }
-        //printf("\n");
         x[counter] = 'Y';
         counter--;
         counter2 = 0;
@@ -57,7 +55,6 @@ int main()
             if(x[counter] == x[counter2])
             {
                 palindromflag = 1;
-                //printf("%c", x[counter]);
             }
             if(x[counter] != x[counter2])
             {

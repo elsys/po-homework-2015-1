@@ -4,7 +4,7 @@ int main()
 {
     int counter,another_counter=0, number, i=0, Rudy=0, deers[199];
 
-     scanf("n\ %d \n", &number);
+     scanf("\n %d \n", &number);
 
    if(number%2 != 0)
    {

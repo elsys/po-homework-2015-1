@@ -36,11 +36,6 @@ int main()
 
 	for(counter = 0; counter <= 8; counter++)
 	{
-		printf("%d ", bin[counter]);
-	}		
-
-	for(counter = 0; counter <= 8; counter++)
-	{
 		help = bin[counter];
 		sum = sum + help*base;
 		base = base * 2; 

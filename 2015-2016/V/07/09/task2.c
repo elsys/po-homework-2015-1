@@ -17,6 +17,6 @@ int main()
 	if(v==1)
 		printf("%d\n",n | (1 << p));
 	else
-		printf("%d\n",n ^ (1 << p));
+		printf("%d\n",n ^ (n & (1 << p)));
 	return 0;
 }

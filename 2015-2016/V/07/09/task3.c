@@ -31,7 +31,7 @@ int hex_palindrom(int n)
 	while(lenght%4!=0)
 		lenght++;
 	half=lenght/2;
-	while(lenght-i > half)
+	while(lenght-i >= half)
 	{
 		if((n & (1 << (lenght-i))) >> (lenght-i) != (n & (1 << j)) >> j)
 		{

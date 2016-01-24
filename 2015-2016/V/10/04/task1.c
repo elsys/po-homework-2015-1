@@ -7,10 +7,10 @@ int main(void){
     int digit;
     long n;
 
-    printf("Enter a number: ");
+    //printf("Enter a number: ");
     scanf("%ld", &n);
 
-    printf("Repeated digit(s): ");
+    //printf("Repeated digit(s): ");
 
     while (n > 0)
     {

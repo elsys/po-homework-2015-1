@@ -26,7 +26,7 @@ for(counter=0;counter<number;counter++)
 		if(eleni[counter2]==eleni[counter])
 			temp++;}
 	if(temp==1)
-		printf("%d",counter);
+		printf("%d",eleni[counter]);
 	
 }
 }

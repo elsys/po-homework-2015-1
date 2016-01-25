@@ -9,9 +9,8 @@ int main()
     	char r[10];
    	int i=0;
     	int number=0;
-
-   	printf("Enter roman number:\n");
     	scanf("%s",r);
+    	
 	while(r[i])
 	{
 
@@ -20,16 +19,6 @@ int main()
 		    printf("Invalid number\n");
 		    return 0;
 		}
-
-		if((strlen(r)-i)>2)
-		{
-		     	if(getromanv(r[i])<getromanv(r[i+2]))
-			{
-		         	printf("Invalid number\n");
-		        	return 0;
-		     	}
-		}
-
 		if(getromanv(r[i]) >= getromanv(r[i+1]))
 		{
 		    	number = number + getromanv(r[i]);
@@ -41,14 +30,7 @@ int main()
 		}
 		i++;
     	}
-
-	if (number>256)
-        {
-            printf("The number is above 256\n");
-            return 0;
-        }
-    printf("%d\n",number);
-
+    printf("%d",number);
     return 0;
 
 }

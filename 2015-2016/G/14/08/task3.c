@@ -1,31 +1,47 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int digit(char* raw, int n) {
-	int val = 0;
-	int i = 0;
-	while(i < n) val = val * 10 + (raw[i++] - '0');
-	return val;
-}
+int main(){
 
-int main() {
-	int number[100];
-	int input[201];
-	int i, n, k;
-	char c;
-	char raw[3];
-	for(i = 0;i < 100;++i) number[i] = 0; 
-	i = k = n = 0;
-	while ((c = getchar()) != EOF) {
-		if(((c < '0') && (c > '9')) && (c != '\n')) printf("error");
-		if(c != '\n') raw[k++] = c;
-		else if (k > 0) {
-			n = digit(raw, k);
-			input[i++] = n;
-			number[n - 1]++;
-			k = 0;
-		}
-	}
-	for(k = 0;k < 100;++k) if(number[k] == 1) n = k + 1;
-	for(k = 0; k < i;++k) if(k == n) printf("\n%d\n", k);
-	return(0);
-}
+    int deers;
+    int deer_number[200];
+    int i, k;
+    int rudolf = 1;
+    int mara = 0;
+
+    do{
+
+        scanf("%d",&deers);
+
+    }while(deers % 2 == 0);
+
+    for(i = 0;i < deers; i++){
+ 
+	do{
+
+                scanf("%d",&deer_number[i]);
+
+        }while(deer_number[i] < 1 || deer_number[i] > 100);
+
+    }
+
+    for(i = 0; i < deers; i++){
+
+        for(k = i + 1; k < deers; k++){
+
+            if(deer_number[i] == deer_number[k]){
+                deer_number[i] = 0;
+                deer_number[k] = 0;
+            }
+
+        }
+        mara ++;
+
+    }
+    for(i = 0; i < deers; i++){
+        if(deer_number[i] != 0){
+            printf("%d",deer_number[i]);
+        }
+    }
+
+    return 0;

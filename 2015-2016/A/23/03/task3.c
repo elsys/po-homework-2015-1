@@ -55,7 +55,6 @@ int main()
 {
 	int i,z,t,x,y;
 	char a[14],b[14]="23456789TJQKA";
-	printf("Enter cards:");
 	scanf("%s",a);
 	for(i=0;i<strlen(a)-1;i++)
 	{
@@ -66,11 +65,6 @@ int main()
 			{
 				t=1;
 			}
-		}
-		if(t==0)
-		{
-			printf("Invalid cards");
-			return 0;
 		}
 	}
 	for(x=0; x<strlen(a); x++)
@@ -85,6 +79,6 @@ int main()
 			}
 		}
 	}
-	printf("%s\n",a);
+	printf("%s",a);
 	return 0;
 }

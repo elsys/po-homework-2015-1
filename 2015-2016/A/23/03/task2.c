@@ -5,12 +5,10 @@ int main()
 {
 	char n[50];
 	int i;
-	printf("Write a word:");scanf("%s",n);
-	printf("\n");
+	scanf("%s",n);
 	for(i=strlen(n)-1;i>=0;i--)
 	{
 		printf("%c",n[i]);
 	}
-	printf("\n");
 	return 0;
 }

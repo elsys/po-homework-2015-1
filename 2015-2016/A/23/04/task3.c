@@ -46,10 +46,19 @@ void create_letter_distribution_diagram()
 			}
 		}
 	}
-	for(i=0;i<26;i++)
+	for(i=0;i<=24;i++)
 	{
-		printf("%c: %d\n",LettersCount[i][0]+'a',LettersCount[i][1]);
-	}	
+		printf("%c: %d ",LettersCount[i][0]+'a',LettersCount[i][1]);
+		if(i==24)
+		{
+			i++;
+			if(i==25)
+			{
+				printf("%c: %d",LettersCount[i][0]+'a',LettersCount[i][1]);
+			}
+		}	
+	}
+
 }
 int main()
 {

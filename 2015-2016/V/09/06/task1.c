@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int is_prime(int);
-int main() {
+int main()
+{
     int n, prime;
 
-    //printf("Enter number: \n");
     scanf("%d",&n);
-
     prime = is_prime(n);
     if (prime == 1) {
       printf("1");
@@ -14,7 +13,6 @@ int main() {
    else {
       printf("0");
    }
-
     return 0;
 }
 

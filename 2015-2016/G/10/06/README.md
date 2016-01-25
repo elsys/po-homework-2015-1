@@ -1,43 +1,62 @@
 # Assignment report
----
-Mon Jan 11 22:25:41 2016
+Tue Jan 26 00:47:59 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: is_prime
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-0
+3
 ```
-But was:
+
+
+Expected
 ```
 1
 ```
 
- Final points are 2.5
-## Evaluating task2.c
 
-**File successfully compiled**
+Output
+```
+1  
+```
 
-### Task details:
+### Testcase 2 failed
+Input
+```
+4
+```
 
-Name: exact_square
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+Expected
+```
+0
+```
 
-Points: 5
-Test case 0 passed ✔︎ 
 
- Final points are 5
+Output
+```
+1  
+```
+
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+### Testcase 1 failed
+Input
+```
+9
+```
+
+
+Expected
+```
+1
+```
+
+
+Output
+```
+1  
+```
+

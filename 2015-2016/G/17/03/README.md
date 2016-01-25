@@ -1,20 +1,26 @@
 # Assignment report
----
-Mon Jan 11 22:25:45 2016
+Tue Jan 26 00:48:19 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating pyramide.c
+**Filename: Karti.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: NewKarti.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating NewKarti.c
+**Filename: NizNaObratno.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: pyramide.c**
+## Reverse (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating Karti.c
+### Not submitted
+## Cards (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-File doesn't match naming convention
-
-## Evaluating NizNaObratno.c
-
-File doesn't match naming convention
-
+### Not submitted

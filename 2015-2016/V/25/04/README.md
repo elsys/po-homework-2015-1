@@ -1,12 +1,14 @@
 # Assignment report
----
-Mon Jan 11 22:48:07 2016
+Tue Jan 26 00:46:59 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating 1va-zad.c
+**Filename: 1va-zad.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: 2ra-zad.c**
+## Magic square (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating 2ra-zad.c
-
-File doesn't match naming convention
-
+### Not submitted

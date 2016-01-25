@@ -1,42 +1,11 @@
 # Assignment report
----
-Mon Jan 11 22:24:58 2016
+Tue Jan 26 00:47:21 2016
+## rotr (Task 1)
+https://docs.google.com/presentation/d/1he0lQnT8k7faavvAh3EyKgCmYGMhPpzS3WpOWJUZEYM/edit#slide=id.gcd29c2a72_1_45
 
-## Evaluating task1.c
+### Testcase 1 passed
+## next_generation (Task 2)
+https://docs.google.com/presentation/d/1he0lQnT8k7faavvAh3EyKgCmYGMhPpzS3WpOWJUZEYM/edit#slide=id.gcd29c2a72_1_45
 
-**File successfully compiled**
-
-### Task details:
-
-Name: rotr
-
-Description: https://docs.google.com/presentation/d/1he0lQnT8k7faavvAh3EyKgCmYGMhPpzS3WpOWJUZEYM/edit#slide=id.gcd29c2a72_1_45
-
-Points: 5
-Test case 0 passed ✔︎ 
-
- Final points are 5
-## Evaluating task2.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: next_generation
-
-Description: https://docs.google.com/presentation/d/1he0lQnT8k7faavvAh3EyKgCmYGMhPpzS3WpOWJUZEYM/edit#slide=id.gcd29c2a72_1_45
-
-Points: 10
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-.*.*......
-```
-But was:
-```
-.*.*. .....
-```
-
- Final points are 0
+### Testcase 1 failed
+Execution took more than 1 seconds

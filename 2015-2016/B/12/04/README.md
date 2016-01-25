@@ -1,87 +1,63 @@
 # Assignment report
----
-Mon Jan 11 22:12:37 2016
+Tue Jan 26 00:46:29 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
+Failed compiling
 
-**File successfully compiled**
+Exit code: 1
 
-### Task details:
-
-Name: is_prime
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Error
 ```
-1
-```
-But was:
-```
-Enter Number:   1
-```
-Test case 1 failed ✘ 
+/Volumes/Data/elsys/po-homework/2015-2016/B/12/04/task1.c:3:15: error: a parameter list without types is only allowed in a function definition
+        int is_prime(num);
+                     ^
+/Volumes/Data/elsys/po-homework/2015-2016/B/12/04/task1.c:14:15: warning: parameter 'num' was not declared, defaulting to type 'int' [-Wpedantic]
+        int is_prime(num) {
+                     ^
+1 warning and 1 error generated.
 
----
-Expected:
-```
-0
-```
-But was:
-```
-Enter Number:   0
 ```
 
- Final points are 0
-## Evaluating task3.c
 
-**File successfully compiled**
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-### Task details:
+Failed compiling
 
-Name: create_letter_distribution_diagram
+Exit code: 1
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+Error
+```
+/Volumes/Data/elsys/po-homework/2015-2016/B/12/04/task2.c:3:19: error: a parameter list without types is only allowed in a function definition
+        int exact_square(num);
+                         ^
+/Volumes/Data/elsys/po-homework/2015-2016/B/12/04/task2.c:15:19: warning: parameter 'num' was not declared, defaulting to type 'int' [-Wpedantic]
+        int exact_square(num) {
+                         ^
+1 warning and 1 error generated.
 
-Points: 15
-Test case 0 failed ✘ 
+```
 
----
-Expected:
+
+## create_letter_distribution_diagram (Task 3)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+### Testcase 1 failed
+Input
+```
+This is a really awesome sentence!
+```
+
+
+Expected
 ```
 e: 6 s: 4 a: 3 i: 2 l: 2 n: 2 t: 2 c: 1 h: 1 m: 1 o: 1 r: 1 w: 1 y: 1 b: 0 d: 0 f: 0 g: 0 j: 0 k: 0 p: 0 q: 0 u: 0 v: 0 x: 0 z: 0
 ```
-But was:
-```
-= 1996519795  = 1987408500  = 1869507440  = 1785490791  = 1751737956  = 1700946785  = 1610612849  = 7995392  = 6  = 24320  = 4  = 2013265920  = 10977024  = 3  = 2  = 2  = 2  = 2  = 1  = 42496  = 1  = 1  = 1  = 1  = 1  = 1
-```
 
- Final points are 0
-## Evaluating task2.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: exact_square
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-1
-```
-But was:
-```
-Enter Number:   1
+Output
 ```
 
- Final points are 0
+```
+

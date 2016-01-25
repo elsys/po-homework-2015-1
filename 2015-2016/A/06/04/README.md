@@ -1,16 +1,22 @@
 # Assignment report
----
-Mon Jan 11 22:05:58 2016
+Tue Jan 26 00:45:31 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating task 3.c
+**Filename: task 1.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: task 2.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating task 2.c
+**Filename: task 3.c**
+## exact_square (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-File doesn't match naming convention
+### Not submitted
+## create_letter_distribution_diagram (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task 1.c
-
-File doesn't match naming convention
-
+### Not submitted

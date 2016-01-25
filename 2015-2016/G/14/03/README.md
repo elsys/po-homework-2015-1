@@ -1,12 +1,44 @@
 # Assignment report
----
-Mon Jan 11 22:25:43 2016
+Tue Jan 26 00:48:19 2016
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating hello-olleh.c
+### Testcase 1 failed
+Input
+```
+2
+```
 
-File doesn't match naming convention
 
-## Evaluating triangle.c
+Expected
+```
+* ***
+```
 
-File doesn't match naming convention
+
+Output
+```
+n = *** * osnovata e: 3 
+```
+
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 failed
+Input
+```
+Hello
+```
+
+
+Expected
+```
+olleH
+```
+
+
+Output
+```
+
+```
 

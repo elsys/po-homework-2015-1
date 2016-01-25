@@ -1,42 +1,27 @@
 # Assignment report
----
-Mon Jan 11 22:25:19 2016
+Tue Jan 26 00:47:08 2016
+## Matrix (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: Matrix
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1 5 9 13 2 6 10 14 3 7 11 15 4 8 12 16
 ```
-But was:
+
+
+Output
 ```
-2
+  2  
 ```
 
- Final points are 0
-## Evaluating task2.c
+## Palindrome (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Palindrome
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
-Test case 0 passed ✔︎ 
-
- Final points are 5
+### Testcase 1 passed

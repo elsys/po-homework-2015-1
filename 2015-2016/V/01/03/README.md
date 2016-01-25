@@ -1,26 +1,23 @@
 # Assignment report
----
-Mon Jan 11 22:24:53 2016
+Tue Jan 26 00:46:49 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating reversestring.c
+**Filename: reversestring.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: triangle.c**
+## Reverse (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating triangle.c
+### Not submitted
+## Cards (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-File doesn't match naming convention
+### Testcase 1 failed
+Execution took more than 1 seconds
+## Cards (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task3.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Cards
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 10
-Test case 0 timeout 🕐
-
- Final points are 0
+### Not submitted

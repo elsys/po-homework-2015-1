@@ -1,12 +1,18 @@
 # Assignment report
----
-Mon Jan 11 22:25:17 2016
+Tue Jan 26 00:46:54 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating triangle.c
+**Filename: rev_string.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: triangle.c**
+## Reverse (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating rev_string.c
+### Not submitted
+## Cards (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-File doesn't match naming convention
-
+### Not submitted

@@ -1,47 +1,49 @@
 # Assignment report
----
-Mon Jan 11 22:48:04 2016
+Tue Jan 26 00:46:56 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating repeat.c
+**Filename: repeat.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: square.c**
+## Digits (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+23242
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: Digits
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 2
 ```
-But was:
-```
-2: 3 times 3: 1 times 4: 1 times
-```
-Test case 1 failed ✘ 
 
----
-Expected:
+
+Output
+```
+ 2: 3 times 3: 1 times 4: 1 times
+```
+
+### Testcase 2 failed
+Input
+```
+232454
+```
+
+
+Expected
 ```
 2 4
 ```
-But was:
-```
-2: 2 times 3: 1 times 4: 2 times 5: 1 times
-```
 
- Final points are 0
-## Evaluating square.c
 
-File doesn't match naming convention
+Output
+```
+ 2: 2 times 3: 1 times 4: 2 times 5: 1 times
+```
 

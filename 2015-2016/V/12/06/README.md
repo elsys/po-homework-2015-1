@@ -1,47 +1,83 @@
 # Assignment report
----
-Mon Jan 11 22:25:04 2016
+Tue Jan 26 00:47:12 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+3
+```
 
-**File successfully compiled**
 
-### Task details:
+Expected
+```
+1
+```
 
-Name: is_prime
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+Output
+```
+1 
+```
 
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
+### Testcase 2 failed
+Input
+```
+4
+```
 
- Final points are 5
-## Evaluating task3.c
 
-**File successfully compiled**
+Expected
+```
+0
+```
 
-### Task details:
 
-Name: create_letter_distribution_diagram
+Output
+```
+0 
+```
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-Points: 15
-Test case 0 passed ✔︎ 
+### Testcase 1 failed
+Input
+```
+9
+```
 
- Final points are 15
-## Evaluating task2.c
 
-**File successfully compiled**
+Expected
+```
+1
+```
 
-### Task details:
 
-Name: exact_square
+Output
+```
+1 
+```
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+## create_letter_distribution_diagram (Task 3)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-Points: 5
-Test case 0 passed ✔︎ 
+### Testcase 1 failed
+Input
+```
+This is a really awesome sentence!
+```
 
- Final points are 5
+
+Expected
+```
+e: 6 s: 4 a: 3 i: 2 l: 2 n: 2 t: 2 c: 1 h: 1 m: 1 o: 1 r: 1 w: 1 y: 1 b: 0 d: 0 f: 0 g: 0 j: 0 k: 0 p: 0 q: 0 u: 0 v: 0 x: 0 z: 0
+```
+
+
+Output
+```
+e: 6 s: 4 a: 3 i: 2 l: 2 n: 2 t: 2 c: 1 h: 1 m: 1 o: 1 r: 1 w: 1 y: 1 b: 0 d: 0 f: 0 g: 0 j: 0 k: 0 p: 0 q: 0 u: 0 v: 0 x: 0 z: 0 
+```
+

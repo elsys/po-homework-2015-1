@@ -1,33 +1,32 @@
 # Assignment report
----
-Mon Jan 11 22:25:02 2016
+Tue Jan 26 00:47:03 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating palindrome .c
+**Filename: palindrome .c**
+## Palindrome (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-File doesn't match naming convention
+Failed compiling
 
-## Evaluating task2.c
+Exit code: 1
 
-**File compiled with error or warnings**
+Error
+```
+/Volumes/Data/elsys/po-homework/2015-2016/V/10/05/task2.c:11:4: warning: implicit declaration of function 'strrev' is invalid in C99 [-Wimplicit-function-declaration]
+   strrev(b);
+   ^
+1 warning generated.
+Undefined symbols for architecture x86_64:
+  "_strrev", referenced from:
+      _main in task2-84f80c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 ```
-/home/tsvetelina/elsys/po-homework/2015-2016/V/10/05/task2.c: In function ‘main’:
-/home/tsvetelina/elsys/po-homework/2015-2016/V/10/05/task2.c:8:4: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-    gets(s);
-    ^
-/home/tsvetelina/elsys/po-homework/2015-2016/V/10/05/task2.c:11:4: warning: implicit declaration of function ‘strrev’ [-Wimplicit-function-declaration]
-    strrev(b);
-    ^
-/tmp/ccEmYfhG.o: In function `main':
-task2.c:(.text+0x34): warning: the `gets' function is dangerous and should not be used.
-task2.c:(.text+0x5b): undefined reference to `strrev'
-collect2: error: ld returned 1 exit status
-```
 
-### Task details:
 
-Name: Palindrome
+## Palindrome (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
+### Not submitted

@@ -1,78 +1,77 @@
 # Assignment report
----
-Mon Jan 11 22:12:45 2016
+Tue Jan 26 00:46:44 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating Decks.c
+**Filename: Decks.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: reverse.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating task1.c
+**Filename: triangle.c**
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-* **
-```
-But was:
+### Testcase 1 failed
+Input
 ```
 2
 ```
 
- Final points are 0
-## Evaluating reverse.c
 
-File doesn't match naming convention
+Expected
+```
+* ***
+```
 
-## Evaluating triangle.c
 
-File doesn't match naming convention
+Output
+```
+ 2
+```
 
-## Evaluating task3.c
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-### Task details:
 
-Name: Cards
+Expected
+```
+olleH
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 failed ✘ 
+Output
+```
+olleH 
+```
 
----
-Expected:
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
+
+
+Expected
 ```
 23456789ТJQKA
 ```
-But was:
+
+
+Output
 ```
-93456782ÐJQKA¢
+
 ```
 
- Final points are 0
-## Evaluating task2.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Reverse
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 passed ✔︎ 
-
- Final points are 5

@@ -1,66 +1,48 @@
 # Assignment report
----
-Mon Jan 11 22:06:06 2016
+Tue Jan 26 00:45:08 2016
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
-```
-But was:
-```
-$ $$$
+2
 ```
 
- Final points are 0
-## Evaluating task3.c
 
-**File successfully compiled**
+Expected
+```
+* ***
+```
 
-### Task details:
 
-Name: Cards
+Output
+```
+ $ $$$ 
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 failed ✘ 
+### Testcase 1 passed
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
----
-Expected:
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
+
+
+Expected
 ```
 23456789ТJQKA
 ```
-But was:
+
+
+Output
 ```
-Ð23456789JQKA¢
+
 ```
 
- Final points are 0
-## Evaluating task2.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Reverse
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 passed ✔︎ 
-
- Final points are 5

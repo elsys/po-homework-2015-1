@@ -1,88 +1,83 @@
 # Assignment report
----
-Mon Jan 11 22:05:58 2016
+Tue Jan 26 00:44:59 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating task1.c
+**Filename: palindrom.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-**File successfully compiled**
+**Filename: teste_ot_karti.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-### Task details:
+**Filename: triugulnic.c**
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Name: Triangle
+Failed compiling
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+Exit code: 1
 
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Error
 ```
-* **
-```
-But was:
-```
-h= aa  aaaa
-```
+/Volumes/Data/elsys/po-homework/2015-2016/A/06/03/task1.c:2:2: error: 'main' must return 'int'
+        void main(void)
+        ^~~~
+        int
+1 error generated.
 
- Final points are 0
-## Evaluating task3.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Cards
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-23456789ТJQKA
-```
-But was:
-```
-9827AJKQ6345Ð
 ```
 
- Final points are 0
-## Evaluating triugulnic.c
 
-File doesn't match naming convention
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating palindrom.c
+Failed compiling
 
-File doesn't match naming convention
+Exit code: 1
 
-## Evaluating teste_ot_karti.c
-
-File doesn't match naming convention
-
-## Evaluating task2.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Reverse
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Error
 ```
-olleH
-```
-But was:
-```
-insert text:olleH
+/Volumes/Data/elsys/po-homework/2015-2016/A/06/03/task2.c:4:1: error: 'main' must return 'int'
+void main(void)
+^~~~
+int
+/Volumes/Data/elsys/po-homework/2015-2016/A/06/03/task2.c:11:27: warning: data argument not used by format string [-Wformat-extra-args]
+   printf("insert text:" ,c ); scanf("%d", &c);
+          ~~~~~~~~~~~~~~  ^
+1 warning and 1 error generated.
+
 ```
 
- Final points are 0
+
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+Failed compiling
+
+Exit code: 1
+
+Error
+```
+/Volumes/Data/elsys/po-homework/2015-2016/A/06/03/task3.c:5:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+a=0;
+^
+/Volumes/Data/elsys/po-homework/2015-2016/A/06/03/task3.c:6:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+b=0;
+^
+/Volumes/Data/elsys/po-homework/2015-2016/A/06/03/task3.c:7:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+c=0;
+^
+/Volumes/Data/elsys/po-homework/2015-2016/A/06/03/task3.c:8:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+d=0;
+^
+/Volumes/Data/elsys/po-homework/2015-2016/A/06/03/task3.c:9:1: error: 'main' must return 'int'
+void main(void)
+^~~~
+int
+4 warnings and 1 error generated.
+
+```
+
+

@@ -1,43 +1,62 @@
 # Assignment report
----
-Mon Jan 11 22:12:37 2016
+Tue Jan 26 00:46:29 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+3
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: is_prime
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
-
- Final points are 5
-## Evaluating task2.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: exact_square
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
+
+
+Output
 ```
-1  9=3^2
+  1
 ```
 
- Final points are 0
+### Testcase 2 failed
+Input
+```
+4
+```
+
+
+Expected
+```
+0
+```
+
+
+Output
+```
+  0
+```
+
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+### Testcase 1 failed
+Input
+```
+9
+```
+
+
+Expected
+```
+1
+```
+
+
+Output
+```
+  1  9=3^2
+```
+

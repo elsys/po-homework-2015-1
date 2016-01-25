@@ -1,37 +1,49 @@
 # Assignment report
----
-Thu Jan 14 18:39:36 2016
+Tue Jan 26 00:47:43 2016
+## Task: Nokia 3310 (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-## task3.c
+### Testcase 1 passed
+## Task: Nokia 3310 (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-**File successfully compiled**
+### Not submitted
+## Task: Rudolph (Task 3)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-### Task details
+### Testcase 1 failed
+Input
+```
+3 1 1 2
+```
 
-Name: Task: Rudolph
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+Expected
+```
+2
+```
 
-Points: 15
 
-#### Test cases
-Test case 0 passed ✔︎
-Test case 1 passed ✔︎
---- 
-#### Final points: 15
-## task2.c
+Output
+```
+2 
+```
 
-**File successfully compiled**
+### Testcase 2 failed
+Input
+```
+13 5 2 7 22 4 1 22 5 9 1 7 4 2
+```
 
-### Task details
 
-Name: Task: Nokia 3310
+Expected
+```
+9
+```
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-Points: 5
+Output
+```
+9 
+```
 
-#### Test cases
-Test case 0 passed ✔︎
---- 
-#### Final points: 5

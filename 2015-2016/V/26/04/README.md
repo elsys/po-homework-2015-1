@@ -1,19 +1,41 @@
 # Assignment report
----
-Mon Jan 11 22:48:07 2016
+Tue Jan 26 00:46:59 2016
+## Digits (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+23242
+```
 
-**File successfully compiled**
 
-### Task details:
+Expected
+```
+2
+```
 
-Name: Digits
 
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
+Output
+```
+2 
+```
 
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
+### Testcase 2 failed
+Input
+```
+232454
+```
 
- Final points are 5
+
+Expected
+```
+2 4
+```
+
+
+Output
+```
+2 4 
+```
+

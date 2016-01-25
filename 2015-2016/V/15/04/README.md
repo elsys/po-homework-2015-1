@@ -1,63 +1,62 @@
 # Assignment report
----
-Mon Jan 11 22:48:05 2016
+Tue Jan 26 00:46:58 2016
+## Digits (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+23242
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: Digits
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 2
 ```
-But was:
-```
-The number 2 is repeated exactly 3 times
-```
-Test case 1 failed ✘ 
 
----
-Expected:
+
+Output
+```
+The number 2 is repeated exactly 3 times 
+```
+
+### Testcase 2 failed
+Input
+```
+232454
+```
+
+
+Expected
 ```
 2 4
 ```
-But was:
+
+
+Output
 ```
-The number 2 is repeated exactly 2 times The number 4 is repeated exactly 2 times
+The number 2 is repeated exactly 2 times The number 4 is repeated exactly 2 times 
 ```
 
- Final points are 0
-## Evaluating task2.c
+## Magic square (Task 2)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+2 7 6 9 5 1 4 3 8
+```
 
-### Task details:
 
-Name: Magic square
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
+
+
+Output
 ```
-Farewell!Now enter the values of you own 7 by 7 square:        Your "magic square" should look like this: 	6 	9 	5 	1 	4 	3 	8  	0 	231882848 	32632 	0 	0 	40491168 	32765  	231970135 	32632 	1 	0 	0 	0 	40491216  	32765 	227979704 	32632 	0 	0 	40491168 	32765  	4195648 	0 	231998741 	32632 	0 	0 	0  	0 	40491416 	32765 	40491084 	32765 	4197064 	0  	231886464 	32632 	231974240 	32632 	0 	0 	40491168  Sorry but your square isn't magic!
+Farewell!Now enter the values of you own 7 by 7 square:        Your "magic square" should look like this: 	6 	9 	5 	1 	4 	3 	8  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	2082615496 	32767 	0 	0 	16 	48 	1512737040  	32767 	1512736784 	32767 	1403968887 	-1711242703 	0 	0  	0 	0 	0 	0 	0 	0 	1512737152  Sorry but your square isn't magic! 
 ```
 
- Final points are 0

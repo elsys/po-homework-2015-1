@@ -1,69 +1,69 @@
 # Assignment report
----
-Mon Jan 11 22:05:58 2016
+Tue Jan 26 00:44:59 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating cards.c
+**Filename: cards.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: romantoarabic.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating romantoarabic.c
+**Filename: strrev.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: triangle.c**
+## Reverse (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task4.c
+### Not submitted
+## Cards (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Roman to Arabic
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-219
-```
-But was:
-```
-221
+9827AJKQ6345Т
 ```
 
- Final points are 2.5
-## Evaluating triangle.c
 
-File doesn't match naming convention
-
-## Evaluating task3.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Cards
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 23456789ТJQKA
 ```
-But was:
-```
-The sorted deck is: Ð23456789JQKA¢
+
+
+Output
 ```
 
- Final points are 0
-## Evaluating strrev.c
+```
 
-File doesn't match naming convention
+## Cards (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Not submitted
+## Roman to Arabic (Task 4)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 passed
+### Testcase 2 failed
+Input
+```
+CCXIX
+```
+
+
+Expected
+```
+219
+```
+
+
+Output
+```
+221
+```
 

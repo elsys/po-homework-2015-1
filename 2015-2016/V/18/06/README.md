@@ -1,94 +1,82 @@
 # Assignment report
----
-Mon Jan 11 22:25:10 2016
+Tue Jan 26 00:47:15 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+3
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: is_prime
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
+
+
+Output
 ```
 Enter an integer. 1
 ```
-Test case 1 failed ✘ 
 
----
-Expected:
+### Testcase 2 failed
+Input
+```
+4
+```
+
+
+Expected
 ```
 0
 ```
-But was:
+
+
+Output
 ```
 Enter an integer. 0
 ```
 
- Final points are 0
-## Evaluating task3.c
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-**File compiled with error or warnings**
-
+### Testcase 1 failed
+Input
 ```
-/home/tsvetelina/elsys/po-homework/2015-2016/V/18/06/task3.c: In function ‘create_letter_distribution_diagram’:
-/home/tsvetelina/elsys/po-homework/2015-2016/V/18/06/task3.c:34:5: error: expected declaration or statement at end of input
-     }
-     ^
+9
 ```
 
-### Task details:
 
-Name: create_letter_distribution_diagram
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 15
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-e: 6 s: 4 a: 3 i: 2 l: 2 n: 2 t: 2 c: 1 h: 1 m: 1 o: 1 r: 1 w: 1 y: 1 b: 0 d: 0 f: 0 g: 0 j: 0 k: 0 p: 0 q: 0 u: 0 v: 0 x: 0 z: 0
-```
-But was:
-```
-Enter an integer.
-```
-
- Final points are 0
-## Evaluating task2.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: exact_square
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
+
+
+Output
 ```
 Enter a number: 1
 ```
 
- Final points are 0
+## create_letter_distribution_diagram (Task 3)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Failed compiling
+
+Exit code: 1
+
+Error
+```
+/Volumes/Data/elsys/po-homework/2015-2016/V/18/06/task3.c:34:6: error: expected '}'
+    }
+     ^
+/Volumes/Data/elsys/po-homework/2015-2016/V/18/06/task3.c:25:1: note: to match this '{'
+{
+^
+1 error generated.
+
+```
+
+

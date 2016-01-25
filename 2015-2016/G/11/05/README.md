@@ -1,31 +1,30 @@
 # Assignment report
----
-Mon Jan 11 22:25:41 2016
+Tue Jan 26 00:48:06 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating palindrom.c
+**Filename: palindrom.c**
+## Palindrome (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-File doesn't match naming convention
+Failed compiling
 
-## Evaluating task2.c
+Exit code: 1
 
-**File compiled with error or warnings**
-
+Error
 ```
-/home/tsvetelina/elsys/po-homework/2015-2016/G/11/05/task2.c:1:1: error: expected identifier or ‘(’ before ‘+’ token
- +#include <stdio.h>
+/Volumes/Data/elsys/po-homework/2015-2016/G/11/05/task2.c:1:1: error: expected external declaration
++#include <stdio.h>
+^
+/Volumes/Data/elsys/po-homework/2015-2016/G/11/05/task2.c:1:2: error: expected identifier or '('
++#include <stdio.h>
  ^
-/home/tsvetelina/elsys/po-homework/2015-2016/G/11/05/task2.c:1:2: error: stray ‘#’ in program
- +#include <stdio.h>
-  ^
-/home/tsvetelina/elsys/po-homework/2015-2016/G/11/05/task2.c:2:2: error: stray ‘#’ in program
- +#include <string.h>
-  ^
+2 errors generated.
+
 ```
 
-### Task details:
 
-Name: Palindrome
+## Palindrome (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
+### Not submitted

@@ -1,16 +1,22 @@
 # Assignment report
----
-Mon Jan 11 22:25:46 2016
+Tue Jan 26 00:48:19 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating triugulnik.c
+**Filename: karti.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: reverseNiz.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating reverseNiz.c
+**Filename: triugulnik.c**
+## Reverse (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-File doesn't match naming convention
+### Not submitted
+## Cards (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating karti.c
-
-File doesn't match naming convention
-
+### Not submitted

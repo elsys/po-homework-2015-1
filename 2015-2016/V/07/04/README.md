@@ -1,63 +1,62 @@
 # Assignment report
----
-Mon Jan 11 22:48:05 2016
+Tue Jan 26 00:46:57 2016
+## Digits (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+23242
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: Digits
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 2
 ```
-But was:
-```
-Vavedi chislo: Tsifrite, koito se povtariat sa: 2, .
-```
-Test case 1 failed ✘ 
 
----
-Expected:
+
+Output
+```
+ Vavedi chislo: Tsifrite, koito se povtariat sa: 2, .
+```
+
+### Testcase 2 failed
+Input
+```
+232454
+```
+
+
+Expected
 ```
 2 4
 ```
-But was:
+
+
+Output
 ```
-Vavedi chislo: Tsifrite, koito se povtariat sa: 2, 4, .
+ Vavedi chislo: Tsifrite, koito se povtariat sa: 2, 4, .
 ```
 
- Final points are 0
-## Evaluating task2.c
+## Magic square (Task 2)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+2 7 6 9 5 1 4 3 8
+```
 
-### Task details:
 
-Name: Magic square
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
+
+
+Output
 ```
-Vavedi dalzina na stranata na kvadrata: Red 1:     Chislo 1:     Chislo 2:  Red 2:     Chislo 1:     Chislo 2:  Nikakva magia, opitai pak.
+ Vavedi dalzina na stranata na kvadrata: Red 1:     Chislo 1:     Chislo 2:  Red 2:     Chislo 1:     Chislo 2:  Nikakva magia, opitai pak. 
 ```
 
- Final points are 0

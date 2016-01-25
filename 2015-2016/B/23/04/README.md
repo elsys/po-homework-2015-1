@@ -1,25 +1,66 @@
 # Assignment report
----
-Mon Jan 11 22:12:43 2016
+Tue Jan 26 00:46:32 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating task1.c
+**Filename: prime.c**
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-**File compiled with error or warnings**
-
+### Testcase 1 failed
+Input
 ```
-/home/tsvetelina/elsys/po-homework/2015-2016/B/23/04/task1.c: In function ‘is_prime’:
-/home/tsvetelina/elsys/po-homework/2015-2016/B/23/04/task1.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-/tmp/ccuqlIvW.o: In function `is_prime':
-task1.c:(.text+0x3c): undefined reference to `sqrt'
-collect2: error: ld returned 1 exit status
+3
 ```
 
-### Task details:
 
-Name: is_prime
+Expected
+```
+1
+```
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-Points: 5
+Output
+```
+Enter number: 0 
+```
+
+### Testcase 2 failed
+Input
+```
+4
+```
+
+
+Expected
+```
+0
+```
+
+
+Output
+```
+Enter number: 0 
+```
+
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+### Testcase 1 failed
+Input
+```
+9
+```
+
+
+Expected
+```
+1
+```
+
+
+Output
+```
+Enter number: 1 
+```
+

@@ -1,54 +1,33 @@
 # Assignment report
----
-Thu Jan 14 19:22:28 2016
+Tue Jan 26 00:46:16 2016
+## Task: colors (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-## task1.c
+### Testcase 1 passed
+### Testcase 2 failed
+Input
+```
+d 251, 255, 77
+```
 
-**File successfully compiled**
 
-### Task details
+Expected
+```
+#fbff4d
+```
 
-Name: Task: colors
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+Output
+```
+#fbff4d£d
+```
 
-Points: 10
+## Task: Nokia 3310 (Task 2)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-#### Test cases
-Test case 0 passed ✔︎
-Test case 1 passed ✔︎
---- 
-#### Final points: 10
-## task3.c
+### Testcase 1 passed
+## Task: Rudolph (Task 3)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-**File successfully compiled**
-
-### Task details
-
-Name: Task: Rudolph
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 15
-
-#### Test cases
-Test case 0 passed ✔︎
-Test case 1 passed ✔︎
---- 
-#### Final points: 15
-## task2.c
-
-**File successfully compiled**
-
-### Task details
-
-Name: Task: Nokia 3310
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 5
-
-#### Test cases
-Test case 0 passed ✔︎
---- 
-#### Final points: 5
+### Testcase 1 passed
+### Testcase 2 passed

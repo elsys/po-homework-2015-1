@@ -1,47 +1,16 @@
 # Assignment report
----
-Mon Jan 11 22:12:32 2016
+Tue Jan 26 00:46:27 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
+### Testcase 1 passed
+### Testcase 2 passed
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-**File successfully compiled**
+### Testcase 1 passed
+## create_letter_distribution_diagram (Task 3)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-### Task details:
-
-Name: is_prime
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
-
- Final points are 5
-## Evaluating task3.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: create_letter_distribution_diagram
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 15
-Test case 0 timeout 🕐
-
- Final points are 0
-## Evaluating task2.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: exact_square
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 passed ✔︎ 
-
- Final points are 5
+### Testcase 1 failed
+Execution took more than 1 seconds

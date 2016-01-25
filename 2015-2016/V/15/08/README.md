@@ -1,58 +1,51 @@
 # Assignment report
----
-Thu Jan 14 19:23:15 2016
+Tue Jan 26 00:47:31 2016
+## Task: colors (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-## task1.c
+### Testcase 1 passed
+### Testcase 2 passed
+## Task: Nokia 3310 (Task 2)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-**File compiled with error or warnings**
+### Testcase 1 failed
+Input
+```
+nokia is the best
 
 ```
-/tmp/ccavKcNJ.o: In function `getNum':
-task1.c:(.text+0x2ea): undefined reference to `pow'
-task1.c:(.text+0x362): undefined reference to `pow'
-collect2: error: ld returned 1 exit status
+
+
+Expected
+```
+35
 ```
 
-## task3.c
 
-**File successfully compiled**
+Output
+```
 
-### Task details
+```
 
-Name: Task: Rudolph
+## Task: Rudolph (Task 3)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+### Testcase 1 passed
+### Testcase 2 failed
+Input
+```
+13 5 2 7 22 4 1 22 5 9 1 7 4 2
+```
 
-Points: 15
 
-#### Test cases
-Test case 0 passed ✔︎
-Test case 1 failed ✘
-
----
-Expected:
+Expected
 ```
 9
 ```
-But was:
+
+
+Output
 ```
 8
 ```
---- 
-#### Final points: 7.5
-## task2.c
 
-**File successfully compiled**
-
-### Task details
-
-Name: Task: Nokia 3310
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 5
-
-#### Test cases
-Test case 0 passed ✔︎
---- 
-#### Final points: 5

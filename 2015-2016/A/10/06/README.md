@@ -1,64 +1,102 @@
 # Assignment report
----
-Thu Jan 14 19:14:14 2016
+Tue Jan 26 00:45:53 2016
+## Task: colors (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-## task1.c
+### Testcase 1 failed
+Input
+```
+h #4d00e6
+```
 
-**File successfully compiled**
 
-### Task details
-
-Name: Task: colors
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 10
-
-#### Test cases
-Test case 0 failed ✘
-
----
-Expected:
+Expected
 ```
 rgb(77, 0, 230)
 ```
-But was:
+
+
+Output
 ```
-rgb(77,0,230)
+ rgb(77,0,230)
 ```
-Test case 1 passed ✔︎
---- 
-#### Final points: 5.0
-## task3.c
 
-**File successfully compiled**
+### Testcase 2 failed
+Input
+```
+d 251, 255, 77
+```
 
-### Task details
 
-Name: Task: Rudolph
+Expected
+```
+#fbff4d
+```
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-Points: 15
+Output
+```
+ #fbff4d 
+```
 
-#### Test cases
-Test case 0 passed ✔︎
-Test case 1 passed ✔︎
---- 
-#### Final points: 15
-## task2.c
+## Task: Nokia 3310 (Task 2)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+nokia is the best
 
-### Task details
+```
 
-Name: Task: Nokia 3310
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+Expected
+```
+35
+```
 
-Points: 5
 
-#### Test cases
-Test case 0 passed ✔︎
---- 
-#### Final points: 5
+Output
+```
+ 35
+```
+
+## Task: Rudolph (Task 3)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+
+### Testcase 1 failed
+Input
+```
+3 1 1 2
+```
+
+
+Expected
+```
+2
+```
+
+
+Output
+```
+ 2
+```
+
+### Testcase 2 failed
+Input
+```
+13 5 2 7 22 4 1 22 5 9 1 7 4 2
+```
+
+
+Expected
+```
+9
+```
+
+
+Output
+```
+ 9
+```
+

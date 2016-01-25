@@ -1,20 +1,10 @@
 # Assignment report
----
-Thu Jan 14 19:23:15 2016
+Tue Jan 26 00:47:31 2016
+## Task: Nokia 3310 (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-## task2.c
+### Testcase 1 passed
+## Task: Nokia 3310 (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-**File successfully compiled**
-
-### Task details
-
-Name: Task: Nokia 3310
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 5
-
-#### Test cases
-Test case 0 passed ✔︎
---- 
-#### Final points: 5
+### Not submitted

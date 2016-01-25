@@ -1,60 +1,52 @@
 # Assignment report
----
-Mon Jan 11 22:25:40 2016
+Tue Jan 26 00:48:06 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating Integers.c
+**Filename: Integers.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: Palindrom.c**
+## Matrix (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: Matrix
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1 5 9 13 2 6 10 14 3 7 11 15 4 8 12 16
 ```
-But was:
+
+
+Output
 ```
-Vuvejdane v matricata: Transportirane na matricata:- 1	5	9	13	 2	6	10	14	 3	7	11	15	 4	8	12	16
+Vuvejdane v matricata: Transportirane na matricata:- 1	5	9	13	 2	6	10	14	 3	7	11	15	 4	8	12	16	 
 ```
 
- Final points are 0
-## Evaluating Palindrom.c
+## Palindrome (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-File doesn't match naming convention
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-## Evaluating task2.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Palindrome
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 0
 ```
-But was:
+
+
+Output
 ```
-Vuvedi teskt: 0
+Vuvedi teskt: 0 
 ```
 
- Final points are 0

@@ -1,50 +1,29 @@
 # Assignment report
----
-Thu Jan 14 18:39:37 2016
+Tue Jan 26 00:47:45 2016
+## Task: colors (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-## task1.c
+### Testcase 1 passed
+### Testcase 2 passed
+## Task: Nokia 3310 (Task 2)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-**File successfully compiled**
+Failed compiling
 
-### Task details
+Exit code: 1
 
-Name: Task: colors
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 10
-
-#### Test cases
-Test case 0 passed ✔︎
-Test case 1 passed ✔︎
---- 
-#### Final points: 10
-## task3.c
-
-**File successfully compiled**
-
-### Task details
-
-Name: Task: Rudolph
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 15
-
-#### Test cases
-Test case 0 passed ✔︎
-Test case 1 passed ✔︎
---- 
-#### Final points: 15
-## task2.c
-
-**File compiled with error or warnings**
+Error
+```
+/Volumes/Data/elsys/po-homework/2015-2016/G/13/08/task2.c:20:30: error: use of undeclared identifier 'i'
+                        if(!check_clicks(sentence[i])){
+                                                  ^
+1 error generated.
 
 ```
-/home/tsvetelina/elsys/po-homework/2015-2016/G/13/08/task2.c: In function ‘main’:
-/home/tsvetelina/elsys/po-homework/2015-2016/G/13/08/task2.c:20:30: error: ‘i’ undeclared (first use in this function)
-    if(!check_clicks(sentence[i])){
-                              ^
-/home/tsvetelina/elsys/po-homework/2015-2016/G/13/08/task2.c:20:30: note: each undeclared identifier is reported only once for each function it appears in
-```
 
+
+## Task: Rudolph (Task 3)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+
+### Testcase 1 passed
+### Testcase 2 passed

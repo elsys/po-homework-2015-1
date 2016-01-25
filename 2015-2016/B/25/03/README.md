@@ -1,87 +1,87 @@
 # Assignment report
----
-Mon Jan 11 22:12:44 2016
+Tue Jan 26 00:46:43 2016
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
-```
-But was:
-```
-*  * * *
+2
 ```
 
- Final points are 0
-## Evaluating task4.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Roman to Arabic
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
-87
-```
-But was:
-```
-Strange letters number:Normal number with digits: 87
-```
-Test case 1 failed ✘ 
-
----
-Expected:
-```
-219
-```
-But was:
-```
-Strange letters number:Normal number with digits: 219
+* ***
 ```
 
- Final points are 0
-## Evaluating task2.c
 
-**File successfully compiled**
+Output
+```
+  *  * * *  
+```
 
-### Task details:
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Name: Reverse
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 olleH
 ```
-But was:
+
+
+Output
 ```
 Text:olleH
 ```
 
- Final points are 0
+## Roman to Arabic (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 failed
+Input
+```
+LXXXVII
+```
+
+
+Expected
+```
+87
+```
+
+
+Output
+```
+Strange letters number:Normal number with digits: 87
+```
+
+### Testcase 2 failed
+Input
+```
+CCXIX
+```
+
+
+Expected
+```
+219
+```
+
+
+Output
+```
+Strange letters number:Normal number with digits: 219
+```
+
+## Roman to Arabic (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Not submitted

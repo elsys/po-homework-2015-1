@@ -1,25 +1,32 @@
 # Assignment report
----
-Thu Jan 14 18:39:36 2016
+Tue Jan 26 00:47:44 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Task1.c
+**Filename: Task1.c**
+## Task: Nokia 3310 (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-File doesn't match naming convention
-
-## task2.c
-
-**File compiled with error or warnings**
+### Testcase 1 failed
+Input
+```
+nokia is the best
 
 ```
-/home/tsvetelina/elsys/po-homework/2015-2016/G/09/08/task2.c: In function ‘main’:
-/home/tsvetelina/elsys/po-homework/2015-2016/G/09/08/task2.c:6:1: error: unknown type name ‘ssize_t’
- ssize_t read; 
- ^
-/home/tsvetelina/elsys/po-homework/2015-2016/G/09/08/task2.c:9:1: warning: implicit declaration of function ‘getline’ [-Wimplicit-function-declaration]
- while ((read = getline(&line, &len, stdin)) != -1) { 
- ^
-/home/tsvetelina/elsys/po-homework/2015-2016/G/09/08/task2.c:12:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ [-Wformat=]
-    if ((line[i + 1] >= 'a' && line[i + 1] <= 'z') || (line[i + 1] >= 'A' && line[i + 1] <= 'Z' )) { counter++; } } } } printf("\nBroi dumi:%d\n", counter); 
-    ^
+
+
+Expected
+```
+35
 ```
 
+
+Output
+```
+ Broi dumi:5 
+```
+
+## Task: Nokia 3310 (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+
+### Not submitted

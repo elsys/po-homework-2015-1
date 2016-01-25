@@ -1,39 +1,69 @@
 # Assignment report
----
-Wed Jan 13 18:26:24 2016
+Tue Jan 26 00:46:40 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## backwards.c
+**Filename: backwards.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: pyramid.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## pyramid.c
+**Filename: romandigits.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: sortdeck.c**
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## sortdeck.c
-
-File doesn't match naming convention
-
-## task1.c
-
-**File compiled with error or warnings**
-
+### Testcase 1 failed
+Input
 ```
-/home/tsvetelina/elsys/po-homework/2015-2016/B/15/03/task1.c: In function ‘main’:
-/home/tsvetelina/elsys/po-homework/2015-2016/B/15/03/task1.c:23:1: warning: implicit declaration of function ‘getch’ [-Wimplicit-function-declaration]
- getch();
- ^
-/tmp/ccO9XZl1.o: In function `main':
-task1.c:(.text+0xa2): undefined reference to `getch'
-collect2: error: ld returned 1 exit status
+2
 ```
 
-### Task details
 
-Name: Triangle
+Expected
+```
+* ***
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
+Output
+```
+vuvedi n=    *  * * *  
+```
 
-#### Test cases
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 passed
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
+
+
+Expected
+```
+23456789ТJQKA
+```
+
+
+Output
+```
+ Deck = Sorted 
+```
+
+## Roman to Arabic (Task 4)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 passed
+### Testcase 2 passed

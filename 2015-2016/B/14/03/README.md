@@ -1,60 +1,56 @@
 # Assignment report
----
-Mon Jan 11 22:12:39 2016
+Tue Jan 26 00:46:40 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating zadacha1.c
+**Filename: zadacha1.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: zadacha2.c**
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
+2
 ```
-But was:
+
+
+Expected
+```
+* ***
+```
+
+
+Output
 ```
 Vuvedi vicochinata:   A  AAA
 ```
 
- Final points are 0
-## Evaluating zadacha2.c
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-File doesn't match naming convention
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-## Evaluating task2.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Reverse
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 olleH
 ```
-But was:
+
+
+Output
 ```
 Vuvedi text: olleH
 ```
 
- Final points are 0
+## Roman to Arabic (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Not submitted

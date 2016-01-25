@@ -1,12 +1,14 @@
 # Assignment report
----
-Mon Jan 11 22:48:18 2016
+Tue Jan 26 00:48:13 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating magicsquare.c
+**Filename: magicsquare.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: repeatnum.c**
+## Magic square (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating repeatnum.c
-
-File doesn't match naming convention
-
+### Not submitted

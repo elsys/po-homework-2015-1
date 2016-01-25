@@ -1,50 +1,35 @@
 # Assignment report
----
-Mon Jan 11 22:25:48 2016
+Tue Jan 26 00:48:09 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating palindrome.c
+**Filename: palindrome.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: transpose.c**
+## Matrix (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: Matrix
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1 5 9 13 2 6 10 14 3 7 11 15 4 8 12 16
 ```
-But was:
+
+
+Output
 ```
-1 5 9 13  2 6 10 14  3 7 11 15  4 8 12 16
+1 5 9 13  2 6 10 14  3 7 11 15  4 8 12 16  
 ```
 
- Final points are 0
-## Evaluating transpose.c
+## Palindrome (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-File doesn't match naming convention
-
-## Evaluating task2.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Palindrome
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
-Test case 0 passed ✔︎ 
-
- Final points are 5
+### Testcase 1 passed

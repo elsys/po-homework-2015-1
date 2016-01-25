@@ -1,74 +1,81 @@
 # Assignment report
----
-Mon Jan 11 22:12:43 2016
+Tue Jan 26 00:46:32 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: is_prime
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
-
- Final points are 5
-## Evaluating task3.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: create_letter_distribution_diagram
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 15
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-e: 6 s: 4 a: 3 i: 2 l: 2 n: 2 t: 2 c: 1 h: 1 m: 1 o: 1 r: 1 w: 1 y: 1 b: 0 d: 0 f: 0 g: 0 j: 0 k: 0 p: 0 q: 0 u: 0 v: 0 x: 0 z: 0
-```
-But was:
-```
-e:::6 s:::4 a:::3 i:::2 l:::2 n:::2 t:::2 c:::1 h:::1 m:::1 o:::1 r:::1 w:::1 y:::1 b:::0 d:::0 f:::0 g:::0 j:::0 k:::0 p:::0 q:::0 u:::0 v:::0 x:::0 z:::0
+3
 ```
 
- Final points are 0
-## Evaluating task2.c
 
-**File compiled with error or warnings**
-
-```
-/home/tsvetelina/elsys/po-homework/2015-2016/B/22/04/task2.c: In function ‘exact_square’:
-/home/tsvetelina/elsys/po-homework/2015-2016/B/22/04/task2.c:26:2: error: expected declaration or statement at end of input
-  return 0;
-  ^
-```
-
-### Task details:
-
-Name: exact_square
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
+
+
+Output
 ```
-a:::0 b:::0 c:::0 d:::0 e:::0 f:::0 g:::0 h:::0 i:::0 j:::0 k:::0 l:::0 m:::0 n:::0 o:::0 p:::0 q:::0 r:::0 s:::0 t:::0 u:::0 v:::0 w:::0 x:::0 y:::0 z:::0
+1 
 ```
 
- Final points are 0
+### Testcase 2 failed
+Input
+```
+4
+```
+
+
+Expected
+```
+0
+```
+
+
+Output
+```
+0 
+```
+
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+Failed compiling
+
+Exit code: 1
+
+Error
+```
+/Volumes/Data/elsys/po-homework/2015-2016/B/22/04/task2.c:28:1: error: expected '}'
+^
+/Volumes/Data/elsys/po-homework/2015-2016/B/22/04/task2.c:17:26: note: to match this '{'
+int exact_square(int num){
+                         ^
+1 error generated.
+
+```
+
+
+## create_letter_distribution_diagram (Task 3)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+### Testcase 1 failed
+Input
+```
+This is a really awesome sentence!
+```
+
+
+Expected
+```
+e: 6 s: 4 a: 3 i: 2 l: 2 n: 2 t: 2 c: 1 h: 1 m: 1 o: 1 r: 1 w: 1 y: 1 b: 0 d: 0 f: 0 g: 0 j: 0 k: 0 p: 0 q: 0 u: 0 v: 0 x: 0 z: 0
+```
+
+
+Output
+```
+e:::6 s:::4 a:::3 i:::2 l:::2 n:::2 t:::2 c:::1 h:::1 m:::1 o:::1 r:::1 w:::1 y:::1 b:::0 d:::0 f:::0 g:::0 j:::0 k:::0 p:::0 q:::0 u:::0 v:::0 x:::0 z:::0 
+```
+

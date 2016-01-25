@@ -1,97 +1,120 @@
 # Assignment report
----
-Mon Jan 11 22:12:35 2016
+Tue Jan 26 00:46:38 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating cards.c
+**Filename: cards.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: revstring.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating task1.c
+**Filename: romenumbers.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-**File successfully compiled**
+**Filename: triangle.c**
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
+2
 ```
-But was:
+
+
+Expected
 ```
 * ***
 ```
 
- Final points are 0
-## Evaluating task4.c
 
-**File successfully compiled**
+Output
+```
+ * ***  
+```
 
-### Task details:
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Name: Roman to Arabic
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
+Expected
+```
+olleH
+```
 
- Final points are 5
-## Evaluating revstring.c
 
-File doesn't match naming convention
+Output
+```
+olleH   
+```
 
-## Evaluating triangle.c
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-File doesn't match naming convention
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
 
-## Evaluating romenumbers.c
 
-File doesn't match naming convention
-
-## Evaluating task3.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Cards
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 23456789ТJQKA
 ```
-But was:
+
+
+Output
 ```
-Invalid deck!
+
 ```
 
- Final points are 0
-## Evaluating task2.c
+## Roman to Arabic (Task 4)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+LXXXVII
+```
 
-### Task details:
 
-Name: Reverse
+Expected
+```
+87
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 passed ✔︎ 
+Output
+```
+87   
+```
 
- Final points are 5
+### Testcase 2 failed
+Input
+```
+CCXIX
+```
+
+
+Expected
+```
+219
+```
+
+
+Output
+```
+219   
+```
+

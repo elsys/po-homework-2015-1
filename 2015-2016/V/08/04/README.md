@@ -1,12 +1,14 @@
 # Assignment report
----
-Mon Jan 11 22:48:05 2016
+Tue Jan 26 00:46:57 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating checkMcube.c
+**Filename: checkMcube.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: numberof.c**
+## Magic square (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating numberof.c
-
-File doesn't match naming convention
-
+### Not submitted

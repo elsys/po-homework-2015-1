@@ -1,107 +1,86 @@
 # Assignment report
----
-Mon Jan 11 22:06:11 2016
+Tue Jan 26 00:45:11 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating roman2arabic.c
+**Filename: deck.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: rev_text.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating task1.c
+**Filename: roman2arabic.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-**File successfully compiled**
+**Filename: triangle.c**
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
-```
-But was:
-```
-*  * * *
+2
 ```
 
- Final points are 0
-## Evaluating task4.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Roman to Arabic
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 passed ✔︎ 
-Test case 1 passed ✔︎ 
-
- Final points are 5
-## Evaluating deck.c
-
-File doesn't match naming convention
-
-## Evaluating triangle.c
-
-File doesn't match naming convention
-
-## Evaluating task3.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Cards
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
-23456789ТJQKA
-```
-But was:
-```
-Ð23456789JQKA¢
+* ***
 ```
 
- Final points are 0
-## Evaluating rev_text.c
 
-File doesn't match naming convention
+Output
+```
+  *  * * *  
+```
 
-## Evaluating task2.c
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-### Task details:
 
-Name: Reverse
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 olleH
 ```
-But was:
+
+
+Output
 ```
 
 ```
 
- Final points are 0
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
+
+
+Expected
+```
+23456789ТJQKA
+```
+
+
+Output
+```
+
+```
+
+## Roman to Arabic (Task 4)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 passed
+### Testcase 2 passed

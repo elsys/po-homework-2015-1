@@ -1,76 +1,65 @@
 # Assignment report
----
-Mon Jan 11 22:24:59 2016
+Tue Jan 26 00:46:49 2016
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
-```
-But was:
-```
-Kolko visok da e triagalnika?  #  ###
+2
 ```
 
- Final points are 0
-## Evaluating task3.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Cards
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 10
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
-23456789ТJQKA
-```
-But was:
-```
-Vavedi razbarkano teste: GRESHKA! Mogat da se vavezdat samo chislata ot 2 do 9 i bukvite T, J, Q, K i A.
+* ***
 ```
 
- Final points are 0
-## Evaluating task2.c
 
-**File successfully compiled**
+Output
+```
+ Kolko visok da e triagalnika?  #  ### 
+```
 
-### Task details:
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Name: Reverse
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 olleH
 ```
-But was:
+
+
+Output
 ```
-Vavedi tekst:olleH
+ Vavedi tekst:olleH 
 ```
 
- Final points are 0
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
+
+
+Expected
+```
+23456789ТJQKA
+```
+
+
+Output
+```
+ Vavedi razbarkano teste: GRESHKA! Mogat da se vavezdat samo chislata ot 2 do 9 i bukvite T, J, Q, K i A.
+```
+

@@ -1,42 +1,44 @@
 # Assignment report
----
-Mon Jan 11 22:06:02 2016
+Tue Jan 26 00:45:45 2016
+## rotr (Task 1)
+https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+1 2 3 4
+```
 
-**File successfully compiled**
 
-### Task details:
+Expected
+```
+3 1 2
+```
 
-Name: rotr
 
-Description: https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
+Output
+```
+3 1 2 
+```
 
-Points: 5
-Test case 0 passed ✔︎ 
+## next_generation (Task 2)
+https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
 
- Final points are 5
-## Evaluating task2.c
+### Testcase 1 failed
+Input
+```
+5 0 1 0 1 0
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: next_generation
-
-Description: https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
-
-Points: 10
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 .*.*......
 ```
-But was:
+
+
+Output
 ```
-.*.*. .....
+.*.*. ..... 
 ```
 
- Final points are 0

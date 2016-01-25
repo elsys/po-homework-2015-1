@@ -1,117 +1,120 @@
 # Assignment report
----
-Mon Jan 11 22:06:00 2016
+Tue Jan 26 00:45:01 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating cards.c
+**Filename: cards.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: reverse.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating roman.c
+**Filename: roman.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: triangle.c**
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
-```
-But was:
-```
-# ###
+2
 ```
 
- Final points are 0
-## Evaluating task4.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Roman to Arabic
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
-87
-```
-But was:
-```
-With decimal numerals: 87
-```
-Test case 1 failed ✘ 
-
----
-Expected:
-```
-219
-```
-But was:
-```
-With decimal numerals: 219
+* ***
 ```
 
- Final points are 0
-## Evaluating reverse.c
 
-File doesn't match naming convention
+Output
+```
+ # ### 
+```
 
-## Evaluating triangle.c
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-File doesn't match naming convention
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-## Evaluating task3.c
 
-**File successfully compiled**
+Expected
+```
+olleH
+```
 
-### Task details:
 
-Name: Cards
+Output
+```
+olleH 
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 failed ✘ 
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
 
----
-Expected:
+
+Expected
 ```
 23456789ТJQKA
 ```
-But was:
+
+
+Output
 ```
-Original: 9827AJKQ6345Ð¢ Sorted: Ð23456789JQKA¢
+
 ```
 
- Final points are 0
-## Evaluating task2.c
+## Roman to Arabic (Task 4)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+LXXXVII
+```
 
-### Task details:
 
-Name: Reverse
+Expected
+```
+87
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 passed ✔︎ 
+Output
+```
+The number should be between 1 and 256.
+```
 
- Final points are 5
+### Testcase 2 failed
+Input
+```
+CCXIX
+```
+
+
+Expected
+```
+219
+```
+
+
+Output
+```
+With decimal numerals: 219 
+```
+

@@ -1,70 +1,40 @@
 # Assignment report
----
-Mon Jan 11 22:48:05 2016
+Tue Jan 26 00:46:57 2016
+## Digits (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating task1.c
+Failed compiling
 
-**File successfully compiled**
+Exit code: 1
 
-### Task details:
-
-Name: Digits
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Error
 ```
-2
-```
-But was:
-```
-chisloto 2
-```
-Test case 1 failed ✘ 
-
----
-Expected:
-```
-2 4
-```
-But was:
-```
-chisloto 2  chisloto 4
-```
-
- Final points are 0
-## Evaluating task2.c
-
-**File compiled with error or warnings**
-
-```
-/home/tsvetelina/elsys/po-homework/2015-2016/V/11/04/task2.c: In function ‘main’:
-/home/tsvetelina/elsys/po-homework/2015-2016/V/11/04/task2.c:55:4: error: expected declaration or statement at end of input
-    return 0;
-    ^
-```
-
-### Task details:
-
-Name: Magic square
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-1
-```
-But was:
-```
+/Volumes/Data/elsys/po-homework/2015-2016/V/11/04/task1.c:2:1: error: 'main' must return 'int'
+void main(void)
+^~~~
+int
+1 error generated.
 
 ```
 
- Final points are 0
+
+## Magic square (Task 2)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
+
+Failed compiling
+
+Exit code: 1
+
+Error
+```
+/Volumes/Data/elsys/po-homework/2015-2016/V/11/04/task2.c:55:13: error: expected '}'
+   return 0;
+            ^
+/Volumes/Data/elsys/po-homework/2015-2016/V/11/04/task2.c:2:12: note: to match this '{'
+int main() {
+           ^
+1 error generated.
+
+```
+
+

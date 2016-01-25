@@ -1,117 +1,120 @@
 # Assignment report
----
-Mon Jan 11 22:06:07 2016
+Tue Jan 26 00:45:08 2016
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating cards.c
+**Filename: cards.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-File doesn't match naming convention
+**Filename: reverse.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-## Evaluating task1.c
+**Filename: todec.c**
+## Unrecognized (Task -1)
+File name doesn't not match any of filenames conventions
 
-**File successfully compiled**
+**Filename: triangle.c**
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
-```
-But was:
-```
-Enter number: EMPTY TRIANGLE   * ***  FILLED TRIANGLE   * ***
+2
 ```
 
- Final points are 0
-## Evaluating task4.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Roman to Arabic
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
-87
-```
-But was:
-```
-Note: numbers other than C,L,X,V,I and that are not Roman will be excluded from the calculations. Enter Number:Number in decimal: 87
-```
-Test case 1 failed ✘ 
-
----
-Expected:
-```
-219
-```
-But was:
-```
-Note: numbers other than C,L,X,V,I and that are not Roman will be excluded from the calculations. Enter Number:Number in decimal: 219
+* ***
 ```
 
- Final points are 0
-## Evaluating reverse.c
 
-File doesn't match naming convention
+Output
+```
+Enter number: EMPTY TRIANGLE   * ***  FILLED TRIANGLE   * *** 
+```
 
-## Evaluating triangle.c
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-File doesn't match naming convention
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-## Evaluating todec.c
 
-File doesn't match naming convention
+Expected
+```
+olleH
+```
 
-## Evaluating task3.c
 
-**File successfully compiled**
+Output
+```
+olleH 
+```
 
-### Task details:
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Name: Cards
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 23456789ТJQKA
 ```
-But was:
+
+
+Output
 ```
-13 cards deck. Note: There can be only one A,K,Q,J or T. Enter the cards: Cards in ascending order:¢Ð2345678QAKJ9
+ 13 cards deck. Note: There can be only one A,K,Q,J or T. Enter the cards: Cards in ascending order:¢Ð2345678QAKJ9  
 ```
 
- Final points are 0
-## Evaluating task2.c
+## Roman to Arabic (Task 4)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+LXXXVII
+```
 
-### Task details:
 
-Name: Reverse
+Expected
+```
+87
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 passed ✔︎ 
+Output
+```
+ Note: numbers other than C,L,X,V,I and that are not Roman will be excluded from the calculations. Enter Number:Number in decimal: 87  
+```
 
- Final points are 5
+### Testcase 2 failed
+Input
+```
+CCXIX
+```
+
+
+Expected
+```
+219
+```
+
+
+Output
+```
+ Note: numbers other than C,L,X,V,I and that are not Roman will be excluded from the calculations. Enter Number:Number in decimal: 219  
+```
+

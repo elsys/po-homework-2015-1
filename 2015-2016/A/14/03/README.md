@@ -1,52 +1,48 @@
 # Assignment report
----
-Mon Jan 11 22:06:03 2016
+Tue Jan 26 00:45:05 2016
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
-```
-But was:
-```
-How tall you want the pyramid to be? :  I III
+2
 ```
 
- Final points are 0
-## Evaluating task2.c
 
-**File successfully compiled**
+Expected
+```
+* ***
+```
 
-### Task details:
 
-Name: Reverse
+Output
+```
+How tall you want the pyramid to be? :  I III 
+```
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Points: 5
-Test case 0 failed ✘ 
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
----
-Expected:
+
+Expected
 ```
 olleH
 ```
-But was:
+
+
+Output
 ```
-Input string:   Reversed string is: olleH
+  Input string:   Reversed string is: olleH 
 ```
 
- Final points are 0
+## Roman to Arabic (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Not submitted

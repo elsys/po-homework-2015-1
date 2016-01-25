@@ -1,63 +1,62 @@
 # Assignment report
----
-Mon Jan 11 22:48:07 2016
+Tue Jan 26 00:46:59 2016
+## Digits (Task 1)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+23242
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: Digits
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 2
 ```
-But was:
-```
-2 is met over 3 times
-```
-Test case 1 failed ✘ 
 
----
-Expected:
+
+Output
+```
+2 is met over 3 times 
+```
+
+### Testcase 2 failed
+Input
+```
+232454
+```
+
+
+Expected
 ```
 2 4
 ```
-But was:
+
+
+Output
 ```
-2 is met over 2 times 4 is met over 2 times
+2 is met over 2 times 4 is met over 2 times 
 ```
 
- Final points are 0
-## Evaluating task2.c
+## Magic square (Task 2)
+https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+2 7 6 9 5 1 4 3 8
+```
 
-### Task details:
 
-Name: Magic square
-
-Description: https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
+
+
+Output
 ```
-0
+  0
 ```
 
- Final points are 0

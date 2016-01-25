@@ -1,8 +1,23 @@
 # Assignment report
----
-Mon Jan 11 22:25:39 2016
+Tue Jan 26 00:47:52 2016
+## rotr (Task 1)
+https://docs.google.com/presentation/d/1he0lQnT8k7faavvAh3EyKgCmYGMhPpzS3WpOWJUZEYM/edit#slide=id.gcd29c2a72_1_45
 
-## Evaluating task.c
+### Testcase 1 failed
+Input
+```
+1 2 3 4
+```
 
-File doesn't match naming convention
+
+Expected
+```
+3 1 2
+```
+
+
+Output
+```
+3 1 2 
+```
 

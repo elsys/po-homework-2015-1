@@ -1,18 +1,10 @@
 # Assignment report
----
-Mon Jan 11 22:05:56 2016
+Tue Jan 26 00:45:30 2016
+## exact_square (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task2.c
+### Testcase 1 passed
+## exact_square (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-**File successfully compiled**
-
-### Task details:
-
-Name: exact_square
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 passed ✔︎ 
-
- Final points are 5
+### Not submitted

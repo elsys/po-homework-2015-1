@@ -1,111 +1,53 @@
 # Assignment report
----
-Mon Jan 11 22:06:11 2016
+Tue Jan 26 00:45:10 2016
+## Triangle (Task 1)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-## Evaluating task1.c
-
-**File successfully compiled**
-
-### Task details:
-
-Name: Triangle
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+### Testcase 1 failed
+Input
 ```
-* **
-```
-But was:
-```
-Enter number of lines:      I   III
+2
 ```
 
- Final points are 0
-## Evaluating task4.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Roman to Arabic
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
-87
-```
-But was:
-```
-Enter roman number: 87
-```
-Test case 1 failed ✘ 
-
----
-Expected:
-```
-219
-```
-But was:
-```
-Enter roman number: 219
+* ***
 ```
 
- Final points are 0
-## Evaluating task3.c
 
-**File successfully compiled**
+Output
+```
+      *   ***  
+```
 
-### Task details:
+## Reverse (Task 2)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Name: Cards
+### Testcase 1 passed
+## Cards (Task 3)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+### Testcase 1 failed
+Input
+```
+9827AJKQ6345Т
+```
 
-Points: 5
-Test case 0 failed ✘ 
 
----
-Expected:
+Expected
 ```
 23456789ТJQKA
 ```
-But was:
-```
-Enter cards:Invalid cards
-```
 
- Final points are 0
-## Evaluating task2.c
 
-**File successfully compiled**
-
-### Task details:
-
-Name: Reverse
-
-Description: https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
-```
-olleH
-```
-But was:
-```
-Write a word: olleH
+Output
 ```
 
- Final points are 0
+```
+
+## Roman to Arabic (Task 4)
+https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
+
+### Testcase 1 passed
+### Testcase 2 passed

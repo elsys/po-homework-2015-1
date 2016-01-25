@@ -1,28 +1,23 @@
 # Assignment report
----
-Mon Jan 11 22:05:54 2016
+Tue Jan 26 00:45:43 2016
+## rotr (Task 1)
+https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+1 2 3 4
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: rotr
-
-Description: https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 3 1 2
 ```
-But was:
+
+
+Output
 ```
 insert numbers to rotate a,b,c insert how many times to rotate 3 1 2
 ```
 
- Final points are 0

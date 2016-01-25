@@ -1,39 +1,45 @@
 # Assignment report
----
-Mon Jan 11 22:06:03 2016
+Tue Jan 26 00:45:33 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+3
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: is_prime
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
-```
-Enter a number to check if its prime:  The answer is: 1
-```
-Test case 1 failed ✘ 
 
----
-Expected:
+
+Output
+```
+Enter a number to check if its prime:  The answer is: 1 
+```
+
+### Testcase 2 failed
+Input
+```
+4
+```
+
+
+Expected
 ```
 0
 ```
-But was:
+
+
+Output
 ```
-Enter a number to check if its prime:  The answer is: 0
+Enter a number to check if its prime:  The answer is: 0 
 ```
 
- Final points are 0
+## create_letter_distribution_diagram (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+
+### Not submitted

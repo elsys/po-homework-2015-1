@@ -1,18 +1,27 @@
 # Assignment report
----
-Mon Jan 11 22:05:59 2016
+Tue Jan 26 00:45:44 2016
+## rotr (Task 1)
+https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
 
-## Evaluating task1.c
+### Testcase 1 passed
+## next_generation (Task 2)
+https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
 
-**File successfully compiled**
+### Testcase 1 failed
+Input
+```
+5 0 1 0 1 0
+```
 
-### Task details:
 
-Name: rotr
+Expected
+```
+.*.*......
+```
 
-Description: https://docs.google.com/presentation/d/1qtS_InM-Jb2NnXoq28iCLqruC1uItbMSonSd7DRXgiE/edit#slide=id.gcd29c2a72_1_45
 
-Points: 5
-Test case 0 passed ✔︎ 
+Output
+```
+.*.*. ..... 
+```
 
- Final points are 5

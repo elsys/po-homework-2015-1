@@ -1,56 +1,59 @@
 # Assignment report
----
-Mon Jan 11 22:25:13 2016
+Tue Jan 26 00:47:16 2016
+## is_prime (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-## Evaluating task1.c
+### Testcase 1 failed
+Input
+```
+3
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: is_prime
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 1
 ```
-But was:
-```
-input number:  1
-```
-Test case 1 failed ✘ 
 
----
-Expected:
+
+Output
+```
+  input number:  1
+```
+
+### Testcase 2 failed
+Input
+```
+4
+```
+
+
+Expected
 ```
 0
 ```
-But was:
-```
-input number:  0
-```
 
- Final points are 0
-## Evaluating task2.c
 
-**File compiled with error or warnings**
-
+Output
 ```
-/tmp/ccrXY7r3.o: In function `main':
-task2.c:(.text+0x33): undefined reference to `exact_square'
-collect2: error: ld returned 1 exit status
+  input number:  0
 ```
 
-### Task details:
+## exact_square (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
-Name: exact_square
+Failed compiling
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
+Exit code: 1
 
-Points: 5
+Error
+```
+Undefined symbols for architecture x86_64:
+  "_exact_square", referenced from:
+      _main in task2-cec7e2.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+```
+
+

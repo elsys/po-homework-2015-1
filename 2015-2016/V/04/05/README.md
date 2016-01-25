@@ -1,28 +1,27 @@
 # Assignment report
----
-Mon Jan 11 22:24:57 2016
+Tue Jan 26 00:47:02 2016
+## Palindrome (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-## Evaluating task2.c
+### Testcase 1 failed
+Input
+```
+Hello
+```
 
-**File successfully compiled**
 
-### Task details:
-
-Name: Palindrome
-
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
-
-Points: 5
-Test case 0 failed ✘ 
-
----
-Expected:
+Expected
 ```
 0
 ```
-But was:
+
+
+Output
 ```
-Text:0
+0 
 ```
 
- Final points are 0
+## Palindrome (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
+
+### Not submitted

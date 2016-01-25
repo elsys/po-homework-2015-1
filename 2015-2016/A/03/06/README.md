@@ -1,47 +1,67 @@
 # Assignment report
----
-Thu Jan 14 19:14:13 2016
+Tue Jan 26 00:45:51 2016
+## Task: colors (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-## task1.c
-
-**File compiled with error or warnings**
-
+### Testcase 1 passed
+### Testcase 2 failed
+Input
 ```
-/tmp/ccdDEOZY.o: In function `main':
-task1.c:(.text+0x2d8): undefined reference to `pow'
-collect2: error: ld returned 1 exit status
+d 251, 255, 77
 ```
 
-## task3.c
 
-**File successfully compiled**
+Expected
+```
+#fbff4d
+```
 
-### Task details
 
-Name: Task: Rudolph
+Output
+```
+#`fbff4d
+```
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+## Task: Nokia 3310 (Task 2)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-Points: 15
+### Testcase 1 passed
+## Task: Rudolph (Task 3)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-#### Test cases
-Test case 0 passed ✔︎
-Test case 1 passed ✔︎
---- 
-#### Final points: 15
-## task2.c
+### Testcase 1 failed
+Input
+```
+3 1 1 2
+```
 
-**File successfully compiled**
 
-### Task details
+Expected
+```
+2
+```
 
-Name: Task: Nokia 3310
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
+Output
+```
+2 
+```
 
-Points: 5
+### Testcase 2 failed
+Input
+```
+13 5 2 7 22 4 1 22 5 9 1 7 4 2
+```
 
-#### Test cases
-Test case 0 passed ✔︎
---- 
-#### Final points: 5
+
+Expected
+```
+9
+```
+
+
+Output
+```
+9 
+```
+

@@ -6,7 +6,6 @@ int main()
 {
 char str[50],rts=0;
 int k=0,n=0;
-printf("\n Input string: ");
 scanf("%s", str);
 n=strlen(str)-1;
 
@@ -18,6 +17,6 @@ while(k<n)
 		k++;
 		n--;
 	}
-printf("\n Reversed string is: %s ",str);
+printf("%s",str);
 return (0);
 }

@@ -1,13 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 int main()
 {
-  int n=0, i=0;
+  int n, i, j;
   char message[160];
-  
-  //printf("Enter message: \n");
+
   fgets(message, 160, stdin);
-  int j = strlen(message);
-  for (i; i<j; i++){
+  j = strlen(message);
+  for (i=0; i<j; i++){
     switch (message[i]){
       case 'a': n++; break;
       case 'd': n++; break;

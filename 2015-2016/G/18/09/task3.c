@@ -58,4 +58,3 @@ int is_is_palindrom(int n)
 
 	return 1;
 }
-

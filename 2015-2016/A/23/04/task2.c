@@ -11,10 +11,6 @@ int exact_square(int n)
 			break;
 		}
 	}
-	if (n<=0)
-	{
-		printf("You can't input a negative or neutral number.It will show you 0.\n");
-	}
 	return c;
 }
 
@@ -23,6 +19,6 @@ int main()
 	int n,c;
 	scanf("%d",&n);
 	c=exact_square(n);
-	printf("%d\n",c);
+	printf("%d",c);
 	return 0;
 }

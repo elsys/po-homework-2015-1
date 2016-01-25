@@ -4,7 +4,6 @@
 int main()
 {
     int n,i,l,z;
-    printf("Enter number of lines:");
     scanf("%d",&n);
     for (i=0;i<=n;i++)
     {
@@ -12,7 +11,7 @@ int main()
         for (z=0;z<n*2;z++)
         {
             if(z>=l && (n*2-1)-z>l)
-            printf("I");
+            printf("*");
             else
             printf(" ");
         }

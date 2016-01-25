@@ -73,7 +73,7 @@ int main()
 		case ' ' : i=i+1;
 		break;
 	}
-	printf("\n%d\n",i);
+	printf("%d",i);
 	return 0;
 }
 

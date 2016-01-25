@@ -5,15 +5,14 @@ int is_prime(int m);
 int main()
 {
 	int n=0, answr;
-	printf("Enter a number to check if its prime: \n");
 	scanf("%d",&n);
-	
+
 	answr=is_prime(n);
-	
-	printf("The answer is: %d\n",answr);
-	
+
+	printf("%d",answr);
+
 	return 0;
-}	
+}
 
 
 int is_prime(int m)

@@ -3,11 +3,11 @@ int main()
 { 
     char str[50];
     char *rev;
-    printf("vuvedi duma: ");
+    //printf("vuvedi duma: ");
     scanf("%s",str);
     rev = strrev(str);
 
-    printf("obyrnatata dyma e: %s",rev);
+    printf("%s",rev);
 
     return 0;
 }

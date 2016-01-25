@@ -29,5 +29,6 @@ int main()
     }
 
     printf("%d \n", real_bit[a]);
+
     return 0;
 }

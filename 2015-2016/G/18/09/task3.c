@@ -55,6 +55,7 @@ int is_is_palindrom(int n)
 
 		count2--;
 	}
+
 	return 1;
 }
 

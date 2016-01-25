@@ -12,7 +12,7 @@ int main()
 	
 	if(is_is_palindrom(number) == 1)
 	{
-		printf("%X", number);
+		printf("%X\n", number);
 		return 1;
 	}
 

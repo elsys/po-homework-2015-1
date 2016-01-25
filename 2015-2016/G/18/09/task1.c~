@@ -6,10 +6,10 @@ int main()
     int bit[50];
     int real_bit[50];
 
-   // while(a > 7 || a < 0)
-    //{
-    //    scanf("%d", &a);
-   // }
+    while(a > 7 || a < 0)
+    {
+        scanf("%d", &a);
+    }
 
     while(b > 200 || b < 0)
     {
@@ -22,22 +22,12 @@ int main()
         b = b / 2;
     }
 
-    for(; count < 8; count++)
-    {
-    bit[count] = 0;
-    }
-
     for(count2 = 0; count >= 0; count2++)
     {
         real_bit[count2] = bit[count];
         count--;
     }
-    
-    for(count2 = 0; count2 < 8; count2++)
-	{
-		//printf("%d", bit[count2]);
-		printf("%d", real_bit[count2]);
-	}
-    //printf("%d \n", real_bit[a]);
+
+    printf("%d \n", real_bit[a]);
     return 0;
 }

@@ -8,6 +8,8 @@ int main(void)
     int new_cells[20];
     int limiter;
     int counter;
+    int generation_counter = 0;
+    int deadflag = 1;
     scanf("%d", &limiter);
     counter = 0;
     while(counter != limiter)
@@ -21,8 +23,6 @@ int main(void)
     new_cells[0]       = 0;
     new_cells[counter] = 0;
 
-    int generation_counter = 0;
-    int deadflag = 1;
     while(generation_counter!=1000)
     {
         counter = 0;
@@ -44,10 +44,11 @@ int main(void)
         generation_counter++;
         if(deadflag==1)
         {
-            return;
+            return 0;
         }
         deadflag = 1;
     }
+    return 0;
 }
 
 void next_generation(int *current, int *next, int length)

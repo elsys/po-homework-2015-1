@@ -36,6 +36,6 @@
             p=0;
         }
         for(i=0;i<26;i++){
-            printf("%c:%d\n",letters[i],letter[i]);
+            printf("%c: %d\n",letters[i],letter[i]);
         }
     }

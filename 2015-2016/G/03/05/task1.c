@@ -7,8 +7,6 @@ int main()
     int maxs[20][20];
     int i=0;
     int choice=0;
-    int b=0;
-    int dex=0;
 
     for(i=0;i<4;i++)
    {

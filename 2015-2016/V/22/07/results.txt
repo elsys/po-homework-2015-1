@@ -1,0 +1,13 @@
+Evaluating homework 07 on student 22 from V class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/22/07/task1.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main()
+      ^
+
+
+Summary
+
+	task1 - 0/2 - warning

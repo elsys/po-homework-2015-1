@@ -1,55 +1,51 @@
-//Ot vhoda se prochita niz s rimski chisla.
-//Da se izvede na izhoda tqhnata desetichna stoinost.
-//Max stoinost : 256
-//Velislav Yotov 10a Nomer-5
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-int Values(char c)
+int Roman_Value(char character)
 {
 int n=0;
-switch(c)
-{
-case 'I':
+
+if(character=='I')
 n=1;
-break;
-case 'V':
+
+else if(character== 'V')
 n=5;
-break;
-case 'X':
+
+else if(character== 'X')
 n=10;
-break;
-case 'L':
+
+else if(character== 'L')
 n=50;
-break;
-case 'C':
+
+else if(character== 'C')
 n=100;
-break;
-case '\0':
+
+else if(character== '\0')
 n=0;
-break;
-}
+
 return n;
 }
 
 int main()
 {
-char s[100];
-int i=0;
-int number=0;
-printf("Enter Roman number:");
-scanf("%s",s);
 
-while(Values(s[i])!=0)
-    {
-        if(Values(s[i])<0)
+char string[100];
+int counter=0,number=0;
+scanf("%s",string);
+if(Roman_Value(string[counter])<=0)
             {
                 printf("Invalid number.");
                 return 0;
             }
-        number=number+Values(s[i]);
-        i++;
+while(Roman_Value(string[counter])!=0)
+    {
+        if(Roman_Value(string[counter])<Roman_Value(string[counter+1])){
+            number+=Roman_Value(string[counter+1])-Roman_Value(string[counter]);
+            counter++;}
+        else
+            number=number+Roman_Value(string[counter]);
+            counter++;
     }
 if(number>256)
     {

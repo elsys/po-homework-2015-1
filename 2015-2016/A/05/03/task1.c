@@ -1,23 +1,19 @@
-//Ot vhoda se vuvejda chislo n.Trqbva da se izvede triugulnik s visochina n i osnova 2n-1
-//Velislav Yotov 10a Nomer-5
 #include <stdio.h>
 #include <stdlib.h>
-
 int main()
 {
-    int n,i,h,z;
-    char simvol;
-    printf("Vuvedi vid simvol\n");
-    scanf("%c",&simvol);
-    printf("Vuvedi broi redove\n");
-    scanf("%d",&n);
-    for(i=0;i<=n;i++)
+    int lines,counter,temp,counter2;
+    scanf("%d",&lines);
+
+    for(counter=0;counter<=lines;counter++)
     {
-        h=n-i;
-        for(z=0;z<n*2;z++)
+        temp=lines-counter;
+        for(counter2=0;counter2<lines*2;counter2++)
         {
-            if(z>=h && n*2-1-z>h)
-                {printf("%c",simvol);}
+            if(counter2>=temp && lines*2-1-counter2>temp)
+                {
+			printf("*");
+		}
             else
                 printf(" ");
         }

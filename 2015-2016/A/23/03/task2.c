@@ -1,13 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>‪
+#include <stdlib.h>
 #include <string.h>
-char n[50];
-int i;
-void main(void)
+int main()
 {
-printf("Write a word:");scanf("%s",n);
-printf("\n");
-for(i=strlen(n)-1;i>=0;i--){
-printf("%c",n[i]);
-}
+	char n[50];
+	int i;
+	scanf("%s",n);
+	for(i=strlen(n)-1;i>=0;i--)
+	{
+		printf("%c",n[i]);
+	}
+	return 0;
 }

@@ -12,10 +12,40 @@ int main()
     {
         if(roman[i] == 'C')
             c++;
+        if(roman[i] == 'L' && roman[i-2] == 'X')
+            {
+                x--;
+                x--;
+            }
+        if(roman[i] == 'L' && roman[i-1] == 'X')
+            {
+                x--;
+                x--;
+            }
         if(roman[i] == 'L')
             l++;
+        if(roman[i] == 'X' && roman[i-2] == 'V')
+            {
+                v--;
+                v--;
+            }
+        if(roman[i] == 'X' && roman[i-1] == 'V')
+            {
+                v--;
+                v--;
+            }
         if(roman[i] == 'X')
             x++;
+        if(roman[i] == 'V' && roman[i-2] == 'I')
+            {
+                j--;
+                j--;
+            }
+        if(roman[i] == 'V' && roman[i-1] == 'I')
+            {
+                j--;
+                j--;
+            }
         if(roman[i] == 'V')
             v++;
         if(roman[i] == 'I')
@@ -24,7 +54,7 @@ int main()
     arabic = 100*c + 50*l + 10*x + 5*v + j;
     if(arabic > 256)
         {
-           printf("You have entered to big number");
+           printf("You have entered too big number");
         }
     else
         printf("%d", arabic);

@@ -1,0 +1,31 @@
+Evaluating homework 06 on student 15 from V class
+
+
+Evalutaing task3.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/15/06/task3.c: In function ‘create_letter_distribution_diagram’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/15/06/task3.c:36:23: warning: ISO C forbids empty initializer braces [-Wpedantic]
+     alpha model[26] = {  };
+                       ^
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/V/15/06/task1.c:6:5: warning: conflicting types for built-in function ‘strlen’
+ int strlen(char*);
+     ^
+/home/sasho/programs/elsys/po-homework/2015-2016/V/15/06/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/V/15/06/task1.c:12:17: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+     scanf("%s", ({printf("Enter a number:");s;}));
+                 ^
+
+
+Evalutaing task2.c
+	Test 1 passed
+	Test 2 passed
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 2/2
+	task3 - 0/2 - warning

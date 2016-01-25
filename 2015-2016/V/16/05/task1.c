@@ -1,25 +1,21 @@
 #include <stdio.h>
 
 int main(){
-	int r, c, i, j, matr[10][10], trans[10][10];
-	printf("Enter the number of rows:\n");
-	scanf("%d", &r);
-	printf("Enter the number of columns:\n");
-	scanf("%d", &c);
+	int i, j, matr[4][4], trans[4][4];
 	printf("Enter the numbers for the matrix:\n");
 
-	for (i = 0; i < r; i++)
-		for (j = 0; j < c; j++)
+	for (i = 0; i < 4; i++)
+		for (j = 0; j < 4; j++)
 			scanf("%d", &matr[i][j]);
 
-	for (i = 0; i < r; i++)
-		for (j = 0; j < c; j++)
+	for (i = 0; i < 4; i++)
+		for (j = 0; j < 4; j++)
 			trans[j][i] = matr[i][j];
 
 	printf("The transposed matrix looks like this:\n");
 	
-	for (i = 0; i < c; i++){
-		for (j = 0; j < r; j++)
+	for (i = 0; i < 4; i++){
+		for (j = 0; j < 4; j++)
 			printf("%d\t", trans[i][j]);
 		printf("\n");
 	}

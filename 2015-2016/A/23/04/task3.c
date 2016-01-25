@@ -1,44 +1,67 @@
 #include <stdio.h>
 #include <string.h>
-void create_letter_distribution_diagram(char s[1000], int count[1000])
+void create_letter_distribution_diagram()
 {
-int c = 0;
-while (s[c] != '\0')
-{
-if (s[c] >= 'a' && s[c] <= 'z' )
-{
-count[s[c] - 'a'] ++;
-}
-if (s[c] >= 'A' && s[c] <= 'Z' )
-{
-count[s[c]-'A']++;
-}
-c++;
-}
+	char ch;
+	int c, LettersCount[26][2]={{0}},tmp,tmp2,i,l;//[0]-letters,[1]-count
+	for(c=0;c<26;c++)
+	{
+		LettersCount[c][0]=c;
+		
+	}
+	
+	do
+	{
+		ch=getchar();
+		if(ch>='A' && ch<='Z')
+		{
+			LettersCount[ch-'A'][1]++;
+		}
+		else if(ch>='a' && ch<='z')
+		{
+			LettersCount[ch-'a'][1]++;
+		}
+	}while(ch!=EOF);
+	for(i=0;i<(26-1);i++)
+	{
+		for(l=0;l<26-i-1;l++)
+		{
+			if(LettersCount[l][1]<LettersCount[l+1][1])
+			{
+				tmp = LettersCount[l][0];
+				tmp2 = LettersCount[l][1];
+				LettersCount[l][0] = LettersCount[l+1][0];
+				LettersCount[l+1][0] = tmp;
+				LettersCount[l][1] = LettersCount[l+1][1];
+				LettersCount[l+1][1] = tmp2;
+			}
+			if(LettersCount[l][0]>LettersCount[l+1][0] && LettersCount[l][1]==LettersCount[l+1][1])
+			{
+				tmp = LettersCount[l][0];
+				tmp2 = LettersCount[l][1];
+				LettersCount[l][0] = LettersCount[l+1][0];
+				LettersCount[l+1][0] = tmp;
+				LettersCount[l][1] = LettersCount[l+1][1];
+				LettersCount[l+1][1] = tmp2;
+			}
+		}
+	}
+	for(i=0;i<=24;i++)
+	{
+		printf("%c: %d ",LettersCount[i][0]+'a',LettersCount[i][1]);
+		if(i==24)
+		{
+			i++;
+			if(i==25)
+			{
+				printf("%c: %d",LettersCount[i][0]+'a',LettersCount[i][1]);
+			}
+		}	
+	}
+
 }
 int main()
 {
-char string[1000];
-int c, order[26] = {0},sorted[26],tmp,b,d;
-printf("Words\n");
-scanf("%s", string);
-create_letter_distribution_diagram (string, order);
-for (b=0;b<26;b++){
-sorted[b]=b;
-}
-for (b=0;b<26;b++){
-for (d=0;d<26-b; d++)
-{
-if (order[sorted[d]] < order[sorted[d+1]])
-{
-tmp = sorted[d];
-sorted[d] = sorted[d+1];
-sorted[d+1] = tmp;
-}
-}
-}
-for (c=0 ; c<26 ;c++) {
-printf("%c:%d\n", sorted[c] + 'a', order[sorted[c]]);
-}
-return 0;
+	create_letter_distribution_diagram ();
+	return 0;
 }

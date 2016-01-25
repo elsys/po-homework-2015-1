@@ -13,7 +13,7 @@ int exact_square(int n)
 {
 
     int a;
-    for(a = 0; a <= n; a++)
+    for(a = 0; a <= n/2; a++)
     {
         if (n == a * a)
         {

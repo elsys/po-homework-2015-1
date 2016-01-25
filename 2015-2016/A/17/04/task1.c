@@ -1,43 +1,30 @@
-#include <stdio.h>
-#include <stdlib.h>
-int number_prime(int);
+#include<stdio.h>
+
+int is_prime(int);
 
 int main()
 {
-    float nummer;
-    int wrong = 0;
-    int i;
-    char letter;
+   int number, result;
+   scanf("%d",&number);
 
-            if(scanf("%f", &nummer))
-                {
-                    letter = getchar();
-                    if(!((letter == '\n') || (letter == EOF)) || ((int)nummer != nummer))
-                        wrong = 1;
-                }
-        else
-                wrong=1;
+   result = is_prime(number);
 
-        if (wrong)
-            {
-                printf("-1");
-            }
-        else
-            {
-                printf("%d", number_prime((int)nummer));
-            }
+   printf("%d", result);
 
-        return 0;
+   return 0;
 }
 
-int number_prime(int nummer)
+int is_prime(int a)
 {
-    int num;
-        for(num=2; num<nummer && nummer%num !=0; num++)
+   int divisor;
 
-            if(num < nummer)
-                return 1;
-            else
-                return 1;
+   for ( divisor = 2 ; divisor <= a - 1 ; divisor++ )
+   {
+      if ( a%divisor == 0 )
+	 return 0;
+   }
+   if ( divisor == a )
+      return 1;
 
+    return 0;
 }

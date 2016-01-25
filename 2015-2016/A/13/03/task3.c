@@ -16,7 +16,7 @@ int cardValueByFace(char face);
 int main()
 {
   int i, p, q, len;
-  char c[13];
+  char c[14];
   struct SCard cards[13], temp;
   scanf("%s", c);
   len = strlen(c);
@@ -28,7 +28,7 @@ int main()
 
   for(p = 0; p < i; p++)
      {
-         for(q=0; q < i-p; q++)
+         for(q=0; q < i-p-1; q++)
          {
              if(cards[q].value > cards[q+1].value)
               {
@@ -39,6 +39,7 @@ int main()
               }
           }
       }
+
     for(i = 0; i < p; i++)
 		printf("%c", cards[i].face);
 

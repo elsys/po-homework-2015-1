@@ -1,0 +1,27 @@
+Evaluating homework 06 on student 18 from G class
+
+
+Evalutaing task1.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/G/18/06/task1.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/18/06/task1.c:8:13: warning: unused variable ‘check_number’ [-Wunused-variable]
+  int number,check_number;
+             ^
+
+
+Evalutaing task2.c
+	Warning:
+ 		/home/sasho/programs/elsys/po-homework/2015-2016/G/18/06/task2.c: In function ‘main’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/18/06/task2.c:8:13: warning: unused variable ‘k’ [-Wunused-variable]
+  int number,k;
+             ^
+/home/sasho/programs/elsys/po-homework/2015-2016/G/18/06/task2.c: In function ‘exact_square’:
+/home/sasho/programs/elsys/po-homework/2015-2016/G/18/06/task2.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+
+Summary
+
+	task1 - 0/2 - warning
+	task2 - 0/2 - warning

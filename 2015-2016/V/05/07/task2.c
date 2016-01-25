@@ -3,7 +3,7 @@
 void next_generation(int *current, int *next, int length)
 {
     int i;
-    for(i = 1;i < length - 1; i++)
+    for(i = 1; i < length - 1; i++)
     {
         int number = 0;
         if(current[i - 1] == 1)

@@ -1,23 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    int rows,s,n,i;
-    i=0;
-    scanf("%d",&rows);
-    for(n=1;n<=rows;n++)
-    {
-        for(s=1;s<=rows-n;s++)
-        {
-            printf("  ");
-        }
-        while(i!=2*n-1)
-        {
-            printf("* ");
-            i++;
+   int row, m, n, t;
+   scanf("%d",&n);
 
-        }
-        i=0;
-        printf("\n");
-    }
-    return 0;
+   t=n;
+
+   for (row=1; row<=n; row++)
+   {
+      for (m=1; m<t; m++)
+      {
+         printf(" ");
+      }
+      t--;
+
+      for (m=1; m<=2*row-1; m++)
+      {
+         printf("*");
+      }
+      printf("\n");
+   }
+
+   return 0;
 }

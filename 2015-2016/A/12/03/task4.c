@@ -6,7 +6,7 @@ int main()
 	char str[5];
 	int l,n=0;
     scanf("%s",str);
-    for(l=0;l<strlen(str)-1;l++)
+    for(l=0;l<strlen(str);l++)
 		{
             if(str[l]=='I' && (str[l+1]=='V' || str[l+1]=='X' || str[l+1]=='L' || str[l+1]=='C'))
             {

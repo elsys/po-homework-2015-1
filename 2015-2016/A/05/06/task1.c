@@ -49,7 +49,7 @@ int main()
 			i++;
 			B=(B*16)+function(code[i]);
 			i++;
-			printf("rgb(%d,%d,%d)",R,G,B);
+			printf("rgb(%d, %d, %d)",R,G,B);
 		}
 
 else if(type[0]=='d')

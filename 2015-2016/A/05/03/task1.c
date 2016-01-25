@@ -1,18 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-
 int main()
 {
-char string[100];
-int counter,lenght;
-printf("Vuvedi string ");
-scanf("%s",string);
+    int lines,counter,temp,counter2;
+    scanf("%d",&lines);
 
-printf("\n");
-lenght=strlen(string);
-	for(counter=lenght-1;counter>=0;counter--)
-    	    {
-        	printf("%c",string[counter]);
-    	    }
+    for(counter=0;counter<=lines;counter++)
+    {
+        temp=lines-counter;
+        for(counter2=0;counter2<lines*2;counter2++)
+        {
+            if(counter2>=temp && lines*2-1-counter2>temp)
+                {
+			printf("*");
+		}
+            else
+                printf(" ");
+        }
+        printf("\n");
+    }
 }

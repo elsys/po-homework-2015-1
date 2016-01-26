@@ -30,15 +30,14 @@ int main()
 	scanf("%d",&z);
 	if(palindrom_in_hex(z)==1)
 	{
-		printf("%x",z);
-		printf("\n");
+		printf("%X",z);
 		return 1;
 	}
 	do
 	{
 		z++;
 	}while(palindrom_in_hex(z)==0);
-	printf("%X\n",z);
+	printf("%X",z);
 	return 2;
 }
 

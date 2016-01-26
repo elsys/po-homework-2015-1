@@ -22,5 +22,5 @@
  	{
  		rev = (n & (~(1 << p)));
  	}
- 	printf("%d\n",rev);
+ 	printf("%d",rev);
  } 

@@ -15,7 +15,7 @@ int main()
  	while(b < 0 || b > 200);
  	if(b >> a & 1)
  	{
- 		printf("1 \n");
+ 		printf("1");
  	}
- 	else printf("0 \n");
+ 	else printf("0");
  } 

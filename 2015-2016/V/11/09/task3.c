@@ -40,4 +40,3 @@ int main()
 	printf("%X",z);
 	return 2;
 }
-

@@ -12,13 +12,13 @@ int palindrom_in_hex(int n)
 	}
 	p=k/2;
 	while(k-i>p){
-		if((n&(1<<(k-i)))>>(k-i)!=(n&(1<<j))>>j)
-		{
+		if((n&(1<<(k-i)))>>(k-i)!=(n&(1<<j))>>j){
 			return 0;
 		}
 		i++;
-		if((i-1)%4==0)
+		if((i-1)%4==0){
 			j=j+8;
+		}	
 		j--;
 	}
 	return 1;

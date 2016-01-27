@@ -17,5 +17,4 @@ int main()
 		k=(n|(1<<p));
 	}
 	printf("%d",k);
-	printf("\n");
 }

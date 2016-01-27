@@ -43,7 +43,7 @@ Error
 1 warning generated.
 Undefined symbols for architecture x86_64:
   "_strrev", referenced from:
-      _main in task2-fe843e.o
+      _main in task2-c69ddd.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 

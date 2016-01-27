@@ -40,7 +40,7 @@ Expected
 
 Output
 ```
- 4
+ 0
 ```
 
 ## Task: Rudolph (Task 3)

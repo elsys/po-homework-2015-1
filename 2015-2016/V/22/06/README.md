@@ -49,7 +49,7 @@ Error
 ```
 Undefined symbols for architecture x86_64:
   "_exact_square", referenced from:
-      _main in task2-2efc6c.o
+      _main in task2-225f16.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 

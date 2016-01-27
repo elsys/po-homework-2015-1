@@ -4,7 +4,7 @@ int main(void)
 {
     char s[100], b[100];
 
-   printf("napishete  bukvi za da se proveri dali nizut s e palindrom\n");
+   //printf("napishete  bukvi za da se proveri dali nizut s e palindrom\n");
    gets(s);
 
    strcpy(b,s);

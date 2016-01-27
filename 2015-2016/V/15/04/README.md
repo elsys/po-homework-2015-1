@@ -56,6 +56,6 @@ Expected
 
 Output
 ```
-Farewell!Now enter the values of you own 7 by 7 square:        Your "magic square" should look like this: 	6 	9 	5 	1 	4 	3 	8  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	2064380104 	32767 	0 	0 	16 	48 	1459083584  	32767 	1459083328 	32767 	-2091878797 	-150982814 	0 	0  	0 	0 	0 	0 	0 	0 	1459083696  Sorry but your square isn't magic! 
+Farewell!Now enter the values of you own 7 by 7 square:        Your "magic square" should look like this: 	6 	9 	5 	1 	4 	3 	8  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	2064380104 	32767 	0 	0 	16 	48 	1439021376  	32767 	1439021120 	32767 	-1223326477 	671138130 	0 	0  	0 	0 	0 	0 	0 	0 	1439021488  Sorry but your square isn't magic! 
 ```
 

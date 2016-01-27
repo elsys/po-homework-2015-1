@@ -46,7 +46,7 @@ Error
 2 warnings generated.
 Undefined symbols for architecture x86_64:
   "_strrev", referenced from:
-      _polindrome in task2-79cd76.o
+      _polindrome in task2-75b37e.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 

@@ -1,5 +1,4 @@
 # Assignment report
-Tue Jan 26 00:46:58 2016
 ## Digits (Task 1)
 https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 
@@ -57,6 +56,6 @@ Expected
 
 Output
 ```
-Farewell!Now enter the values of you own 7 by 7 square:        Your "magic square" should look like this: 	6 	9 	5 	1 	4 	3 	8  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	2082615496 	32767 	0 	0 	16 	48 	1512737040  	32767 	1512736784 	32767 	1403968887 	-1711242703 	0 	0  	0 	0 	0 	0 	0 	0 	1512737152  Sorry but your square isn't magic! 
+Farewell!Now enter the values of you own 7 by 7 square:        Your "magic square" should look like this: 	6 	9 	5 	1 	4 	3 	8  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	0 	0 	0 	0 	0 	0 	0  	2064380104 	32767 	0 	0 	16 	48 	1459083584  	32767 	1459083328 	32767 	-2091878797 	-150982814 	0 	0  	0 	0 	0 	0 	0 	0 	1459083696  Sorry but your square isn't magic! 
 ```
 

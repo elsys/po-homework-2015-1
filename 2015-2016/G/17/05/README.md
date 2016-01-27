@@ -1,5 +1,4 @@
 # Assignment report
-Tue Jan 26 00:48:08 2016
 ## Unrecognized (Task -1)
 File name doesn't not match any of filenames conventions
 

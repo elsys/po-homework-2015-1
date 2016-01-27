@@ -1,5 +1,4 @@
 # Assignment report
-Tue Jan 26 00:47:32 2016
 ## Task: colors (Task 1)
 https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 

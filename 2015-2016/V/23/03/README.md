@@ -1,5 +1,4 @@
 # Assignment report
-Tue Jan 26 00:46:53 2016
 ## Triangle (Task 1)
 https://docs.google.com/presentation/d/1PKipJkyZJxG-_6vHuSciKRCL-OHaZD08dPUeGGyyDis/edit#slide=id.ge4ead636d_3_0
 
@@ -39,7 +38,7 @@ Error
 2 warnings generated.
 Undefined symbols for architecture x86_64:
   "_strrev", referenced from:
-      _main in task2-09f507.o
+      _main in task2-b9cbe3.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 

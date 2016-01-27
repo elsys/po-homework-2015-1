@@ -1,5 +1,4 @@
 # Assignment report
-Tue Jan 26 00:48:13 2016
 ## Digits (Task 1)
 https://docs.google.com/presentation/d/1XxmPMCg7fDMh8XkRo6sjJ47adUxvCwc2l1x0zk2VuvU/edit#slide=id.ge2ff8ea56_0_81
 

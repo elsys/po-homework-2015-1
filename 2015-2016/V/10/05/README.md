@@ -1,5 +1,4 @@
 # Assignment report
-Tue Jan 26 00:47:03 2016
 ## Unrecognized (Task -1)
 File name doesn't not match any of filenames conventions
 
@@ -19,7 +18,7 @@ Error
 1 warning generated.
 Undefined symbols for architecture x86_64:
   "_strrev", referenced from:
-      _main in task2-84f80c.o
+      _main in task2-7e529a.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 

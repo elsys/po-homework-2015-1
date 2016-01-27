@@ -17,7 +17,7 @@ Expected
 
 Output
 ```
- 0
+0  
 ```
 
 ### Testcase 2 failed
@@ -35,7 +35,7 @@ Expected
 
 Output
 ```
- 1
+1  
 ```
 
 ## Task: Change Bit in Number (Task 2)

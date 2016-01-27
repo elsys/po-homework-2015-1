@@ -1,5 +1,4 @@
 # Assignment report
-Tue Jan 26 01:05:11 2016
 ## Task: Bit in Number (Task 1)
 https://drive.google.com/file/d/0B2l9LHqQLEIUcG1nYTZrdXI0ckU/view
 

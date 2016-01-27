@@ -1,5 +1,4 @@
 # Assignment report
-Tue Jan 26 00:47:16 2016
 ## is_prime (Task 1)
 https://drive.google.com/drive/folders/0B83l5t-0yjU7ZjlDcVZTVnBzLVk
 
@@ -50,7 +49,7 @@ Error
 ```
 Undefined symbols for architecture x86_64:
   "_exact_square", referenced from:
-      _main in task2-cec7e2.o
+      _main in task2-2efc6c.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 

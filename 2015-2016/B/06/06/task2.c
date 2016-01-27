@@ -13,5 +13,5 @@ int main()
             if ( words[counter]== 's' || words[counter]== 'z') sum+= 4;
             if ( words[counter]== ' ' ) sum+= 1 ;
     }
-  printf("\n  %d \n",sum);
+  printf("%d",sum);
 }

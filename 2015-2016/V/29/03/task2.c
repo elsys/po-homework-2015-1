@@ -4,7 +4,6 @@ int main(){
     char rev[50];
     int i=-1,j=0;
 
-    printf("Enter any string : ");
     scanf("%s",str);
    
     while(str[++i]!='\0');
@@ -14,7 +13,7 @@ int main(){
 
     rev[j]='\0';
   
-    printf("Reverse of string is : %s",rev);
+    printf("%s",rev);
   
     return 0;
 }

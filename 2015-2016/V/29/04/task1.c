@@ -14,7 +14,7 @@ int main() {
             tmp /= 10;
         }
         if(cnt >= 2) {
-            printf("%d is met over %d times\n",i ,cnt);
+            printf("%d ",i);
         }
         i++;
     }

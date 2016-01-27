@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>#include <stdio.h>
 
 int main()
 {
@@ -19,6 +19,6 @@ int main()
 			n = (~(1 << p)) & n;
 		}
 	}
-    printf("\n %d \n", n);
+    printf("%d", n);
      return 0;
 }

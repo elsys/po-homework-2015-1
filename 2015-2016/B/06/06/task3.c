@@ -25,6 +25,6 @@ int main()
     	}
    }
    else return 0;
-    printf(" \n\n %d \n\n ", Rudy);
+    printf("%d", Rudy);
     return 0;
 }

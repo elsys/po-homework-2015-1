@@ -28,6 +28,6 @@ int main()
 	counter2 = 0;
 	if (i == 0) num++;
     }
-     printf("\n %X \n",num);
+     printf("%X",num);
  return 0;
 }
